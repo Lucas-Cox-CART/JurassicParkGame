@@ -8,8 +8,6 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "antialiasingMode": "MSAA",
-    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "default",
     "packageName": "com.example.gamename",
@@ -46,12 +44,7 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "watermark": {
-      "placement": "bottom-left",
-      "showWatermark": true
-    },
     "authorIds": [],
-    "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -109,6 +102,69 @@
         "name": "New image2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attacking-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attacking-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attacking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attacking-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -144,7 +200,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.44999999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -153,29 +209,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 403,
-          "layer": "",
-          "name": "ground",
-          "persistentUuid": "3d1b1dbe-efe5-44d6-b6e7-e289f3dcbaa0",
-          "width": 2270,
-          "x": -128,
-          "y": 1055,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "height": 280,
           "layer": "",
           "name": "Player",
           "persistentUuid": "03ab7310-fd8b-4db6-9914-ea3129a5e844",
-          "width": 0,
-          "x": 274,
-          "y": 953,
+          "width": 293,
+          "x": 1316,
+          "y": 799,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -210,11 +250,25 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 814,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "70f4ab45-9967-450b-8734-3fe4a1df1353",
+          "width": 30412,
+          "x": -10630,
+          "y": 1072,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -224,49 +278,173 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 350,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RemapForPlatformer",
-              "type": "BehaviorRemapper::RemapForPlatformer",
-              "Up": "w",
-              "Left": "a",
-              "Down": "s",
-              "Right": "d",
-              "Jump": "Space",
-              "Platformer": "PlatformerObject"
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 130,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "norm",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "assets\\NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 86.79244995117188
+                          },
+                          {
+                            "x": 300,
+                            "y": 74.21383666992188
+                          },
+                          {
+                            "x": 300,
+                            "y": 222.64151000976562
+                          },
+                          {
+                            "x": 0,
+                            "y": 218.867919921875
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Player",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 72.95597839355469
+                          },
+                          {
+                            "x": 300,
+                            "y": 77.35848999023438
+                          },
+                          {
+                            "x": 300,
+                            "y": 222.0125732421875
+                          },
+                          {
+                            "x": 0,
+                            "y": 220.7547149658203
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Deinonychus",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "moving",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -303,69 +481,18 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "ground",
-          "tags": "",
-          "texture": "New image",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
+            },
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Deinonychus",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 350,
-              "rotateObject": false,
-              "smoothingMaxCellGap": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite",
+              "name": "attacking",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "hasCustomCollisionMask": false,
+                      "image": "attacking-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -378,26 +505,24 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 100,
-                            "y": 0
-                          },
-                          {
-                            "x": 100,
-                            "y": 100
-                          },
-                          {
-                            "x": 0,
-                            "y": 100
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "attacking-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -416,104 +541,514 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        }
-      ],
-      "events": [
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "assetStoreId": "",
+          "name": "wall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
             {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Deinonychus",
-                "Pathfinding",
-                "",
-                "Player.X() + 140",
-                "953"
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "assetStoreId": "",
+          "height": 32,
+          "name": "ground",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "colorB": 121,
+          "colorG": 82,
+          "colorR": 6,
+          "creationTime": 0,
+          "name": "General Features",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
                 {
                   "type": {
-                    "value": "PosX"
+                    "value": "TiledSpriteObject::Width"
                   },
                   "parameters": [
-                    "Deinonychus",
-                    "<",
-                    "10 - Player.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    ">",
-                    "10 + Player.X()"
+                    "Health",
+                    "=",
+                    "GlobalVariable(player_health)*32"
                   ]
                 }
               ]
             }
           ],
-          "actions": []
+          "parameters": []
+        },
+        {
+          "colorB": 121,
+          "colorG": 82,
+          "colorR": 6,
+          "creationTime": 0,
+          "name": "Deinonychus",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Flipping Check",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "Deinonychus.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "<",
+                        "Deinonychus.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Player Check",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "Deinonychus.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "Physics2",
+                            "-",
+                            "15"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">",
+                            "Deinonychus.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "Physics2",
+                            "+",
+                            "15"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Deinonychus"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Deinonychus.CenterX()",
+                            "Deinonychus.CenterY()",
+                            "180",
+                            "200",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Deinonychus"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Deinonychus.CenterX()",
+                            "Deinonychus.CenterY()",
+                            "0",
+                            "200\n",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Attacking",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationEnded"
+                          },
+                          "parameters": [
+                            "Deinonychus"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PathfindingBehavior::DestinationReached"
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
                 "Deinonychus",
-                "Pathfinding"
+                "Physics2",
+                "<",
+                "-600"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PlaySound"
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
-                "",
-                "New sound effect",
-                "",
-                "",
-                ""
+                "Deinonychus",
+                "Physics2",
+                "=",
+                "-600"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Deinonychus",
+                "Physics2",
+                ">",
+                "600"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "TiledSpriteObject::Width"
+                "value": "Physics2::LinearVelocityX"
               },
               "parameters": [
-                "Health",
+                "Deinonychus",
+                "Physics2",
                 "=",
-                "GlobalVariable(player_health)*32"
+                "600\n"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player Behaviors"
         }
       ],
       "layers": [
@@ -521,14 +1056,9 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 8042920,
           "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -547,29 +1077,328 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
         }
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Test Level",
+      "lastChangeTimeStamp": 0,
+      "name": "Player Behaviors",
+      "events": [
+        {
+          "colorB": 121,
+          "colorG": 82,
+          "colorR": 6,
+          "creationTime": 0,
+          "name": "Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "+",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "-",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "<",
+                    "-600"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "=",
+                    "-600"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    ">",
+                    "600"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "=",
+                    "600"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarImpulse"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Physics2",
+                    "270",
+                    "10",
+                    "Player.CenterX()",
+                    "Player.CenterY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Attack",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "colorB": 170,
+                  "colorG": 253,
+                  "colorR": 190,
+                  "creationTime": 0,
+                  "name": "Slash",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 170,
+                  "colorG": 253,
+                  "colorR": 190,
+                  "creationTime": 0,
+                  "name": "Spit",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 170,
+                  "colorG": 253,
+                  "colorR": 190,
+                  "creationTime": 0,
+                  "name": "Roar",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 170,
+                  "colorG": 253,
+                  "colorR": 190,
+                  "creationTime": 0,
+                  "name": "Rage",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Movement",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
       "category": "Input",
+      "description": "",
       "extensionNamespace": "",
       "fullName": "Behavior Remapper",
       "helpPath": "",
@@ -578,42 +1407,6 @@
       "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg",
       "shortDescription": "Quickly remap Behavior controls to different keys. ",
       "version": "1.0.0",
-      "description": [
-        "Make sure to disable default controls unless you want two keys to do the same action.",
-        "",
-        "Actions have two versions. `custom` allow the movement keys to be changed to what ever you would like. `presets` provide a common key-bindings that can be selected from a list.",
-        "",
-        "### Available Presets:",
-        "",
-        "##### `WASD`",
-        "-\tW: Up",
-        "-\tA: Left",
-        "-\tS: Down",
-        "-\tD: Right",
-        "-\tSpace: Jump",
-        "",
-        "##### `ZQSD`",
-        "-\tZ: Up",
-        "-\tQ: Left",
-        "-\tS: Down",
-        "-\tD: Right",
-        "-\tSpace: Jump",
-        "",
-        "##### `Numpad` (Num lock must be disabled)",
-        "-\tNumpad Up: Up",
-        "-\tNumpad Left: Left",
-        "-\tNumpad Down: Down",
-        "-\tNumpad Right: Right",
-        "-\tNumpad Return/Enter: Jump",
-        "",
-        "##### `IJKL`",
-        "-\tI: Up",
-        "-\tJ: Left",
-        "-\tK: Down",
-        "-\tL: Right",
-        "-\tReturn/Enter: Jump",
-        ""
-      ],
       "origin": {
         "identifier": "BehaviorRemapper",
         "name": "gdevelop-extension-store"
@@ -640,9 +1433,12 @@
           "objectType": "",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPreEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -748,13 +1544,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
                   "type": "behavior"
                 }
@@ -765,7 +1570,9 @@
               "description": "Remaps Top-Down behavior controls to a custom control scheme.",
               "fullName": "Remap Top-Down controls to a custom scheme",
               "functionType": "Action",
+              "group": "",
               "name": "SetCustom",
+              "private": false,
               "sentence": "Remap controls of _PARAM0_: Up: _PARAM2_, Left: _PARAM3_, Down: _PARAM4_, Right: _PARAM5_",
               "events": [
                 {
@@ -828,34 +1635,63 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Up key",
+                  "longDescription": "",
                   "name": "up",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Left key",
+                  "longDescription": "",
                   "name": "left",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Down key",
+                  "longDescription": "",
                   "name": "down",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Right key",
+                  "longDescription": "",
                   "name": "right",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 }
               ],
@@ -865,7 +1701,9 @@
               "description": "Remaps Top-Down behavior controls to a preset control scheme.",
               "fullName": "Remap Top-Down controls to a preset",
               "functionType": "Action",
+              "group": "",
               "name": "SetPreset",
+              "private": false,
               "sentence": "Remap controls of _PARAM0_ to preset _PARAM2_",
               "events": [
                 {
@@ -878,7 +1716,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "QWERTY bindings"
+                  "comment": "QWERTY bindings",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -951,7 +1790,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "AZERTY bindings"
+                  "comment": "AZERTY bindings",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1024,7 +1864,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Numpad bindings"
+                  "comment": "Numpad bindings",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1097,7 +1938,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "QWERTY player 2 bindings "
+                  "comment": "QWERTY player 2 bindings ",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1163,19 +2005,32 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Preset name",
+                  "longDescription": "",
                   "name": "options",
+                  "optional": false,
                   "supplementaryInformation": "[\"WASD\",\"ZQSD\",\"Numpad\",\"IJKL\"]",
                   "type": "stringWithSelector"
                 }
@@ -1236,8 +2091,7 @@
               "hidden": false,
               "name": "Topdown"
             }
-          ],
-          "sharedPropertyDescriptors": []
+          ]
         },
         {
           "description": "Allows for the controls of a platformer behavior to be re-mapped via a single action.",
@@ -1246,9 +2100,12 @@
           "objectType": "",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPreEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -1397,13 +2254,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
                   "type": "behavior"
                 }
@@ -1414,7 +2280,9 @@
               "description": "Remaps Platformer behavior controls to a custom control scheme.",
               "fullName": "Remap Platformer controls to a custom scheme",
               "functionType": "Action",
+              "group": "",
               "name": "SetCustom",
+              "private": false,
               "sentence": "Remap controls of _PARAM0_: Up: _PARAM2_, Left: _PARAM3_, Down: _PARAM4_, Right: _PARAM5_, Jump: _PARAM6_",
               "events": [
                 {
@@ -1488,39 +2356,73 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Up key",
+                  "longDescription": "",
                   "name": "up",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Left key",
+                  "longDescription": "",
                   "name": "left",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Down key",
+                  "longDescription": "",
                   "name": "down",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Right key",
+                  "longDescription": "",
                   "name": "right",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Jump key",
+                  "longDescription": "",
                   "name": "jump",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "key"
                 }
               ],
@@ -1530,7 +2432,9 @@
               "description": "Remaps Platformer behavior controls to a preset control scheme.",
               "fullName": "Remap Platformer controls to a preset",
               "functionType": "Action",
+              "group": "",
               "name": "SetPreset",
+              "private": false,
               "sentence": "Remap controls of _PARAM0_ to preset _PARAM2_",
               "events": [
                 {
@@ -1543,7 +2447,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "QWERTY bindings"
+                  "comment": "QWERTY bindings",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1627,7 +2532,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "AZERTY bindings"
+                  "comment": "AZERTY bindings",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1711,7 +2617,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Numpad bindings"
+                  "comment": "Numpad bindings",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1795,7 +2702,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "QWERTY player 2 bindings "
+                  "comment": "QWERTY player 2 bindings ",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -1872,19 +2780,32 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Preset name",
+                  "longDescription": "",
                   "name": "options",
+                  "optional": false,
                   "supplementaryInformation": "[\"WASD\",\"ZQSD\",\"Numpad\",\"IJKL\"]",
                   "type": "stringWithSelector"
                 }
@@ -1955,8 +2876,7 @@
               "hidden": false,
               "name": "Platformer"
             }
-          ],
-          "sharedPropertyDescriptors": []
+          ]
         }
       ],
       "eventsBasedObjects": []
