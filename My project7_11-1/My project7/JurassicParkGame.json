@@ -1,0 +1,1967 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "f8cba906-4b6e-4fe6-b918-eb92f0360b33",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "JurassicParkGame",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 13\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.2,\\\"sustainPunch\\\":30,\\\"decay\\\":0,\\\"tremoloDepth\\\":92,\\\"tremoloFrequency\\\":562,\\\"frequency\\\":7700,\\\"frequencySweep\\\":-2100,\\\"frequencyDeltaSweep\\\":-7000,\\\"repeatFrequency\\\":74.5,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.12,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":950,\\\"vibratoFrequency\\\":15,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":3,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":400,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":5100,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "player_health",
+      "type": "number",
+      "value": 10
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Test_32Level",
+      "name": "Test Level",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 403,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "3d1b1dbe-efe5-44d6-b6e7-e289f3dcbaa0",
+          "width": 2270,
+          "x": -128,
+          "y": 1055,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "03ab7310-fd8b-4db6-9914-ea3129a5e844",
+          "width": 0,
+          "x": 274,
+          "y": 953,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Deinonychus",
+          "persistentUuid": "498e48be-5e0f-41ef-aeaa-f64cb62119a9",
+          "width": 0,
+          "x": 1178,
+          "y": 953,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Health",
+          "persistentUuid": "909a7045-67a4-477b-9d44-07f71142f14d",
+          "width": 0,
+          "x": 42,
+          "y": 26,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 350,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RemapForPlatformer",
+              "type": "BehaviorRemapper::RemapForPlatformer",
+              "Up": "w",
+              "Left": "a",
+              "Down": "s",
+              "Right": "d",
+              "Jump": "Space",
+              "Platformer": "PlatformerObject"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "ground",
+          "tags": "",
+          "texture": "New image",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Deinonychus",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 350,
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Health",
+          "tags": "",
+          "texture": "New image2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Deinonychus",
+                "Pathfinding",
+                "",
+                "Player.X() + 140",
+                "953"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "<",
+                    "10 - Player.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    ">",
+                    "10 + Player.X()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::DestinationReached"
+              },
+              "parameters": [
+                "Deinonychus",
+                "Pathfinding"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "New sound effect",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::Width"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "GlobalVariable(player_health)*32"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Input",
+      "extensionNamespace": "",
+      "fullName": "Behavior Remapper",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFscGhhLXctYm94LW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOSwxN0EyLDIgMCAwLDEgNywxNVY3SDlWMTVIMTFWOEgxM1YxNUgxNVY3SDE3VjE1QTIsMiAwIDAsMSAxNSwxN0g5TTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNNNSw1VjE5SDE5VjVINVoiIC8+PC9zdmc+",
+      "name": "BehaviorRemapper",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg",
+      "shortDescription": "Quickly remap Behavior controls to different keys. ",
+      "version": "1.0.0",
+      "description": [
+        "Make sure to disable default controls unless you want two keys to do the same action.",
+        "",
+        "Actions have two versions. `custom` allow the movement keys to be changed to what ever you would like. `presets` provide a common key-bindings that can be selected from a list.",
+        "",
+        "### Available Presets:",
+        "",
+        "##### `WASD`",
+        "-\tW: Up",
+        "-\tA: Left",
+        "-\tS: Down",
+        "-\tD: Right",
+        "-\tSpace: Jump",
+        "",
+        "##### `ZQSD`",
+        "-\tZ: Up",
+        "-\tQ: Left",
+        "-\tS: Down",
+        "-\tD: Right",
+        "-\tSpace: Jump",
+        "",
+        "##### `Numpad` (Num lock must be disabled)",
+        "-\tNumpad Up: Up",
+        "-\tNumpad Left: Left",
+        "-\tNumpad Down: Down",
+        "-\tNumpad Right: Right",
+        "-\tNumpad Return/Enter: Jump",
+        "",
+        "##### `IJKL`",
+        "-\tI: Up",
+        "-\tJ: Left",
+        "-\tK: Down",
+        "-\tL: Right",
+        "-\tReturn/Enter: Jump",
+        ""
+      ],
+      "origin": {
+        "identifier": "BehaviorRemapper",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "remapper",
+        "key",
+        "bindings",
+        "presets",
+        "platformer",
+        "platform",
+        "top-down"
+      ],
+      "authorIds": [
+        "AlZ3D1xkH0QDao7T37VZZUeYNpn1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allows for the controls of a Top-Down behavior to be re-mapped via a single action.",
+          "fullName": "Remap Top-down",
+          "name": "RemapForTopdown",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyUp()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateUpKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Topdown"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyLeft()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Topdown"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyRight()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Topdown"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyDown()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Topdown"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Remaps Top-Down behavior controls to a custom control scheme.",
+              "fullName": "Remap Top-Down controls to a custom scheme",
+              "functionType": "Action",
+              "name": "SetCustom",
+              "sentence": "Remap controls of _PARAM0_: Up: _PARAM2_, Left: _PARAM3_, Down: _PARAM4_, Right: _PARAM5_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"up\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"left\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"right\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"down\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Up key",
+                  "name": "up",
+                  "type": "key"
+                },
+                {
+                  "description": "Left key",
+                  "name": "left",
+                  "type": "key"
+                },
+                {
+                  "description": "Down key",
+                  "name": "down",
+                  "type": "key"
+                },
+                {
+                  "description": "Right key",
+                  "name": "right",
+                  "type": "key"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Remaps Top-Down behavior controls to a preset control scheme.",
+              "fullName": "Remap Top-Down controls to a preset",
+              "functionType": "Action",
+              "name": "SetPreset",
+              "sentence": "Remap controls of _PARAM0_ to preset _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "QWERTY bindings"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"WASD\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"w\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"a\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"s\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"d\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "AZERTY bindings"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"ZQSD\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"z\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"q\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"s\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"d\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Numpad bindings"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"Numpad\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadUp\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadDown\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadRight\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "QWERTY player 2 bindings "
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"IJKL\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"i\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"j\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"k\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForTopdown::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"l\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "BehaviorRemapper::RemapForTopdown",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Preset name",
+                  "name": "options",
+                  "supplementaryInformation": "[\"WASD\",\"ZQSD\",\"Numpad\",\"IJKL\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "w",
+              "type": "String",
+              "label": "Up key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Up"
+            },
+            {
+              "value": "a",
+              "type": "String",
+              "label": "Left key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Left"
+            },
+            {
+              "value": "d",
+              "type": "String",
+              "label": "Right key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Right"
+            },
+            {
+              "value": "s",
+              "type": "String",
+              "label": "Down key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Down"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "TopDownMovementBehavior::TopDownMovementBehavior"
+              ],
+              "hidden": false,
+              "name": "Topdown"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Allows for the controls of a platformer behavior to be re-mapped via a single action.",
+          "fullName": "Remap Platformer controls",
+          "name": "RemapForPlatformer",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyUp()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateUpKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLadderKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyLeft()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyRight()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyDown()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateReleaseLadderKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyJump()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Platformer"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Remaps Platformer behavior controls to a custom control scheme.",
+              "fullName": "Remap Platformer controls to a custom scheme",
+              "functionType": "Action",
+              "name": "SetCustom",
+              "sentence": "Remap controls of _PARAM0_: Up: _PARAM2_, Left: _PARAM3_, Down: _PARAM4_, Right: _PARAM5_, Jump: _PARAM6_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"up\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"left\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"right\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"down\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"jump\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Up key",
+                  "name": "up",
+                  "type": "key"
+                },
+                {
+                  "description": "Left key",
+                  "name": "left",
+                  "type": "key"
+                },
+                {
+                  "description": "Down key",
+                  "name": "down",
+                  "type": "key"
+                },
+                {
+                  "description": "Right key",
+                  "name": "right",
+                  "type": "key"
+                },
+                {
+                  "description": "Jump key",
+                  "name": "jump",
+                  "type": "key"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Remaps Platformer behavior controls to a preset control scheme.",
+              "fullName": "Remap Platformer controls to a preset",
+              "functionType": "Action",
+              "name": "SetPreset",
+              "sentence": "Remap controls of _PARAM0_ to preset _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "QWERTY bindings"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"WASD\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"w\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"a\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"s\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"d\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "AZERTY bindings"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"ZQSD\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"z\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"q\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"s\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"d\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Space\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Numpad bindings"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"Numpad\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadUp\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadDown\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadRight\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"NumpadReturn\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "QWERTY player 2 bindings "
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StrEqual"
+                      },
+                      "parameters": [
+                        "GetArgumentAsString(\"options\")",
+                        "=",
+                        "\"IJKL\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyUp"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"i\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"j\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyDown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"k\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"l\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorRemapper::RemapForPlatformer::SetPropertyJump"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Return\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "BehaviorRemapper::RemapForPlatformer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Preset name",
+                  "name": "options",
+                  "supplementaryInformation": "[\"WASD\",\"ZQSD\",\"Numpad\",\"IJKL\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "String",
+              "label": "Up key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Up"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Left key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Left"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Down key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Down"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Right key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Right"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Jump key",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Jump"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "PlatformBehavior::PlatformerObjectBehavior"
+              ],
+              "hidden": false,
+              "name": "Platformer"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
