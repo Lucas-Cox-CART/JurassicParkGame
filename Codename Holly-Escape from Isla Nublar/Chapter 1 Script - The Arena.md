@@ -19,7 +19,7 @@ Characters:
 
 *The crowd gives a much louder cheer for the feathered Deinonychus
 
-\[Muldoon:] "(10) Now, if you want my opinion, this new contender is no match for [[Dionysus]], but we've seen our fair share of underdogs in this arena, haven't we?"
+\[Muldoon:] "(10) Now, if you want my opinion, this new contender is no match for [[Dionysus (Ethan - Read This)]], but we've seen our fair share of underdogs in this arena, haven't we?"
 
 *crowd cheers "Yeah!"
 
@@ -63,6 +63,10 @@ The Deinonychus is a pretty fast foe with two basic attacks:
 
 # Battle Two - Pachyrhinosaurus
 
-*The scene opens to another battle in the arena; a Pachyrhinosaurus is wrestling with various workers trying to bring it into the ring.*
+*The scene opens to another battle in the arena; a Pachyrhinosaurus is wrestling with various workers in the opposite tunnel that are trying to bring the dinosaur into the ring.*
 
-\[Muldoon:] "(1) Alright folks, tonight we have another "
+\[Muldoon:] "(1) Alright folks, tonight we have another heavyweight match. Now, if we just wait a moment for the crew to bring her out...."
+
+*The Pachyrhino snorts and snarls as the crew pushes it into the ring, poking at it with shock sticks when it retaliates. As its head rears into view for the crowd, Muldoon ushers it in:*
+
+M: "(2) A stubborn one, isn't she boys? (3) Let's hear it for Bertha, the brutish, "
