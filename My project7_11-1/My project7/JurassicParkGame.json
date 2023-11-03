@@ -501,8 +501,50 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 1,
                   "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player-1.png",
+                      "points": [
+                        {
+                          "name": "shoot",
+                          "x": 270.12579345703125,
+                          "y": 109.4339599609375
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 72.95597839355469
+                          },
+                          {
+                            "x": 300,
+                            "y": 77.35848999023438
+                          },
+                          {
+                            "x": 300,
+                            "y": 222.0125732421875
+                          },
+                          {
+                            "x": 0,
+                            "y": 220.7547149658203
+                          }
+                        ]
+                      ]
+                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Player-1.png",
@@ -555,8 +597,25 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 1,
                   "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "attack-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
                     {
                       "hasCustomCollisionMask": false,
                       "image": "attack-1.png",
@@ -592,6 +651,11 @@
               "name": "can_move",
               "type": "boolean",
               "value": true
+            },
+            {
+              "name": "deinonychus_health",
+              "type": "number",
+              "value": 10
             }
           ],
           "effects": [],
@@ -934,6 +998,64 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Health",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "deinonychus_health",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "deinonychus_health",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
             {
               "colorB": 113,
               "colorG": 244,
@@ -1572,8 +1694,23 @@
                 "\"Test Level\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "player_health",
+                "=",
+                "10"
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -1641,6 +1778,32 @@
                       "conditions": [
                         {
                           "type": {
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
                             "inverted": true,
                             "value": "FlippedX"
                           },
@@ -1662,52 +1825,44 @@
                                 "",
                                 "Left"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "Raycast"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Player.CenterX()",
+                                "Player.CenterY()",
+                                "180",
+                                "10000",
+                                "",
+                                "",
+                                ""
+                              ]
                             }
                           ],
                           "actions": [
                             {
                               "type": {
-                                "value": "ChangeAnimation"
+                                "value": "Physics2::LinearVelocityX"
                               },
                               "parameters": [
                                 "Player",
+                                "Physics2",
                                 "=",
-                                "2"
+                                "0"
                               ]
-                            }
-                          ],
-                          "events": [
+                            },
                             {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Raycast"
-                                  },
-                                  "parameters": [
-                                    "Deinonychus",
-                                    "Player.CenterX()",
-                                    "Player.CenterY()",
-                                    "180",
-                                    "200",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Physics2::LinearVelocityX"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "Physics2",
-                                    "=",
-                                    "2"
-                                  ]
-                                }
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "deinonychus_health",
+                                "-",
+                                "100"
                               ]
                             }
                           ]
@@ -1733,6 +1888,21 @@
                           "conditions": [
                             {
                               "type": {
+                                "value": "Raycast"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Player.CenterX()",
+                                "Player.CenterY()",
+                                "0",
+                                "10000",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "MouseButtonReleased"
                               },
                               "parameters": [
@@ -1744,47 +1914,24 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "ChangeAnimation"
+                                "value": "Physics2::LinearVelocityX"
                               },
                               "parameters": [
                                 "Player",
+                                "Physics2",
                                 "=",
-                                "2"
+                                "0"
                               ]
-                            }
-                          ],
-                          "events": [
+                            },
                             {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Raycast"
-                                  },
-                                  "parameters": [
-                                    "Deinonychus",
-                                    "Player.CenterX()",
-                                    "Player.CenterY()",
-                                    "0",
-                                    "200",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Physics2::LinearVelocityX"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "Physics2",
-                                    "=",
-                                    "2"
-                                  ]
-                                }
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "deinonychus_health",
+                                "-",
+                                "100"
                               ]
                             }
                           ]
@@ -1842,6 +1989,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Spit",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2068,6 +2216,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Roar",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
