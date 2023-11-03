@@ -11,8 +11,12 @@
             "id": "6abeafc09a9eca18",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 1 Script - The Arena.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -21,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codename-Holly.md",
+                "file": "Dionysus.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Codename-Holly.md",
+                "file": "Chapter 1 Script - The Arena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Codename-Holly.md",
+                "file": "Chapter 1 Script - The Arena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Codename-Holly.md"
+                "file": "Chapter 1 Script - The Arena.md"
               }
             }
           }
@@ -154,11 +157,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1c707be1af265f2",
+  "active": "6abeafc09a9eca18",
   "lastOpenFiles": [
-    "Muldoon.md",
+    "Henry Wu.md",
+    "Dionysus.md",
+    "Chapter 1 Script - The Arena.md",
     "Codename-Holly.md",
-    "Chapter 1 - The Arena.md",
+    "Muldoon.md",
     "Story Progression.md"
   ]
 }

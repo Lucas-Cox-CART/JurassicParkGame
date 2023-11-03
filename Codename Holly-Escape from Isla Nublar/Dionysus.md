@@ -1,0 +1,1 @@
+One of three dinosaurs fought in the arena. She is a Deinonychus that serves as the first enemy in the game.
