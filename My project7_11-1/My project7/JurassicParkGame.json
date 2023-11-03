@@ -205,6 +205,24 @@
       "name": "player_health",
       "type": "number",
       "value": 10
+    },
+    {
+      "folded": true,
+      "name": "player_direction",
+      "type": "string",
+      "value": "right"
+    },
+    {
+      "folded": true,
+      "name": "can_spit",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "folded": true,
+      "name": "can_roar",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [
@@ -476,7 +494,14 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "can_move",
+              "type": "boolean",
+              "value": true
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -918,6 +943,16 @@
                             "<",
                             "Deinonychus.X()"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "can_move",
+                            "True"
+                          ]
                         }
                       ],
                       "actions": [
@@ -945,6 +980,16 @@
                             "Player",
                             ">",
                             "Deinonychus.X()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "can_move",
+                            "True"
                           ]
                         }
                       ],
@@ -1296,6 +1341,16 @@
                     "+",
                     "15"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "player_direction",
+                    "=",
+                    "\"right\""
+                  ]
                 }
               ]
             },
@@ -1331,6 +1386,16 @@
                     "Physics2",
                     "-",
                     "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "player_direction",
+                    "=",
+                    "\"left\""
                   ]
                 }
               ]
@@ -1486,6 +1551,159 @@
                             "",
                             "Left"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "player_direction",
+                            "=",
+                            "\"right\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_spit",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_spit",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FireBullet::FireBullet::Fire"
+                          },
+                          "parameters": [
+                            "Player",
+                            "FireBullet",
+                            "Player.PointX(\"shoot\")",
+                            "Player.PointY(\"shoot\")",
+                            "spit",
+                            "0",
+                            "1200",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_spit",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobalTxt"
+                          },
+                          "parameters": [
+                            "player_direction",
+                            "=",
+                            "\"left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_spit",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_spit",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FireBullet::FireBullet::Fire"
+                          },
+                          "parameters": [
+                            "Player",
+                            "FireBullet",
+                            "Player.PointX(\"shoot\")",
+                            "Player.PointY(\"shoot\")",
+                            "spit",
+                            "180",
+                            "1200",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_spit",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
                         }
                       ],
                       "actions": [
@@ -1507,6 +1725,7 @@
                       ]
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -1527,9 +1746,9 @@
                             "value": "RotateTowardAngle"
                           },
                           "parameters": [
-                            "spit",
-                            "Cursor.X()",
-                            "",
+                            "mouth",
+                            "Cursor.Angle()",
+                            "100",
                             ""
                           ]
                         }
@@ -1558,9 +1777,37 @@
                             "",
                             "LShift"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_roar",
+                            "True"
+                          ]
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_roar",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "can_move",
+                            "False"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Physics2::LinearVelocityX"
@@ -1570,6 +1817,41 @@
                             "Physics2",
                             "=",
                             "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "can_move",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "12"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "can_roar",
+                            "True"
                           ]
                         }
                       ]
