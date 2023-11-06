@@ -7,7 +7,7 @@ Characters:
 
 *The player starts off with the screen fading in from black and Holly entering the arena from the left. Muldoon announces her arrival:
 
-\[Muldoon:] "(1) …And for today, ladies and gentleman, we have a special contender in the ring! (2) This new challenger may *seem* a tad too young to be fighting, but her submission details were very confident in her ability. (3) So, without further ado, please welcome our deep green Dilophosaurus newcomer: (4) HOLLY!!!"
+Muldoon: "(1) …And for today, ladies and gentleman, we have a special contender in the ring! (2) This new challenger may *seem* a tad too young to be fighting, but her submission details were very confident in her ability. (3) So, without further ado, please welcome our deep green Dilophosaurus newcomer: (4) HOLLY!!!"
 
 *some reluctant cheering from the crowd as the scene moves to Muldoon in the announcing box
 
@@ -15,15 +15,15 @@ Characters:
 
 *The scene returns to the arena.
 
-\[Muldoon:] "(7) And for her contender, you all know this feathered menace well... (8) With a record of 5 brutal kills under her belt, on the other side of the ring we have the vicious, *bloodthirsty* - (9) DIONYSUS!!"
+M: "(7) And for her contender, you all know this feathered menace well... (8) With a record of 5 brutal kills under her belt, on the other side of the ring we have the vicious, *bloodthirsty* - (9) DIONYSUS!!"
 
 *The crowd gives a much louder cheer for the feathered Deinonychus
 
-\[Muldoon:] "(10) Now, if you want my opinion, this new contender is no match for [[Dionysus (Ethan - Read This)]], but we've seen our fair share of underdogs in this arena, haven't we?"
+M: "(10) Now, if you want my opinion, this new contender is no match for [[Dionysus (Ethan - Read This)]], but we've seen our fair share of underdogs in this arena, haven't we?"
 
 *crowd cheers "Yeah!"
 
-\[Muldoon:] "(11) Now, without further ado, let's get ready for a bloody battle!"
+M: "(11) Now, without further ado, let's get ready for a bloody battle!"
 
 # Gameplay Starts
 
@@ -38,7 +38,7 @@ The Deinonychus is a pretty fast foe with two basic attacks:
 
 *The crowd is surprised the small dinosaur was so easily victorious. Muldoon is baffled that such a well-performing small-class dinosaur was finished off
 
-\[Muldoon:] "(12) Well, I'll be, folks. I didn't know dinosaurs like that could move so fast...(nervous chuckle) (13) To all our surprise, the victory goes to Holly, who I think will bring us a great many more surprises in future matches!"
+Muldoon: "(12) Well, I'll be, folks. I didn't know dinosaurs like that could move so fast...(nervous chuckle) (13) To all our surprise, the victory goes to Holly, who I think will bring us a great many more surprises in future matches!"
 
 *The crowd cheers, and the player is given a prompt to roar by pressing ctrl, which they can now do at any time. This keybind will later be used to make a stunning shriek, the third ability usable by the player.
 
@@ -48,15 +48,18 @@ The Deinonychus is a pretty fast foe with two basic attacks:
 
 *The player is introduced to save points (nests) that heal you to full upon first activating them. Henry makes his first appearance after the player activates the nest. He opens a hatch in a wall of the den to speak to Holly.*
 
-\[Henry:] "(1) Excellent work out there, Codename: Holly. You did well for a first test."
+Henry: "(1) Excellent work out there, Codename: Holly. You did well for a first test."
 *When Holly tilts her head, Henry assumes she has forgotten him.*
-\[Henry:] "(2) Ah, I've almost forgotten how long it's been since you'd seen me, with all the conditioning I've put you through. 
-(3) It was clearly a success; nobody would have thought a young juvenile like you could prove its own, and I have the betting profits to prove it...(he laughs to himself) 
-(4) I have a feeling you won't have any problem demolishing the next competitor. If anything, they'll have to bring in stronger contestants to match your strength. 
-(5) If you can prove your superiority, I can offer you a way out of this place. You could come with me, and we'd start an army of unstoppable Dilophosaurs.
-(6) Ho-ho-ho, this plan is all coming together..."
+H: "(2) Ah, I've almost forgotten how long it's been since you'd seen me, with how long you were in battle conditioning."
 
-*Henry closes the hatch, and afterwards, the player is told to sleep.*
+*Holly takes note of the fact he is the reason she went through so much pain in her early stages of life. She makes a low snarling, suddenly disliking this sly character.*
+
+H: "(3) Now, now, settle down, it all ended up working out. (4) It was clearly a success; nobody would have thought a young juvenile like you could prove its own, and I have the betting profits to prove it...(he laughs to himself) 
+(5) I have a feeling you won't have any problem demolishing the next competitor. If anything, they'll have to bring in stronger contestants to match your strength. 
+(6) If you can prove your superiority, I can offer you a way out of this place. You could come with me, and we'd start an army of unstoppable Dilophosaurs.
+(7) Ho-ho-ho, this plan is all coming together..."
+
+*Henry closes the hatch, and Holly slashes once across the vent once he is out of earshot. Afterwards, the player is told to sleep.*
 
 ## At this point, the optional Extra Credit Minigame would happen, if we choose to implement it.
 
@@ -65,8 +68,36 @@ The Deinonychus is a pretty fast foe with two basic attacks:
 
 *The scene opens to another battle in the arena; a Pachyrhinosaurus is wrestling with various workers in the opposite tunnel that are trying to bring the dinosaur into the ring.*
 
-\[Muldoon:] "(1) Alright folks, tonight we have another heavyweight match. Now, if we just wait a moment for the crew to bring her out...."
+Muldoon: "(1) Alright folks, tonight we have another heavyweight match. Now, if we just wait a moment for the crew to bring her out...."
 
 *The Pachyrhino snorts and snarls as the crew pushes it into the ring, poking at it with shock sticks when it retaliates. As its head rears into view for the crowd, Muldoon ushers it in:*
 
-M: "(2) A stubborn one, isn't she boys? (3) Let's hear it for Bertha, the brutish, "
+M: "(2) A stubborn one, isn't she boys? (3) Let's hear it for Bertha, the brutish, stubborn, and *formidable* Pachyrhino!"
+
+*The fight starts with Bertha charging towards Holly, and the player must either dodge toward her or jump over, though it is very hard to time. To do decent damage, Bertha must be stunned using the unlocked ability, a stunning roar that stops Bertha in her tracks and makes her susceptible to acid spit to the face. This causes her to roll over, revealing her soft, fragile underbelly.*
+
+
+
+M: "(4) I'm astonished, folks! This dino is more than capable of taking down tough herbivores five times her size! (5) That was quite some clever thinking in the arena, too! I don't want to jinx it, but we might have a potential *Apex Predator* on our hands!!"
+
+*The crowd chants for Holly, hoping she becomes a powerful and memorable arena fighter.*
+
+*After the match, Muldoon discusses Holly with other personnel in a back room.*
+
+Muldoon: "(1) So we still don't know who created that Dilo?"
+Admin: "(2) Like I've said before, the submission was entirely anonymous. It is within their rights to remain so."
+M: "(3) Still, we've both seen how easily it destroys other dinosaurs."
+A: "(4) I understand your concern, but Holly has already garnered a lot of attention for us in the entertainment market. It would make more sense to keep her around."
+M: *audible sigh* "(5) You're right. Just... 
+(6) Keep an eye on it, okay?"
+A: "(7) Will do, Muldoon."
+
+# Holly's Den (Second Visit)
+
+*The scene plays out as before; Holly is given a portion of the Pachyrhino to feast upon. Once she is done eating, she heads to her nest, before being interrupted once more by Wu.*
+
+Henry: "(1) Beautifully done, once again, Holly. You are proving yourself to be quite capable."
+
+*Holly snorts in disgust, appalled at his attempts to sweet talk her after what he's put her through.*
+
+Henry: "(2) Still not a fan of my methods? (3) Heh, well, I hope you'll change your tune soon. You have a long road ahead of you, and I hope I can make it up to you. (4) After all, you are the key component to my plan..."
