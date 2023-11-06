@@ -141,15 +141,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\NewSprite-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1.png",
         "kind": "image",
         "metadata": "",
@@ -232,15 +223,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/moving-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\moving-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "attacking-1-2.png",
         "kind": "image",
         "metadata": "",
@@ -254,6 +236,69 @@
         "kind": "image",
         "metadata": "",
         "name": "attacking-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/moving-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\moving-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pain-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pain-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "roll-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roll-1.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -286,6 +331,12 @@
       "name": "can_roar",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "is_dodging",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -421,7 +472,7 @@
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
               "bullet": false,
-              "fixedRotation": false,
+              "fixedRotation": true,
               "canSleep": true,
               "shape": "Box",
               "shapeDimensionA": 0,
@@ -455,8 +506,8 @@
                       "points": [
                         {
                           "name": "shoot",
-                          "x": 270.12579345703125,
-                          "y": 109.4339599609375
+                          "x": 275.7861633300781,
+                          "y": 106.289306640625
                         }
                       ],
                       "originPoint": {
@@ -602,7 +653,13 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "attack-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "attack",
+                          "x": 216.6666717529297,
+                          "y": 144.02516174316406
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -619,6 +676,58 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "attack-1.png",
+                      "points": [
+                        {
+                          "name": "attack",
+                          "x": 333.6477966308594,
+                          "y": 159.11949157714844
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "roll",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "roll-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "roll-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -665,7 +774,7 @@
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
               "bullet": false,
-              "fixedRotation": false,
+              "fixedRotation": true,
               "canSleep": true,
               "shape": "Box",
               "shapeDimensionA": 0,
@@ -680,8 +789,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
+              "layers": 2,
+              "masks": 2
             }
           ],
           "animations": [
@@ -739,7 +848,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 1,
+                  "timeBetweenFrames": 0.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -760,7 +869,70 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
+                      "image": "attacking-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "attacking-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
                       "image": "attacking-2-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pain",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pain-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -865,8 +1037,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
+              "layers": 65535,
+              "masks": 65535
             }
           ]
         },
@@ -951,6 +1123,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "collision_object",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 1.8867924213409424,
+                        "y": 30.350826263427734
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1003,6 +1216,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Health",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1100,6 +1314,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Flipping Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1289,7 +1504,7 @@
                             "Deinonychus.CenterX()",
                             "Deinonychus.CenterY()",
                             "180",
-                            "200",
+                            "50",
                             "",
                             "",
                             ""
@@ -1356,7 +1571,7 @@
                             "Deinonychus.CenterX()",
                             "Deinonychus.CenterY()",
                             "0",
-                            "200\n",
+                            "50",
                             "",
                             "",
                             ""
@@ -1413,6 +1628,16 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        ">=",
+                        "2"
+                      ]
                     }
                   ],
                   "actions": [],
@@ -1449,6 +1674,21 @@
                                 "",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "is_dodging",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ],
                           "actions": [
@@ -1470,7 +1710,7 @@
                                 "Player",
                                 "Physics2",
                                 "=",
-                                "-300"
+                                "-300\n"
                               ]
                             }
                           ]
@@ -1508,6 +1748,21 @@
                                 "",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "is_dodging",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ],
                           "actions": [
@@ -1808,6 +2063,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Slash",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -1858,23 +2114,64 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "MouseButtonReleased"
+                                "value": "MouseButtonFromTextPressed"
                               },
                               "parameters": [
                                 "",
-                                "Left"
+                                "\"Left\""
                               ]
                             },
                             {
                               "type": {
-                                "value": "Raycast"
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
                               },
                               "parameters": [
+                                "Player",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "collision_object",
+                                "Player.PointX(\"attack\")",
+                                "Player.PointY(\"attack\")",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "collision_object",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "collision_object",
                                 "Deinonychus",
-                                "Player.CenterX()",
-                                "Player.CenterY()",
-                                "180",
-                                "10000",
                                 "",
                                 "",
                                 ""
@@ -1884,24 +2181,65 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Physics2",
-                                "=",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "ModVarObjet"
                               },
                               "parameters": [
                                 "Deinonychus",
                                 "deinonychus_health",
                                 "-",
-                                "100"
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "+",
+                                "300"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::ApplyPolarImpulse"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "330",
+                                "6",
+                                "Player.CenterX()",
+                                "Player.CenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "0"
                               ]
                             }
                           ]
@@ -1927,41 +2265,62 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "Raycast"
+                                "value": "MouseButtonFromTextPressed"
                               },
                               "parameters": [
-                                "Deinonychus",
-                                "Player.CenterX()",
-                                "Player.CenterY()",
-                                "0",
-                                "10000",
                                 "",
-                                "",
-                                ""
+                                "\"Left\""
                               ]
                             },
                             {
                               "type": {
-                                "value": "MouseButtonReleased"
+                                "value": "BuiltinCommonInstructions::Once"
                               },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
+                              "parameters": []
                             }
                           ],
                           "actions": [
                             {
                               "type": {
-                                "value": "Physics2::LinearVelocityX"
+                                "value": "ChangeAnimation"
                               },
                               "parameters": [
                                 "Player",
-                                "Physics2",
                                 "=",
-                                "0"
+                                "2"
                               ]
                             },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "collision_object",
+                                "Player.PointX(\"attack\")",
+                                "Player.PointY(\"attack\")",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "collision_object",
+                                "Deinonychus",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
                             {
                               "type": {
                                 "value": "ModVarObjet"
@@ -1970,7 +2329,59 @@
                                 "Deinonychus",
                                 "deinonychus_health",
                                 "-",
-                                "100"
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "-",
+                                "300"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::ApplyPolarImpulse"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "330",
+                                "6",
+                                "Player.CenterX()",
+                                "Player.CenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "0"
                               ]
                             }
                           ]
@@ -2016,6 +2427,21 @@
                                 "0"
                               ]
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "collision_object",
+                            ""
                           ]
                         }
                       ]
@@ -2578,6 +3004,103 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "colorB": 170,
+                  "colorG": 253,
+                  "colorR": 190,
+                  "creationTime": 0,
+                  "name": "Dodge",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "q"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "is_dodging",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimationEnded"
+                          },
+                          "parameters": [
+                            "Player"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "is_dodging",
+                            "False"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
                 }
               ],
               "parameters": []
