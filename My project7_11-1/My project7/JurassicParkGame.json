@@ -309,7 +309,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8500000000000012,
+        "zoomFactor": 0.49,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1048,6 +1048,45 @@
                       },
                       "parameters": [
                         "Deinonychus",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "spit",
+                        "Deinonychus",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "deinonychus_health",
+                        "-",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "spit",
                         ""
                       ]
                     }
