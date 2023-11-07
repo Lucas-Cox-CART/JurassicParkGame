@@ -107,3 +107,19 @@ Henry: "(2) Still not a fan of my methods? (3) Heh, well, I hope you'll change y
 # 7 MONTHS PASS
 
 # The Final Colosseum Battle
+
+*This time, the scene opens with Holly on the right side, inside the tunnel leading to the arena; she is much larger, having reached an adult size much faster than any other dinosaur. This parallels with the fact she is now one of the well-known fighters.*
+
+*The crowd cheers as the scene changes to Muldoon starting a phone call in the announcing box.*
+
+Muldoon: "(1) Hello. I'm sure you know what I'm calling about, if you've been checking your calendar. (murmurs on the phone in response) 
+(2) Yes, today is the day we finally dethrone that Dilo. It's been causing us concern for far too long now. (murmurs object to his decision)
+(3) I don't care what the masses will think! This dinosaur is too dangerous to maintain!
+(4) We had three maintenance workers eaten alive in one damn month!
+(5) If you had seen the aftermath...\*urp*
+(6) I need you to send in our biggest contender. This monstrosity dies today. (a response along the lines of 'yes sir')"
+
+*the scene pans back to the arena, and Muldoon announces Holly's entrance into the ring.*
+
+M: "(7) Alright, everybody! Tonight we have a VERY special match for you all, and you'll all see why in just a moment....
+(8) You know her very well by now"
