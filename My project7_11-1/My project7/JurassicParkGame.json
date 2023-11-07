@@ -301,6 +301,69 @@
         "name": "roll-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/norm-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\norm-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "roll-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roll-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "roll-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roll-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -369,36 +432,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 280,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "03ab7310-fd8b-4db6-9914-ea3129a5e844",
-          "width": 293,
-          "x": 325,
-          "y": 859,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Deinonychus",
-          "persistentUuid": "498e48be-5e0f-41ef-aeaa-f64cb62119a9",
-          "width": 0,
-          "x": 835,
-          "y": 969,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 814,
           "layer": "",
           "name": "ground",
@@ -422,6 +455,36 @@
           "x": 353,
           "y": 999,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "ac3f8e5c-63a4-4c07-9dbc-d10fb53cf572",
+          "width": 0,
+          "x": 351,
+          "y": 941,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "testText",
+          "persistentUuid": "612a1917-9bdf-44ea-abf2-9844c00f447a",
+          "width": 0,
+          "x": 599,
+          "y": 787,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -476,7 +539,7 @@
               "canSleep": true,
               "shape": "Box",
               "shapeDimensionA": 0,
-              "shapeDimensionB": 130,
+              "shapeDimensionB": 120,
               "shapeOffsetX": 0,
               "shapeOffsetY": 0,
               "polygonOrigin": "Center",
@@ -502,12 +565,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\NewSprite-1.png",
+                      "image": "assets\\norm-1.png",
                       "points": [
                         {
                           "name": "shoot",
-                          "x": 275.7861633300781,
-                          "y": 106.289306640625
+                          "x": 159.28317260742188,
+                          "y": 58.90241622924805
                         }
                       ],
                       "originPoint": {
@@ -525,19 +588,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 86.79244995117188
+                            "y": 0
                           },
                           {
-                            "x": 300,
-                            "y": 74.21383666992188
+                            "x": 173.0301971435547,
+                            "y": 0
                           },
                           {
-                            "x": 300,
-                            "y": 222.64151000976562
+                            "x": 164.19679260253906,
+                            "y": 128
                           },
                           {
-                            "x": 0,
-                            "y": 218.867919921875
+                            "x": 23.493303298950195,
+                            "y": 128
                           }
                         ]
                       ]
@@ -556,12 +619,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player-1.png",
+                      "image": "Player-1-1.png",
                       "points": [
                         {
                           "name": "shoot",
-                          "x": 270.12579345703125,
-                          "y": 109.4339599609375
+                          "x": 159.28317260742188,
+                          "y": 61.11940002441406
                         }
                       ],
                       "originPoint": {
@@ -579,31 +642,31 @@
                         [
                           {
                             "x": 0,
-                            "y": 72.95597839355469
+                            "y": 0
                           },
                           {
-                            "x": 300,
-                            "y": 77.35848999023438
+                            "x": 173.0301971435547,
+                            "y": 0
                           },
                           {
-                            "x": 300,
-                            "y": 222.0125732421875
+                            "x": 164.19679260253906,
+                            "y": 128
                           },
                           {
-                            "x": 0,
-                            "y": 220.7547149658203
+                            "x": 23.493303298950195,
+                            "y": 128
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player-1.png",
+                      "image": "Player-1-0.png",
                       "points": [
                         {
                           "name": "shoot",
-                          "x": 270.12579345703125,
-                          "y": 109.4339599609375
+                          "x": 159.28317260742188,
+                          "y": 61.11940002441406
                         }
                       ],
                       "originPoint": {
@@ -621,19 +684,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 72.95597839355469
+                            "y": 0
                           },
                           {
-                            "x": 300,
-                            "y": 77.35848999023438
+                            "x": 173.0301971435547,
+                            "y": 0
                           },
                           {
-                            "x": 300,
-                            "y": 222.0125732421875
+                            "x": 164.19679260253906,
+                            "y": 128
                           },
                           {
-                            "x": 0,
-                            "y": 220.7547149658203
+                            "x": 23.493303298950195,
+                            "y": 128
                           }
                         ]
                       ]
@@ -651,13 +714,13 @@
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "attack-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "attack-1-1.png",
                       "points": [
                         {
                           "name": "attack",
-                          "x": 216.6666717529297,
-                          "y": 144.02516174316406
+                          "x": 129.13221740722656,
+                          "y": 84.61940002441406
                         }
                       ],
                       "originPoint": {
@@ -671,16 +734,35 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 173.0301971435547,
+                            "y": 0
+                          },
+                          {
+                            "x": 164.19679260253906,
+                            "y": 128
+                          },
+                          {
+                            "x": 23.493303298950195,
+                            "y": 128
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "attack-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "attack-1-0.png",
                       "points": [
                         {
                           "name": "attack",
-                          "x": 333.6477966308594,
-                          "y": 159.11949157714844
+                          "x": 129.13221740722656,
+                          "y": 84.61940002441406
                         }
                       ],
                       "originPoint": {
@@ -694,7 +776,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 173.0301971435547,
+                            "y": 0
+                          },
+                          {
+                            "x": 164.19679260253906,
+                            "y": 128
+                          },
+                          {
+                            "x": 23.493303298950195,
+                            "y": 128
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -709,8 +810,8 @@
                   "timeBetweenFrames": 1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "roll-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "roll-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -723,11 +824,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 173.0301971435547,
+                            "y": 0
+                          },
+                          {
+                            "x": 164.19679260253906,
+                            "y": 128
+                          },
+                          {
+                            "x": 23.493303298950195,
+                            "y": 128
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "roll-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "roll-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -740,7 +860,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 173.0301971435547,
+                            "y": 0
+                          },
+                          {
+                            "x": 164.19679260253906,
+                            "y": 128
+                          },
+                          {
+                            "x": 23.493303298950195,
+                            "y": 128
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -764,7 +903,7 @@
             {
               "name": "deinonychus_health",
               "type": "number",
-              "value": 10
+              "value": 1000000
             }
           ],
           "effects": [],
@@ -848,7 +987,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.25,
+                  "timeBetweenFrames": 0.10000000149011612,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -1066,8 +1205,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32.77663040161133,
+                        "y": 32.13197708129883
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1148,8 +1287,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 1.8867924213409424,
-                        "y": 30.350826263427734
+                        "x": 75.39799499511719,
+                        "y": 31.022748947143555
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1164,6 +1303,27 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "testText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -1216,7 +1376,6 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
-              "folded": true,
               "name": "Health",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1314,7 +1473,6 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
-              "folded": true,
               "name": "Flipping Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1712,6 +1870,16 @@
                                 "=",
                                 "-300\n"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "1"
+                              ]
                             }
                           ]
                         }
@@ -1784,7 +1952,17 @@
                                 "Player",
                                 "Physics2",
                                 "=",
-                                "-300"
+                                "300"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "1"
                               ]
                             }
                           ]
@@ -1820,72 +1998,163 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Attacking",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "\"jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "\"jump\"",
+                    ">",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Deinonychus"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarImpulse"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "Physics2",
+                    "240",
+                    "7",
+                    "Player.CenterX()",
+                    "Player.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "Physics2",
+                    "+",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "\"jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "\"jump\"",
+                    ">",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippedX"
+                  },
+                  "parameters": [
+                    "Deinonychus"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarImpulse"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "Physics2",
+                    "330",
+                    "7",
+                    "Player.CenterX()",
+                    "Player.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "Physics2",
+                    "-",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Deinonychus",
+                    "\"jump\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Deinonychus",
-                "Physics2",
-                "<",
-                "-600"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Deinonychus",
-                "Physics2",
-                "=",
-                "-600"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Deinonychus",
-                "Physics2",
-                ">",
-                "600"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Deinonychus",
-                "Physics2",
-                "=",
-                "600\n"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -2063,7 +2332,6 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Slash",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2078,6 +2346,16 @@
                           "parameters": [
                             "",
                             "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "!=",
+                            "3"
                           ]
                         }
                       ],
@@ -2150,15 +2428,6 @@
                                 "Player.PointY(\"attack\")",
                                 ""
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlipX"
-                              },
-                              "parameters": [
-                                "collision_object",
-                                ""
-                              ]
                             }
                           ]
                         },
@@ -2207,8 +2476,8 @@
                               "parameters": [
                                 "Deinonychus",
                                 "Physics2",
-                                "+",
-                                "300"
+                                "=",
+                                "25"
                               ]
                             },
                             {
@@ -2219,7 +2488,7 @@
                                 "Deinonychus",
                                 "Physics2",
                                 "330",
-                                "6",
+                                "1",
                                 "Player.CenterX()",
                                 "Player.CenterY()"
                               ]
@@ -2349,8 +2618,8 @@
                               "parameters": [
                                 "Deinonychus",
                                 "Physics2",
-                                "-",
-                                "300"
+                                "=",
+                                "-25"
                               ]
                             },
                             {
@@ -2361,7 +2630,7 @@
                                 "Deinonychus",
                                 "Physics2",
                                 "330",
-                                "6",
+                                "1",
                                 "Player.CenterX()",
                                 "Player.CenterY()"
                               ]
@@ -2489,6 +2758,16 @@
                             "can_spit",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "!=",
+                            "3"
+                          ]
                         }
                       ],
                       "actions": [
@@ -2564,6 +2843,16 @@
                           "parameters": [
                             "can_spit",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "!=",
+                            "3"
                           ]
                         }
                       ],
@@ -2784,6 +3073,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Rage",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2839,7 +3129,7 @@
                         "Player",
                         "Physics2",
                         "+",
-                        "15"
+                        "70"
                       ]
                     },
                     {
@@ -2885,7 +3175,7 @@
                         "Player",
                         "Physics2",
                         "-",
-                        "15"
+                        "70"
                       ]
                     },
                     {
@@ -2924,7 +3214,7 @@
                         "Player",
                         "Physics2",
                         "=",
-                        "-600"
+                        "-400"
                       ]
                     }
                   ]
@@ -2953,7 +3243,7 @@
                         "Player",
                         "Physics2",
                         "=",
-                        "600"
+                        "400\n"
                       ]
                     }
                   ]
@@ -3015,7 +3305,6 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3025,6 +3314,18 @@
                           "parameters": [
                             "",
                             "q"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "ground",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ],
@@ -3046,6 +3347,99 @@
                           "parameters": [
                             "is_dodging",
                             "True"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Player"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Physics2",
+                                "=",
+                                "-1400"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Physics2",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Player"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Physics2",
+                                "=",
+                                "1400"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.3\n"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Physics2",
+                                "=",
+                                "0"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3080,7 +3474,7 @@
                           "parameters": [
                             "Player",
                             "=",
-                            "1"
+                            "0"
                           ]
                         },
                         {
@@ -3096,8 +3490,38 @@
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimationEnded"
+                          },
+                          "parameters": [
+                            "Player"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
@@ -3199,6 +3623,22 @@
                 "1180\n",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "testText",
+                "=",
+                "ToString(Deinonychus.Variable(deinonychus_health))"
               ]
             }
           ]
