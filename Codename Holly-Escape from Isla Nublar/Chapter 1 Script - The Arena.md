@@ -101,3 +101,9 @@ Henry: "(1) Beautifully done, once again, Holly. You are proving yourself to be 
 *Holly snorts in disgust, appalled at his attempts to sweet talk her after what he's put her through.*
 
 Henry: "(2) Still not a fan of my methods? (3) Heh, well, I hope you'll change your tune soon. You have a long road ahead of you, and I hope I can make it up to you. (4) After all, you are the key component to my plan..."
+
+*Henry closes the hatch once again, walking away slowly. Holly whips around, letting her tail hit the wall as she turns. The player is told to sleep once again, and Holly lies down to rest.*
+
+# 7 MONTHS PASS
+
+# The Final Colosseum Battle
