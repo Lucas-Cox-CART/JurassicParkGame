@@ -3129,7 +3129,7 @@
                         "Player",
                         "Physics2",
                         "+",
-                        "70"
+                        "50"
                       ]
                     },
                     {
@@ -3175,7 +3175,7 @@
                         "Player",
                         "Physics2",
                         "-",
-                        "70"
+                        "50"
                       ]
                     },
                     {
@@ -3186,6 +3186,60 @@
                         "player_direction",
                         "=",
                         "\"left\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "a"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "=",
+                        "-100"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "d"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "=",
+                        "100"
                       ]
                     }
                   ]
