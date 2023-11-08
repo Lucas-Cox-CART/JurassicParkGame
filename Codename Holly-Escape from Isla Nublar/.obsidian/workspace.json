@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6abeafc09a9eca18",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "f1c707be1af265f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codename-Holly.md",
+                "file": "Chapter 1 Script - The Arena.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Codename-Holly.md",
+                "file": "Chapter 1 Script - The Arena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Codename-Holly.md",
+                "file": "Chapter 1 Script - The Arena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Codename-Holly.md"
+                "file": "Chapter 1 Script - The Arena.md"
               }
             }
           }
@@ -156,9 +147,12 @@
   },
   "active": "f1c707be1af265f2",
   "lastOpenFiles": [
+    "Henry Wu.md",
+    "Dionysus (Ethan - Read This).md",
+    "Chapter 1 Script - The Arena.md",
+    "Chapter 1 - The Arena.md",
     "Muldoon.md",
     "Codename-Holly.md",
-    "Chapter 1 - The Arena.md",
     "Story Progression.md"
   ]
 }
