@@ -1,13 +1,14 @@
 Characters:
 - [[Muldoon]] - announcer
+- Admin - minor character
 - [[Henry Wu]] - creator of Codename: Holly
 
 
-# Intro
+# Battle One - Deinonychus
 
 *The player starts off with the screen fading in from black and Holly entering the arena from the left. Muldoon announces her arrival:
 
-Muldoon: "(1) …And for today, ladies and gentleman, we have a special contender in the ring! (2) This new challenger may *seem* a tad too young to be fighting, but her submission details were very confident in her ability. (3) So, without further ado, please welcome our deep green Dilophosaurus newcomer: (4) HOLLY!!!"
+Muldoon: "(1) …And for today, ladies and gentleman, we have a special contender in the ring! (2) This new challenger may *seem* a tad too young to be fighting, but her submission details were very confident in her ability. (3) So, without further ado, please welcome our Dilophosaurus newcomer: (4) HOLLY!!!"
 
 *some reluctant cheering from the crowd as the scene moves to Muldoon in the announcing box
 
@@ -44,7 +45,7 @@ Muldoon: "(12) Well, I'll be, folks. I didn't know dinosaurs like that could mov
 
 *The player is then told to return to the left entrance of the arena by a human whistling Holly over and an indicator. This leads to a screen transition that send the player to Holly's den.
 
-# Holly's Den (First Visit)
+# Holly's Den - First Visit
 
 *The player is introduced to save points (nests) that heal you to full upon first activating them. Henry makes his first appearance after the player activates the nest. He opens a hatch in a wall of the den to speak to Holly.*
 
