@@ -1,4 +1,4 @@
-[[Chapter 1 Script - The Arena]]
+[[Arena Script]]
 
 
 [[Chapter 2 - Rampage]]
