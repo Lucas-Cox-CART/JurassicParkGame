@@ -53,14 +53,14 @@ Henry: "(1) Excellent work out there, Codename: Holly. You did well for a first 
 *When Holly tilts her head, Henry assumes she has forgotten him.*
 H: "(2) Ah, I've almost forgotten how long it's been since you'd seen me, with how long you were in battle conditioning."
 
-*Holly takes note of the fact he is the reason she went through so much pain in her early stages of life. She makes a low snarling, suddenly disliking this sly character.*
+*Holly is a little suspicious of this character, making a low snarling sound.*
 
-H: "(3) Now, now, settle down, it all ended up working out. (4) It was clearly a success; nobody would have thought a young juvenile like you could prove its own, and I have the betting profits to prove it...(he laughs to himself) 
+H: "(3) Now, now, settle down, I don't mean you any harm. In fact, I was the one who funded your training protocols. (4) It was clearly a success; nobody would have thought a young juvenile like you could prove its own, and I have the betting profits to prove it...(he laughs to himself) 
 (5) I have a feeling you won't have any problem demolishing the next competitor. If anything, they'll have to bring in stronger contestants to match your strength. 
 (6) If you can prove your superiority, I can offer you a way out of this place. You could come with me, and we'd start an army of unstoppable Dilophosaurs.
 (7) Ho-ho-ho, this plan is all coming together..."
 
-*Henry closes the hatch, and Holly slashes once across the vent once he is out of earshot. Afterwards, the player is told to sleep.*
+*Henry closes the hatch. Afterwards, the player is told to sleep.*
 
 ## At this point, the optional Extra Credit Minigame would happen, if we choose to implement it.
 
@@ -103,7 +103,7 @@ Henry: "(1) Beautifully done, once again, Holly. You are proving yourself to be 
 
 Henry: "(2) Still not a fan of my methods? (3) Heh, well, I hope you'll change your tune soon. You have a long road ahead of you, and I hope I can make it up to you. (4) After all, you are the key component to my plan..."
 
-*Henry closes the hatch once again, walking away slowly. Holly whips around, letting her tail hit the wall as she turns. The player is told to sleep once again, and Holly lies down to rest.*
+*Henry closes the hatch once again, walking away slowly. Holly sits for a moment, wondering what he has in store for her. The player is told to sleep once again, and Holly lies down to rest.*
 
 # 7 MONTHS PASS
 
