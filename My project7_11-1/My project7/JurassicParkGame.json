@@ -374,10 +374,29 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image3.png",
+        "file": "falling-1.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image3.png\"}",
-        "name": "New image3",
+        "metadata": "",
+        "name": "falling-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "falling-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "falling-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "landing-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "landing-1.png",
+
         "smoothed": true,
         "userAdded": false
       }
@@ -386,9 +405,10 @@
   },
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Player",
+      "tags": "",
+      "adaptCollisionMaskAutomatically": false,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -485,6 +505,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -539,6 +560,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -581,6 +603,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -635,6 +658,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -677,6 +701,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -725,6 +750,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -761,6 +787,7 @@
                         "y": 0
                       },
                       {
+
                         "x": 167,
                         "y": 0.5
                       },
@@ -785,6 +812,8 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Health",
+      "tags": "",
+
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -793,9 +822,10 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "spit",
+      "tags": "",
+      "adaptCollisionMaskAutomatically": false,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -834,9 +864,10 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "collision_object",
+      "tags": "",
+      "adaptCollisionMaskAutomatically": false,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -873,6 +904,7 @@
           ]
         }
       ]
+
     },
     {
       "assetStoreId": "",
@@ -936,7 +968,7 @@
       "folded": true,
       "name": "player_health",
       "type": "number",
-      "value": 10
+      "value": 15
     },
     {
       "folded": true,
@@ -975,7 +1007,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -983,8 +1015,9 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.45855344955483146,
+        "snap": true,
+        "zoomFactor": 1.3900000000000008,
+
         "windowMask": false
       },
       "objectsGroups": [],
@@ -998,8 +1031,8 @@
           "name": "ground",
           "persistentUuid": "70f4ab45-9967-450b-8734-3fe4a1df1353",
           "width": 30412,
-          "x": -10630,
-          "y": 1072,
+          "x": -10624,
+          "y": 1056,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1028,8 +1061,8 @@
           "name": "Player",
           "persistentUuid": "ac3f8e5c-63a4-4c07-9dbc-d10fb53cf572",
           "width": 0,
-          "x": 351,
-          "y": 941,
+          "x": 362,
+          "y": 928,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1049,6 +1082,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Deinonychus",
+          "persistentUuid": "20cdce59-0ed4-4217-b34f-760329c8d84b",
+          "width": 0,
+          "x": 1116,
+          "y": 956,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1056,6 +1104,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Deinonychus",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -1068,7 +1117,14 @@
             {
               "name": "deinonychus_health",
               "type": "number",
-              "value": 1000000
+              "value": 800
+            },
+            {
+              "folded": true,
+              "name": "phase",
+              "type": "number",
+              "value": 1
+
             }
           ],
           "effects": [],
@@ -1082,7 +1138,8 @@
               "canSleep": true,
               "shape": "Box",
               "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
+              "shapeDimensionB": 95,
+
               "shapeOffsetX": 0,
               "shapeOffsetY": 0,
               "polygonOrigin": "Center",
@@ -1152,7 +1209,8 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.10000000149011612,
+                  "timeBetweenFrames": 0.05000000074505806,
+
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -1232,7 +1290,8 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.5,
+
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -1250,6 +1309,7 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+
                     }
                   ]
                 }
@@ -1309,6 +1369,190 @@
           "behaviors": [],
           "animations": [
             {
+              "name": "falling",
+
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+
+                  "timeBetweenFrames": 5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "falling-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "falling-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "landing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.800000011920929,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "landing-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "landing-1.png",
+
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "wall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "ground",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 65535,
+              "masks": 65535
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "mouth",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
               "name": "mouth",
               "useMultipleDirections": false,
               "directions": [
@@ -1341,6 +1585,7 @@
         },
         {
           "assetStoreId": "",
+
           "bold": false,
           "italic": false,
           "name": "testText",
@@ -1424,10 +1669,1299 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "colorB": 5,
+              "colorG": 117,
+              "colorR": 65,
+              "creationTime": 0,
+              "name": "Phase 1 Fight",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "phase",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "<",
+                                "Deinonychus.X()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "can_move",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "\"jump\"",
+                                "<",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "-",
+                                "12"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Player",
+                                ">",
+                                "Deinonychus.X()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "can_move",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "\"jump\"",
+                                "<",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "+",
+                                "12"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 113,
+                  "colorG": 244,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Attacking (Pounce)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "\"jump\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "Deinonychus"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "ground",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "\"jump\"",
+                            ">=",
+                            "7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "Physics2",
+                            "-",
+                            "30"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Player",
+                                "500",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Player",
+                                "700",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::ApplyPolarImpulse"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "270",
+                                "7",
+                                "Player.CenterX()",
+                                "Player.CenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "=",
+                                "400"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "ground",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimationEnded"
+                              },
+                              "parameters": [
+                                "Deinonychus"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "\"jump\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "Deinonychus"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "ground",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "\"jump\"",
+                            ">=",
+                            "7"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "Physics2",
+                            "+",
+                            "20"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Player",
+                                "500",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Player",
+                                "700",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::ApplyPolarImpulse"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "270",
+                                "7",
+                                "Player.CenterX()",
+                                "Player.CenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "=",
+                                "-400"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "ground",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimationEnded"
+                              },
+                              "parameters": [
+                                "Deinonychus"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "\"jump\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 113,
+                  "colorG": 244,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Animations",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimationEnded"
+                          },
+                          "parameters": [
+                            "Deinonychus"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 113,
+                  "colorG": 244,
+                  "colorR": 255,
+                  "creationTime": 0,
+                  "name": "Attacking (Melee)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "\"can_attack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            ">=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "\"can_attack\"",
+                            ">",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            ">=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "\"can_attack\"",
+                            ">",
+                            "1.579382"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Deinonychus"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Raycast"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Deinonychus.CenterX()",
+                                    "Deinonychus.CenterY()",
+                                    "180",
+                                    "200",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "is_dodging",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "player_health",
+                                    "-",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Physics2::LinearVelocityX"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Physics2",
+                                    "=",
+                                    "-300\n"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeAnimation"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Deinonychus",
+                                    "\"can_attack\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Deinonychus"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Raycast"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Deinonychus.CenterX()",
+                                    "Deinonychus.CenterY()",
+                                    "0",
+                                    "200",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "is_dodging",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "player_health",
+                                    "-",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Physics2::LinearVelocityX"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Physics2",
+                                    "=",
+                                    "300"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeAnimation"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Deinonychus",
+                                    "\"can_attack\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimationEnded"
+                              },
+                              "parameters": [
+                                "Deinonychus"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 5,
+              "colorG": 117,
+              "colorR": 65,
+              "creationTime": 0,
+              "name": "Phase 2 Fight",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "deinonychus_health",
+                        "<=",
+                        "530"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "phase",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Deinonychus",
+                        "phase",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Animation"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "<",
+                                "Deinonychus.X()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "can_move",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "-",
+                                "20"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Player",
+                                ">",
+                                "Deinonychus.X()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "can_move",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "+",
+                                "20"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "Player"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "!=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "=",
+                                "-600"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "Player"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "!=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "=",
+                                "600"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
               "colorB": 113,
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Health",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1503,7 +3037,7 @@
                         "Deinonychus",
                         "deinonychus_health",
                         "-",
-                        "3"
+                        "13"
                       ]
                     },
                     {
@@ -1525,6 +3059,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Flipping Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1598,100 +3133,6 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "Animation"
-                      },
-                      "parameters": [
-                        "Deinonychus",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Player",
-                            "<",
-                            "Deinonychus.X()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Deinonychus",
-                            "can_move",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Physics2::LinearVelocityX"
-                          },
-                          "parameters": [
-                            "Deinonychus",
-                            "Physics2",
-                            "-",
-                            "15"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Player",
-                            ">",
-                            "Deinonychus.X()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Deinonychus",
-                            "can_move",
-                            "True"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Physics2::LinearVelocityX"
-                          },
-                          "parameters": [
-                            "Deinonychus",
-                            "Physics2",
-                            "+",
-                            "15"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
                         "inverted": true,
                         "value": "FlippedX"
                       },
@@ -1714,7 +3155,7 @@
                             "Deinonychus.CenterX()",
                             "Deinonychus.CenterY()",
                             "180",
-                            "50",
+                            "80",
                             "",
                             "",
                             ""
@@ -1741,14 +3182,6 @@
                             "Physics2",
                             "=",
                             "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.4"
                           ]
                         }
                       ]
@@ -1781,7 +3214,7 @@
                             "Deinonychus.CenterX()",
                             "Deinonychus.CenterY()",
                             "0",
-                            "50",
+                            "80",
                             "",
                             "",
                             ""
@@ -1816,397 +3249,14 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "colorB": 113,
-              "colorG": 244,
-              "colorR": 255,
-              "creationTime": 0,
-              "name": "Attacking",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Animation"
-                      },
-                      "parameters": [
-                        "Deinonychus",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Sprite"
-                      },
-                      "parameters": [
-                        "Deinonychus",
-                        ">=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "FlippedX"
-                          },
-                          "parameters": [
-                            "Deinonychus"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Raycast"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Deinonychus.CenterX()",
-                                "Deinonychus.CenterY()",
-                                "180",
-                                "200",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "is_dodging",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "player_health",
-                                "-",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Physics2",
-                                "=",
-                                "-300\n"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "FlippedX"
-                          },
-                          "parameters": [
-                            "Deinonychus"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Raycast"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Deinonychus.CenterX()",
-                                "Deinonychus.CenterY()",
-                                "0",
-                                "200",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "is_dodging",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "player_health",
-                                "-",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Physics2",
-                                "=",
-                                "300"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimationEnded"
-                          },
-                          "parameters": [
-                            "Deinonychus"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "Deinonychus",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 113,
-              "colorG": 244,
-              "colorR": 255,
-              "creationTime": 0,
-              "name": "Attacking",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [],
-              "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "\"jump\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "\"jump\"",
-                    ">",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "Deinonychus"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::ApplyPolarImpulse"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "Physics2",
-                    "240",
-                    "7",
-                    "Player.CenterX()",
-                    "Player.CenterY()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "Physics2",
-                    "+",
-                    "400"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "\"jump\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "\"jump\"",
-                    ">",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "FlippedX"
-                  },
-                  "parameters": [
-                    "Deinonychus"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::ApplyPolarImpulse"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "Physics2",
-                    "330",
-                    "7",
-                    "Player.CenterX()",
-                    "Player.CenterY()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "Physics2",
-                    "-",
-                    "400"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Deinonychus",
-                    "\"jump\""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -4668,6 +5718,30 @@
                       "conditions": [
                         {
                           "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"slash_timer\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
                             "value": "MouseButtonReleased"
                           },
                           "parameters": [
@@ -4684,6 +5758,17 @@
                             "!=",
                             "3"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"slash_timer\"",
+                            ">",
+                            "1"
+                          ]
                         }
                       ],
                       "actions": [
@@ -4695,6 +5780,15 @@
                             "Player",
                             "=",
                             "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"slash_timer\""
                           ]
                         }
                       ]
@@ -4783,7 +5877,7 @@
                                 "Deinonychus",
                                 "deinonychus_health",
                                 "-",
-                                "2"
+                                "8"
                               ]
                             },
                             {
@@ -4925,7 +6019,7 @@
                                 "Deinonychus",
                                 "deinonychus_health",
                                 "-",
-                                "2"
+                                "8"
                               ]
                             },
                             {
@@ -5050,7 +6144,6 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Spit",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -5582,7 +6675,7 @@
                         "Player",
                         "Physics2",
                         "<",
-                        "-600"
+                        "-300"
                       ]
                     }
                   ],
@@ -5611,7 +6704,7 @@
                         "Player",
                         "Physics2",
                         ">",
-                        "600"
+                        "300"
                       ]
                     }
                   ],
@@ -5772,7 +6865,7 @@
                                 "Player",
                                 "Physics2",
                                 "=",
-                                "0"
+                                "-200"
                               ]
                             }
                           ]
@@ -5818,7 +6911,7 @@
                                 "Player",
                                 "Physics2",
                                 "=",
-                                "0"
+                                "200"
                               ]
                             }
                           ]
@@ -6019,7 +7112,7 @@
               "parameters": [
                 "testText",
                 "=",
-                "ToString(Deinonychus.Variable(deinonychus_health))"
+                "ToString(Deinonychus.ObjectTimerElapsedTime(\"jump\"))"
               ]
             }
           ]
