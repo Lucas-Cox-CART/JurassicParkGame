@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 1 Script - The Arena.md",
+                "file": "Arena Script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21382fba7446bfd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Training Script.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 1 Script - The Arena.md",
+                "file": "Training Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 1 Script - The Arena.md",
+                "file": "Training Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 1 Script - The Arena.md"
+                "file": "Training Script.md"
               }
             }
           }
@@ -145,14 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1c707be1af265f2",
+  "active": "21382fba7446bfd2",
   "lastOpenFiles": [
-    "Henry Wu.md",
-    "Dionysus (Ethan - Read This).md",
-    "Chapter 1 Script - The Arena.md",
-    "Chapter 1 - The Arena.md",
-    "Muldoon.md",
+    "Arena Script.md",
     "Codename-Holly.md",
+    "Henry Wu.md",
+    "Training Script.md",
+    "Muldoon.md",
+    "Dionysus (Ethan - Read This).md",
+    "Chapter 1 - The Arena.md",
     "Story Progression.md"
   ]
 }
