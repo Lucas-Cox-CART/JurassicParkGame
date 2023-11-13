@@ -14,17 +14,21 @@
 
 *In the hallway, there are small hills to jump over.* 
 
-//System// "(6) Excellent. Ahead of you are hurdles to test your vertical agility. (7) Your ability to jump will now be evaluated."
+//System// "(6) Excellent. Ahead of you are hurdles to test your vertical agility. 
+(7) Your ability to jump will now be evaluated."
 
 *Various sizes of hurdles with different widths will need to be crossed in order to get through the tunnel.*
 
 *Once they are through the tunnel, a Compy is shown to the right. It doesn't seem to be moving or reacting at the moment.*
 
-//System// "(8) Mobility and agility evaluation complete. (9) We will now begin the evaluation of your combat capabilities."
+//System// "(8) Mobility and agility evaluation complete. 
+(9) We will now begin the evaluation of your combat capabilities."
 
 *The player is then prompted to press Mouse 1 in order to attack the Procompsognathus. The Compy does not respond. It takes around 2-3 hits to kill.*
 
-//System// "(10) Very good. Continue attacking Procompsognathi. They will now retaliate against your attacks. (11) Remember, consuming the remains of prey helps to maintain a healthy physique.(12) It may also be worth noting that you can consume recently-killed dinosaurs."
+//System// "(10) Very good. Continue attacking Procompsognathi. They will now retaliate against your attacks. 
+(11) Remember, consuming the remains of prey helps to maintain a healthy physique.
+(12) It may also be worth noting that you can consume recently-killed dinosaurs."
 
 *More Compys appear, about 3 or 4.*
 
@@ -32,6 +36,17 @@
 
 *A short pause.*
 
-//System// "(14) Your benefactor would like to see you in action before sending you into the arena. (15) You will now undergo another short combat course."
+//System// "(14) Your benefactor would like to see you in action before sending you into the arena. (15) You will now undergo another short combat course. 
+(16) Continue to the mock-arena simulation."
+
+*The player moves forward , still fighting Compys on the way there. Upon arrival, the player fights a weaker, simplified version of the Deinonychus. After the fight, the player is greeted by the simulation AI again.*
+
+//System// "(17) Excellent showmanship, ```Codename: Holly```. You are ready for the arena.
+(18) // Initiating power-down sequence... //"
+
+*A gray white-out plays over the screen, and the player is then shown the simulation room. A VR headset hangs from the ceiling, and Holly is in a harness. She struggles to get out, but it releases her on its own. 
 
 
+# Snap Back to Reality
+
+Scientist: "(1) There, there, you're back to reality now. "
