@@ -49,4 +49,10 @@
 
 # Snap Back to Reality
 
-Scientist: "(1) There, there, you're back to reality now. "
+*A scientist sits behind a reinforced glass wall with a small opening for sound to get through.*
+
+Scientist: "(1) Ah, you're finished with the training." (he suddenly stops paying attention to Holly to mark down results on his clipboard) 
+Scientist, mumbling to himself (make the text in the box small): "(2) Subject is disoriented by the simulation removal process....
+(3) Okay, you're free to go. We're going to transport you off to your den now."
+
+*The player then leaves the room, and is transported to the den. The player is introduced to save points (nests) that heal you to full upon first activating them. Afterwards, the player Sleeps, and the first arena script starts next scene.*

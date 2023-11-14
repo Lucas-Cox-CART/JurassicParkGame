@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arena Script.md",
+                "file": "Arena Script 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Training Script.md",
+                "file": "Arena Script 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11bc3e2cac050b08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arena Script 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6c24ee2f34aed9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arena Script 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Training Script.md",
+                "file": "Arena Script 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Training Script.md",
+                "file": "Arena Script 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Training Script.md"
+                "file": "Arena Script 3.md"
               }
             }
           }
@@ -158,10 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21382fba7446bfd2",
+  "active": "e6c24ee2f34aed9b",
   "lastOpenFiles": [
-    "Arena Script.md",
-    "Training Script.md",
+    "Arena Script 2.md",
+    "Training Part 1 Script.md",
+    "Arena Script 3.md",
+    "Arena Script 1.md",
     "Henry Wu.md",
     "Muldoon.md",
     "Story Progression.md",
