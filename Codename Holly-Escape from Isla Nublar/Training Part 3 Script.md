@@ -1,0 +1,1 @@
+*the player is given a training course with a ton of compy's and one or two deinonychuses that are easily killed to show how far Holly has come. The roar is given more training*

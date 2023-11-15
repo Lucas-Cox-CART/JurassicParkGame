@@ -27,3 +27,10 @@ M: "(11) Everyone in the crowd give a *loud* welcome to the hulking, beastly, *f
 (12) Cataclysm!"
 
 *A huge T-Rex is ushered into the ring*, before making a loud roar. The entire crowd has a "wow" moment as they begin cheering louder. As the T-Rex steps forward, the battle begins.*
+
+
+# Once the T-Rex is Defeated by Bloodrage
+
+*Holly suddenly goes wild in her bloodrage, crashing into the wall and escaping from the arena*
+
+What will happen next to our dear Holly? Find out next time in Codename Holly: Unleashed.
