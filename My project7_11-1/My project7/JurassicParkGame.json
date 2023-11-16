@@ -661,6 +661,78 @@
         "name": "attack-1-2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack-1-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack-3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "attack-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "falling-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "falling-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fallen-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fallen-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1225,6 +1297,228 @@
           "gravityScale": 1,
           "layers": 65535,
           "masks": 65535
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "pachirhino",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "is_charging",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "rhino_health",
+          "type": "number",
+          "value": 1000
+        },
+        {
+          "folded": true,
+          "name": "can_move",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 2,
+          "masks": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idle-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "attack-1-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "attack-2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "attack-3-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "attack-4-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "falling",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "falling-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fallen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fallen-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -2513,7 +2807,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.3445833333333333,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2644,12 +2938,12 @@
           "customSize": true,
           "height": 352,
           "layer": "",
-          "name": "Ground",
-          "persistentUuid": "0dce029f-eb05-45c0-bb5f-7d39678dcc8e",
-          "width": 128,
-          "x": 160,
+          "name": "wall",
+          "persistentUuid": "df4a0c62-3852-474b-b096-9fee46c96079",
+          "width": 160,
+          "x": 2304,
           "y": 608,
-          "zOrder": 3,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2659,12 +2953,12 @@
           "customSize": true,
           "height": 352,
           "layer": "",
-          "name": "Ground",
-          "persistentUuid": "a99e56a9-6ec8-4884-9ef3-dac7d6be4bd2",
-          "width": 128,
-          "x": 2336,
+          "name": "wall",
+          "persistentUuid": "3fb46c4d-15bb-4a8c-85f3-b8807296e551",
+          "width": 160,
+          "x": 160,
           "y": 608,
-          "zOrder": 3,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2826,6 +3120,53 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "wall",
+          "tags": "",
+          "texture": "NewFile-1-0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 15,
+              "masks": 15
             }
           ]
         }
@@ -4064,53 +4405,6 @@
                 "NewTextdsd",
                 "=",
                 "\"Noground\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Ground",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Physics2::ApplyPolarImpulse"
-              },
-              "parameters": [
-                "Player",
-                "Physics2",
-                "270",
-                "10",
-                "Player.CenterX()",
-                "Player.CenterY()"
               ]
             }
           ]
@@ -5742,7 +6036,7 @@
                         "Player",
                         "Physics2",
                         "270",
-                        "3",
+                        "10\n",
                         "Player.CenterX()",
                         "Player.CenterY()"
                       ]
@@ -7858,7 +8152,6 @@
           "colorG": 82,
           "colorR": 6,
           "creationTime": 0,
-          "folded": true,
           "name": "Compys",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8035,7 +8328,7 @@
                       },
                       "parameters": [
                         "compy",
-                        "deinonychus_health",
+                        "compy_health",
                         "-",
                         "13"
                       ]
@@ -8667,6 +8960,1426 @@
                       ]
                     }
                   ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Level 2 - Arena",
+      "lastChangeTimeStamp": 0,
+      "name": "pachirhino",
+      "events": [
+        {
+          "colorB": 121,
+          "colorG": 82,
+          "colorR": 6,
+          "creationTime": 0,
+          "name": "Rhino",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Animation"
+                  },
+                  "parameters": [
+                    "pachirhino",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "<",
+                        "pachirhino.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "can_move",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "-",
+                        "12"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "pachirhino.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "can_move",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "+",
+                        "12"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityLength"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "",
+                        ">",
+                        "-200"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "=",
+                        "-200\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityLength"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "",
+                        "<",
+                        "200"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "=",
+                        "200\n"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Health",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "spit",
+                        "pachirhino",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "rhino_health",
+                        "-",
+                        "13"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "spit",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Flipping Check",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "pachirhino.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "<",
+                        "pachirhino.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Player Check",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "pachirhino"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "pachirhino.CenterX()",
+                            "pachirhino.CenterY()",
+                            "180",
+                            "80",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "pachirhino"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "pachirhino.CenterX()",
+                            "pachirhino.CenterY()",
+                            "0",
+                            "80",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Animations",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimationEnded"
+                      },
+                      "parameters": [
+                        "pachirhino"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Attacking (Melee)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"can_attack\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        ">=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"can_attack\"",
+                        ">",
+                        "1.2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "compy"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Raycast"
+                              },
+                              "parameters": [
+                                "Player",
+                                "pachirhino.CenterX()",
+                                "pachirhino.CenterY()",
+                                "180",
+                                "200",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "is_dodging",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "player_health",
+                                "-",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Physics2",
+                                "=",
+                                "-900\n"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "pachirhino",
+                                "\"can_attack\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "compy"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Raycast"
+                              },
+                              "parameters": [
+                                "Player",
+                                "pachirhino.CenterX()",
+                                "pachirhino.CenterY()",
+                                "0",
+                                "200",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "is_dodging",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "player_health",
+                                "-",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Physics2",
+                                "=",
+                                "300"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "pachirhino",
+                                "\"can_attack\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationEnded"
+                          },
+                          "parameters": [
+                            "pachirhino"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Attacking (Charge)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"charge\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"charge\"",
+                        ">",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Player",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "="
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "compy"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_charging",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "pachirhino",
+                                "is_charging",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "pachirhino",
+                                "Physics2",
+                                "=",
+                                "-900\n"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "compy"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_charging",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "pachirhino",
+                                "is_charging",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "pachirhino",
+                                "Physics2",
+                                "=",
+                                "900\n"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "compy"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "=",
+                        "-900\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "compy"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "=",
+                        "\n900\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "is_dodging",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "pachirhino",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "player_health",
+                        "-",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"charge\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::Collision"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "wall",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "compy"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "-10"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_charging",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "\"charge\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "compy"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "Physics2",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_charging",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "\"charge\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ],
               "parameters": []
