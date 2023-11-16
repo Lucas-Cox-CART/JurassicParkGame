@@ -1324,6 +1324,12 @@
           "name": "can_move",
           "type": "boolean",
           "value": true
+        },
+        {
+          "folded": true,
+          "name": "stunned",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -1468,8 +1474,42 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.30000001192092896,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "falling-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "falling-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
                 {
                   "hasCustomCollisionMask": false,
                   "image": "falling-1-0.png",
@@ -2807,7 +2847,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3445833333333333,
+        "zoomFactor": 0.4045833333333333,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2920,21 +2960,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "compy",
-          "persistentUuid": "edd66188-2060-496c-9139-29bd3aacef75",
-          "width": 0,
-          "x": 1116,
-          "y": 860,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 352,
           "layer": "",
@@ -2959,6 +2984,96 @@
           "x": 160,
           "y": 608,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "pachirhino",
+          "persistentUuid": "80304157-fdab-46e7-81f8-37a629dc693d",
+          "width": 0,
+          "x": 1120,
+          "y": 860,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "775ac6bc-8e95-4bdb-a4ab-9ce2c19d90cc",
+          "width": 0,
+          "x": 512,
+          "y": 692,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "1fb96cee-0bc1-4674-a611-74079a25bc13",
+          "width": 0,
+          "x": 1100.259521484375,
+          "y": 674.6982421875,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "55d87a5c-f0a5-43c3-a84b-6b495d187913",
+          "width": 0,
+          "x": 1910.9700927734375,
+          "y": 741.43359375,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "edc09aa9-6021-4d14-94aa-7ea6534b722a",
+          "width": 0,
+          "x": 1493.2564697265625,
+          "y": 706.830078125,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "e0d126a9-2d22-4e6c-b033-6aa3a8c6a1af",
+          "width": 0,
+          "x": 2222.401611328125,
+          "y": 632.6796875,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3169,6 +3284,27 @@
               "masks": 15
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -3184,7 +3320,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Compy"
+          "target": "pachirhino"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3858,6 +3994,12 @@
               "name": "phase",
               "type": "number",
               "value": 1
+            },
+            {
+              "folded": true,
+              "name": "stunned",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -4373,7 +4515,7 @@
               "parameters": [
                 "NewTextdsd",
                 "=",
-                "Deinonychus.VariableString(can_move)"
+                "Deinonychus.VariableString(stunned)"
               ]
             }
           ]
@@ -4551,8 +4693,75 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "can_roar",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Deinonychus",
+                "stunned",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Deinonychus",
+                "stunned",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Deinonychus",
+                "stunned",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Deinonychus",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -5695,7 +5904,6 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Roar",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -6434,6 +6642,16 @@
                             "=",
                             "0"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "stunned",
+                            "False"
+                          ]
                         }
                       ],
                       "actions": [],
@@ -6665,6 +6883,16 @@
                             "Deinonychus",
                             "!=",
                             "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Deinonychus",
+                            "stunned",
+                            "False"
                           ]
                         }
                       ],
@@ -7887,6 +8115,7 @@
                   ],
                   "events": [
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7956,6 +8185,7 @@
                   ],
                   "events": [
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -9100,23 +9330,23 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "<",
+                        "-200"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "pachirhino",
                         "is_charging",
                         "="
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Physics2::LinearVelocityLength"
-                      },
-                      "parameters": [
-                        "pachirhino",
-                        "",
-                        ">",
-                        "-200"
                       ]
                     }
                   ],
@@ -9139,23 +9369,23 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        ">",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "pachirhino",
                         "is_charging",
                         "="
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Physics2::LinearVelocityLength"
-                      },
-                      "parameters": [
-                        "pachirhino",
-                        "",
-                        "<",
-                        "200"
                       ]
                     }
                   ],
@@ -9519,6 +9749,76 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimationEnded"
+                      },
+                      "parameters": [
+                        "pachirhino"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "6"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ChangeAnimation"
@@ -9902,7 +10202,7 @@
                             "value": "FlippedX"
                           },
                           "parameters": [
-                            "compy"
+                            "pachirhino"
                           ]
                         }
                       ],
@@ -9934,36 +10234,6 @@
                             "pachirhino",
                             "is_charging",
                             "True"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "pachirhino",
-                                "is_charging",
-                                "True"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "pachirhino",
-                                "Physics2",
-                                "=",
-                                "-900\n"
-                              ]
-                            }
                           ]
                         }
                       ]
@@ -9976,7 +10246,7 @@
                             "value": "FlippedX"
                           },
                           "parameters": [
-                            "compy"
+                            "pachirhino"
                           ]
                         }
                       ],
@@ -10008,36 +10278,6 @@
                             "pachirhino",
                             "is_charging",
                             "True"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "pachirhino",
-                                "is_charging",
-                                "True"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "pachirhino",
-                                "Physics2",
-                                "=",
-                                "900\n"
-                              ]
-                            }
                           ]
                         }
                       ]
@@ -10053,7 +10293,7 @@
                         "value": "FlippedX"
                       },
                       "parameters": [
-                        "compy"
+                        "pachirhino"
                       ]
                     },
                     {
@@ -10089,7 +10329,7 @@
                         "value": "FlippedX"
                       },
                       "parameters": [
-                        "compy"
+                        "pachirhino"
                       ]
                     },
                     {
@@ -10222,11 +10462,10 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
                             "value": "FlippedX"
                           },
                           "parameters": [
-                            "compy"
+                            "pachirhino"
                           ]
                         },
                         {
@@ -10258,13 +10497,12 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::LinearVelocityX"
+                            "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "pachirhino",
-                            "Physics2",
-                            "=",
-                            "0"
+                            "stunned",
+                            "True"
                           ]
                         },
                         {
@@ -10273,6 +10511,16 @@
                           },
                           "parameters": [
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "stunned",
+                            "False"
                           ]
                         },
                         {
@@ -10301,10 +10549,11 @@
                       "conditions": [
                         {
                           "type": {
+                            "inverted": true,
                             "value": "FlippedX"
                           },
                           "parameters": [
-                            "compy"
+                            "pachirhino"
                           ]
                         },
                         {
@@ -10375,11 +10624,154 @@
                       ]
                     }
                   ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 113,
+              "colorG": 244,
+              "colorR": 255,
+              "creationTime": 0,
+              "name": "Falling",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "can_roar",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "stunned",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "stunned",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "stunned",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "spit",
+                            "pachirhino",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "-",
+                            "13"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "=",
+                        "pachirhino.VariableString(stunned)"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
