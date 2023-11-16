@@ -2240,7 +2240,31 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 15,
+          "masks": 15
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -3522,7 +3546,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6645833333333335,
+        "zoomFactor": 0.3445833333333333,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3531,7 +3555,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 736,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "42ceee12-ae47-4846-86c5-30cd0931cf62",
@@ -3546,7 +3570,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 448,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "3104bd6a-55ee-4adb-9994-926513ab6320",
@@ -3612,7 +3636,7 @@
           "persistentUuid": "206ecda9-3003-409f-8fb6-099100e6d506",
           "width": 0,
           "x": 224,
-          "y": 992,
+          "y": 896,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3650,36 +3674,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 320,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "e7ddf488-21a5-4d04-94e6-a79ca3c61be8",
-          "width": 160,
-          "x": 0,
-          "y": 640,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 320,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "4a9c5d25-36b9-4495-aaf5-b25dcc012a2c",
-          "width": 160,
-          "x": 2464,
-          "y": 640,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -3711,13 +3705,28 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 512,
+          "height": 320,
           "layer": "",
-          "name": "Ground",
-          "persistentUuid": "4e1a0118-450a-4be4-9d9a-ca065bd1479e",
+          "name": "wall",
+          "persistentUuid": "c3eb378a-b73a-4ba0-9eea-26db5d38d03f",
           "width": 64,
-          "x": 2880,
-          "y": 608,
+          "x": 2496,
+          "y": 640,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 320,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "5097be82-bac5-400a-bab6-3ea8c347c073",
+          "width": 64,
+          "x": 64,
+          "y": 640,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -9660,6 +9669,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Health",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9757,6 +9767,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Flipping Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9841,6 +9852,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Player Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9972,6 +9984,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Animations",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10019,6 +10032,7 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
+              "folded": true,
               "name": "Attacking (Melee)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10408,23 +10422,42 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::LinearVelocityX"
-                          },
-                          "parameters": [
-                            "Pachirhino",
-                            "Physics2",
-                            "=",
-                            "-900\n"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "Pachirhino",
                             "is_charging",
                             "True"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Pachirhino",
+                                "is_charging",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Pachirhino",
+                                "Physics2",
+                                "=",
+                                "-900\n"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -10463,17 +10496,6 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::LinearVelocityX"
-                          },
-                          "parameters": [
-                            "Pachirhino",
-                            "Physics2",
-                            "=",
-                            "900\n"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
@@ -10482,6 +10504,109 @@
                             "True"
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Pachirhino",
+                                "is_charging",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Physics2::LinearVelocityX"
+                              },
+                              "parameters": [
+                                "Pachirhino",
+                                "Physics2",
+                                "=",
+                                "900\n"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Pachirhino"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Pachirhino",
+                        "is_charging",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Pachirhino",
+                        "Physics2",
+                        "=",
+                        "-900\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Pachirhino"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Pachirhino",
+                        "is_charging",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Pachirhino",
+                        "Physics2",
+                        "=",
+                        "900\n"
                       ]
                     }
                   ]
@@ -10519,6 +10644,12 @@
                         "is_charging",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -10568,14 +10699,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "Physics2::Collision"
                       },
                       "parameters": [
                         "Pachirhino",
+                        "Physics2",
                         "wall",
-                        "",
-                        "",
-                        "no"
+                        ""
                       ]
                     }
                   ],
