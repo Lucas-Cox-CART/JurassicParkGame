@@ -5650,6 +5650,7 @@
                           },
                           "parameters": [
                             "Deinonychus",
+
                             "collision_object",
                             "",
                             "",
@@ -5746,6 +5747,87 @@
                             "pachirhino",
                             "rhino_health",
                             "-",
+                            "8"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "collision_object",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "-",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "collision_object",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "-",
+
                             "15"
                           ]
                         }
@@ -10027,12 +10109,42 @@
                     },
                     {
                       "type": {
-                        "value": "ResetObjectTimer"
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "stunned",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_charging",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+         "value": "ResetObjectTimer"
                       },
                       "parameters": [
                         "pachirhino",
                         "\"charge\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"can_attack\""
+                      ]
+
                     }
                   ]
                 }
@@ -10103,7 +10215,7 @@
                         "pachirhino",
                         "\"can_attack\"",
                         ">",
-                        "1.2"
+                        "1\n"
                       ]
                     }
                   ],
