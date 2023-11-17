@@ -1317,7 +1317,7 @@
           "folded": true,
           "name": "rhino_health",
           "type": "number",
-          "value": 1000
+          "value": 1400
         },
         {
           "folded": true,
@@ -1328,6 +1328,12 @@
         {
           "folded": true,
           "name": "stunned",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "is_flooped",
           "type": "boolean",
           "value": false
         }
@@ -1561,6 +1567,450 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Deinonychus",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "can_move",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "deinonychus_health",
+          "type": "number",
+          "value": 800
+        },
+        {
+          "folded": true,
+          "name": "phase",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "stunned",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 129,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 2,
+          "masks": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "moving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\moving-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attacking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pain-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pain-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pain-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pain",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.05000000074505806,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "attacking-1-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fall-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "land",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "land-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "land-2-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "land-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 129
+                      },
+                      {
+                        "x": 0,
+                        "y": 129
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -1569,7 +2019,7 @@
       "folded": true,
       "name": "player_health",
       "type": "number",
-      "value": 15
+      "value": 100
     },
     {
       "folded": true,
@@ -1688,7 +2138,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Deinonychus",
+          "name": "DeinoguyTest",
           "persistentUuid": "20cdce59-0ed4-4217-b34f-760329c8d84b",
           "width": 0,
           "x": 1116,
@@ -1702,7 +2152,7 @@
       "objects": [
         {
           "assetStoreId": "",
-          "name": "Deinonychus",
+          "name": "DeinoguyTest",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2847,7 +3297,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4045833333333333,
+        "zoomFactor": 0.6445833333333335,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2856,7 +3306,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 800,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "42ceee12-ae47-4846-86c5-30cd0931cf62",
@@ -2871,7 +3321,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 768,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "3104bd6a-55ee-4adb-9994-926513ab6320",
@@ -3971,450 +4421,6 @@
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "",
-          "name": "Deinonychus",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "can_move",
-              "type": "boolean",
-              "value": true
-            },
-            {
-              "name": "deinonychus_health",
-              "type": "number",
-              "value": 800
-            },
-            {
-              "folded": true,
-              "name": "phase",
-              "type": "number",
-              "value": 1
-            },
-            {
-              "folded": true,
-              "name": "stunned",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Dynamic",
-              "bullet": false,
-              "fixedRotation": true,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 129,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 2,
-              "masks": 2
-            }
-          ],
-          "animations": [
-            {
-              "name": "moving",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\moving-1-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "attacking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "pain-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "pain-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "pain-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "pain",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.05000000074505806,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "attacking-1-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "fall",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "fall-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "land",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "land-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "land-2-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "land-3-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 129
-                          },
-                          {
-                            "x": 0,
-                            "y": 129
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "assetStoreId": "",
           "height": 32,
@@ -5613,6 +5619,36 @@
                             "value": "CollisionNP"
                           },
                           "parameters": [
+                            "",
+                            "collision_object",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "DeinoguyTest",
+                            "deinonychus_health",
+                            "-",
+                            "8"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
                             "Deinonychus",
                             "collision_object",
                             "",
@@ -5631,6 +5667,86 @@
                             "deinonychus_health",
                             "-",
                             "8"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "collision_object",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "-",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "collision_object",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "rhino_health",
+                            "-",
+                            "15"
                           ]
                         }
                       ]
@@ -9474,6 +9590,16 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "stunned",
+                        "False"
+                      ]
                     }
                   ],
                   "actions": [
@@ -9627,6 +9753,36 @@
                             "",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "stunned",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_charging",
+                            "="
+                          ]
                         }
                       ],
                       "actions": [
@@ -9685,6 +9841,36 @@
                             "",
                             "",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "stunned",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_charging",
+                            "="
                           ]
                         }
                       ],
@@ -9828,6 +10014,25 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "is_flooped",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "\"charge\""
+                      ]
                     }
                   ]
                 }
@@ -9913,7 +10118,7 @@
                             "value": "FlippedX"
                           },
                           "parameters": [
-                            "compy"
+                            "pachirhino"
                           ]
                         }
                       ],
@@ -10006,7 +10211,7 @@
                             "value": "FlippedX"
                           },
                           "parameters": [
-                            "compy"
+                            "pachirhino"
                           ]
                         }
                       ],
@@ -10371,24 +10576,23 @@
                     },
                     {
                       "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "pachirhino",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "pachirhino",
                         "is_charging",
                         "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "pachirhino",
+                        "Player",
+                        "50",
+                        ""
                       ]
                     },
                     {
@@ -10406,7 +10610,7 @@
                       "parameters": [
                         "player_health",
                         "-",
-                        "3"
+                        "12"
                       ]
                     },
                     {
@@ -10510,7 +10714,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "1"
+                            "2"
                           ]
                         },
                         {
@@ -10572,7 +10776,7 @@
                             "pachirhino",
                             "Physics2",
                             "=",
-                            "10"
+                            "\n10"
                           ]
                         },
                         {
@@ -10585,13 +10789,12 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::LinearVelocityX"
+                            "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "pachirhino",
-                            "Physics2",
-                            "=",
-                            "0"
+                            "stunned",
+                            "True"
                           ]
                         },
                         {
@@ -10599,7 +10802,17 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "1"
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "stunned",
+                            "False"
                           ]
                         },
                         {
@@ -10672,7 +10885,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "3"
+                        "2"
                       ]
                     },
                     {
@@ -10752,6 +10965,25 @@
                             "=",
                             "2"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "pachirhino",
+                            "is_flooped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "spit",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -10768,7 +11000,24 @@
                       "parameters": [
                         "NewText",
                         "=",
-                        "pachirhino.VariableString(stunned)"
+                        "ToString(pachirhino.Variable(rhino_health))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "=",
+                        "ToString(GlobalVariable(player_health))"
                       ]
                     }
                   ]
