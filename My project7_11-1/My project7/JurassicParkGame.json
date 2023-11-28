@@ -7354,6 +7354,28 @@
                             "Ground",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::Collision"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Physics2",
+                            "ground",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::Collision"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Physics2",
+                            "ground",
+                            ""
+                          ]
                         }
                       ]
                     },
