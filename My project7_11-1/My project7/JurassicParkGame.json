@@ -841,6 +841,51 @@
         "name": "trex-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-14.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -852,7 +897,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "stunned",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -2275,6 +2327,47 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "health_frame",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-1-12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -4173,15 +4266,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 83,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_323_32_45_32Arena",
       "name": "Level 3 - Arena",
-      "r": 209,
+      "r": 83,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 83,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -4192,7 +4285,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7645833333333343,
+        "zoomFactor": 0.5045833333333342,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4404,6 +4497,51 @@
           "x": 832,
           "y": 608,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "health",
+          "name": "health_frame",
+          "persistentUuid": "6999383b-91ec-4821-95b4-18fd7eb341e9",
+          "width": 512,
+          "x": 864,
+          "y": 32,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "health",
+          "name": "dinoHealth",
+          "persistentUuid": "a36800db-c342-4164-a307-260afad38589",
+          "width": 512,
+          "x": 864,
+          "y": 32,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "njkhjkgnjj",
+          "persistentUuid": "8e3c75ad-d4de-443a-9985-ac95bf1dff18",
+          "width": 0,
+          "x": 1440,
+          "y": 480,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4676,6 +4814,68 @@
           "string": "Text",
           "font": "",
           "characterSize": 45,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "dinoHealth",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "njkhjkgnjj",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 50,
           "color": {
             "b": 0,
             "g": 0,
@@ -6327,7 +6527,7 @@
                             "Player",
                             "\"slash_timer\"",
                             ">",
-                            "1"
+                            "0.5\n"
                           ]
                         }
                       ],
@@ -7122,6 +7322,16 @@
                         "",
                         "d"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -7167,6 +7377,16 @@
                       "parameters": [
                         "",
                         "a"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
                       ]
                     }
                   ],
@@ -7214,6 +7434,16 @@
                         "",
                         "a"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -7240,6 +7470,16 @@
                       "parameters": [
                         "",
                         "d"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
                       ]
                     }
                   ],
@@ -7270,6 +7510,16 @@
                         "<",
                         "-300"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -7298,6 +7548,16 @@
                         "Physics2",
                         ">",
                         "300"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
                       ]
                     }
                   ],
@@ -7384,6 +7644,16 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -7398,6 +7668,52 @@
                         "10\n",
                         "Player.CenterX()",
                         "Player.CenterY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        "False"
                       ]
                     }
                   ]
@@ -7421,6 +7737,16 @@
                           "parameters": [
                             "",
                             "q"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player",
+                            "stunned",
+                            ""
                           ]
                         }
                       ],
@@ -12114,6 +12440,17 @@
                         "can_move",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        ">",
+                        "1"
+                      ]
                     }
                   ],
                   "actions": [
@@ -12151,6 +12488,17 @@
                         "trex",
                         "can_move",
                         "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        ">",
+                        "1"
                       ]
                     }
                   ],
@@ -12698,6 +13046,17 @@
                         ">",
                         "1.2"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        ">",
+                        "1"
+                      ]
                     }
                   ],
                   "actions": [],
@@ -12759,7 +13118,7 @@
                               "parameters": [
                                 "player_health",
                                 "-",
-                                "3"
+                                "7"
                               ]
                             },
                             {
@@ -12877,7 +13236,7 @@
                               "parameters": [
                                 "player_health",
                                 "-",
-                                "3"
+                                "7"
                               ]
                             },
                             {
@@ -12974,6 +13333,15 @@
                         "trex",
                         "\"can_stomp\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\""
+                      ]
                     }
                   ]
                 },
@@ -13000,14 +13368,154 @@
                         ">",
                         "4"
                       ]
-                    },
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
-                        "value": "Sprite"
+                        "value": "ResetObjectTimer"
                       },
                       "parameters": [
                         "trex",
-                        ">=",
+                        "\"is_stomping\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "trex",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "trex"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        "<",
+                        "0.5"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "Player",
+                            "trex.CenterX()",
+                            "trex.CenterY()",
+                            "0",
+                            "200",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "is_dodging",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "player_health",
+                            "-",
+                            "18"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Physics2",
+                            "=",
+                            "300"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "trex",
+                            "\"can_stomp\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "trex"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        "<",
                         "1"
                       ]
                     }
@@ -13019,206 +13527,148 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "FlippedX"
+                            "value": "Raycast"
                           },
                           "parameters": [
-                            "trex"
+                            "Player",
+                            "trex.CenterX()",
+                            "trex.CenterY()",
+                            "180",
+                            "200",
+                            "",
+                            "",
+                            ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "is_dodging",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
-                      "actions": [],
-                      "events": [
+                      "actions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Raycast"
-                              },
-                              "parameters": [
-                                "Player",
-                                "trex.CenterX()",
-                                "trex.CenterY()",
-                                "180",
-                                "200",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "is_dodging",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "trex",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "player_health",
-                                "-",
-                                "12"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Physics2",
-                                "=",
-                                "-300\n"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "trex",
-                                "\"can_stomp\""
-                              ]
-                            }
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "player_health",
+                            "-",
+                            "18"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::LinearVelocityX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Physics2",
+                            "=",
+                            "-300\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "trex",
+                            "\"can_stomp\""
                           ]
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::Collision"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Physics2",
+                        "Ground",
+                        ""
+                      ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "FlippedX"
-                          },
-                          "parameters": [
-                            "trex"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Raycast"
-                              },
-                              "parameters": [
-                                "Player",
-                                "trex.CenterX()",
-                                "trex.CenterY()",
-                                "0",
-                                "200",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "is_dodging",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "trex",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "player_health",
-                                "-",
-                                "12"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Physics2::LinearVelocityX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Physics2",
-                                "=",
-                                "300"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangeAnimation"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "trex",
-                                "\"can_stomp\""
-                              ]
-                            }
-                          ]
-                        }
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        "<",
+                        "0.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "stunned",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"is_stomping\"",
+                        ">",
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "trex",
+                        "\"can_stomp\""
                       ]
                     }
                   ]
@@ -13235,6 +13685,38 @@
                         "rwerwe",
                         "=",
                         "ToString(trex.ObjectTimerElapsedTime(\"can_stomp\"))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "njkhjkgnjj",
+                        "=",
+                        "ToString(trex.ObjectTimerElapsedTime(\"is_stomping\"))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeWidth"
+                      },
+                      "parameters": [
+                        "dinoHealth",
+                        "=",
+                        "trex.Variable(trex_health)/1400*512"
                       ]
                     }
                   ]
