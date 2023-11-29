@@ -2425,7 +2425,7 @@
           "folded": true,
           "name": "compy_health",
           "type": "number",
-          "value": 200
+          "value": 30
         },
         {
           "folded": true,
@@ -2716,8 +2716,8 @@
           "name": "NewText",
           "persistentUuid": "d8807447-ccdf-41de-92b9-ecc1487bbd5e",
           "width": 0,
-          "x": 613,
-          "y": 233,
+          "x": 489,
+          "y": 253,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2761,8 +2761,8 @@
           "name": "NewText3",
           "persistentUuid": "2298b2ec-9756-469c-9db8-69c6b249c04c",
           "width": 0,
-          "x": 1237,
-          "y": 824,
+          "x": 1377,
+          "y": 840,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2776,8 +2776,8 @@
           "name": "NewSprite2",
           "persistentUuid": "fd2e14e6-6db6-4d6e-aff8-af7b12c36026",
           "width": 224,
-          "x": 1213,
-          "y": 808,
+          "x": 1351,
+          "y": 806,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2797,7 +2797,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "GAME TITLE",
+          "string": "CODENAME: HOLLY",
           "font": "",
           "characterSize": 100,
           "color": {
@@ -3073,7 +3073,7 @@
           "name": "Player",
           "persistentUuid": "666d29a7-5982-478e-97df-d16cb6b72c14",
           "width": 0,
-          "x": 170,
+          "x": -150,
           "y": 832,
           "zOrder": 4,
           "numberProperties": [],
@@ -6148,7 +6148,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4700000000000003,
+        "zoomFactor": 0.17000000000000015,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6210,21 +6210,6 @@
           "x": -224,
           "y": 576,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "4cafd554-dedc-40f8-9017-a86ec5f4cd7b",
-          "width": 0,
-          "x": 8704,
-          "y": 640,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6892,13 +6877,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1600,
+          "height": 384,
           "layer": "",
           "name": "ground",
           "persistentUuid": "e87c24c7-8133-4bb4-9afe-514a7862fd32",
           "width": 32,
-          "x": 13440,
-          "y": -1056,
+          "x": 14144,
+          "y": 800,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -7377,7 +7362,7 @@
           "name": "ground",
           "persistentUuid": "35af97c2-e121-41d3-9af4-cd0c0ae2674d",
           "width": 2368,
-          "x": 18976,
+          "x": 16096,
           "y": 768,
           "zOrder": 20,
           "numberProperties": [],
@@ -7387,13 +7372,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 416,
+          "height": 672,
           "layer": "",
           "name": "ground",
           "persistentUuid": "dc4f2628-b4ce-402f-b72e-0f7a677c3703",
           "width": 2368,
-          "x": 18976,
-          "y": -160,
+          "x": 16096,
+          "y": -96,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -7407,24 +7392,9 @@
           "name": "wall",
           "persistentUuid": "6b6d33ec-71f5-4651-8734-895039cd7c1d",
           "width": 64,
-          "x": 16768,
+          "x": 15744,
           "y": 0,
           "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 640,
-          "layer": "",
-          "name": "wall",
-          "persistentUuid": "9e7589c7-5a72-49e1-a791-d9a765cb336a",
-          "width": 64,
-          "x": 14176,
-          "y": 224,
-          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7453,7 +7423,7 @@
           "persistentUuid": "d67465e4-4238-42ee-b6fb-c526d93fedb4",
           "width": 544,
           "x": 704,
-          "y": 764,
+          "y": 96,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -7468,8 +7438,68 @@
           "persistentUuid": "d75eeadc-156f-484b-8cea-6768d2cc5fe1",
           "width": 608,
           "x": 672,
-          "y": 736,
+          "y": 64,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1600,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "57e8f4f8-a254-4ad0-86d9-461b812c4d4f",
+          "width": 32,
+          "x": 13440,
+          "y": -1056,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Proceed",
+          "persistentUuid": "c551e106-175a-4b14-813a-95144a5411a4",
+          "width": 192,
+          "x": 16256,
+          "y": 608,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 896,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ad967577-9896-42f8-9059-a3119f01aa15",
+          "width": 1408,
+          "x": 18400,
+          "y": -96,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1152,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "802590d1-cf38-4676-8d7a-f1c33224c831",
+          "width": 2016,
+          "x": 16704,
+          "y": 0,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7733,6 +7763,54 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "human_1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "text_box_frame",
+                "hidden",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "UI_text",
+                "=",
+                "\"ready 2 fight and all that yeah yeah press k to unlock wall\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
@@ -7797,6 +7875,171 @@
               },
               "parameters": [
                 "UI_text",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "text_box_frame",
+                "hidden",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "wall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "2",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "wall"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Proceed",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1 - Arena\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "compy",
+                "compy_health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
                 ""
               ]
             }
