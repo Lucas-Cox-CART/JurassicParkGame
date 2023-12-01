@@ -931,6 +931,15 @@
         "name": "NewSprite-1-18.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-19.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1447,7 +1456,7 @@
           "polygonOrigin": "Center",
           "vertices": [],
           "density": 1,
-          "friction": 0,
+          "friction": 0.3,
           "restitution": 0.1,
           "linearDamping": 12,
           "angularDamping": 0.1,
@@ -3268,7 +3277,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.38167741169921543,
+        "zoomFactor": 0.3616774116992154,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3412,7 +3421,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 160,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "06c9c385-57ea-4a91-987d-884119cded83",
@@ -3465,6 +3474,36 @@
           "x": 1152,
           "y": 672,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "health_frame",
+          "persistentUuid": "1e7f535c-a021-4bd5-8537-6830da19f16b",
+          "width": 0,
+          "x": 800,
+          "y": 32,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "name": "deinoguyHealth",
+          "persistentUuid": "3a478a72-2d9b-43c1-80e2-128dd5eb414c",
+          "width": 512,
+          "x": 800,
+          "y": 32,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3524,6 +3563,47 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "deinoguyHealth",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4096,6 +4176,22 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "deinoguyHealth",
+                "=",
+                "Deinonychus.Variable(deinonychus_health)/800*512"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -4162,6 +4258,17 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 8267296,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 7372952,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -4742,7 +4849,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5045833333333342,
+        "zoomFactor": 0.4245833333333341,
         "windowMask": false
       },
       "objectsGroups": [],
