@@ -140,15 +140,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"NewFile-1.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewFile-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "NewFile.wav",
         "kind": "audio",
         "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":0,\\\"decay\\\":0.1,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1700,\\\"frequencySweep\\\":-1600,\\\"frequencyDeltaSweep\\\":-1500,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":250,\\\"vibratoFrequency\\\":91,\\\"squareDuty\\\":80,\\\"squareDutySweep\\\":65,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"NewFile\"}}",
@@ -772,15 +763,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite-1-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewSprite-1-9.png",
         "kind": "image",
         "metadata": "",
@@ -947,6 +929,240 @@
         "kind": "image",
         "metadata": "",
         "name": "Particle-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite5-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite5-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-5-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-6-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\attack-7-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-2.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3431,7 +3647,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.42167741169921547,
+        "zoomFactor": 0.38167741169921543,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6665,15 +6881,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 182,
       "disableInputWhenNotFocused": true,
       "mangledName": "Training_321",
       "name": "Training 1",
-      "r": 209,
+      "r": 182,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 182,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -6684,7 +6900,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.43000000000000027,
+        "zoomFactor": 0.12999999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6701,21 +6917,6 @@
           "x": -1440,
           "y": 864,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "a80930b5-5594-43ed-b3ba-f9ec39fd2fcf",
-          "width": 0,
-          "x": 778,
-          "y": 512,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7833,13 +8034,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1568,
+          "height": 2848,
           "layer": "",
           "name": "ground",
           "persistentUuid": "93f8526b-0c0e-4d77-bae5-9d39da3c3fe0",
-          "width": 8800,
-          "x": 13280,
-          "y": -1568,
+          "width": 2976,
+          "x": 18400,
+          "y": -1792,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -7912,7 +8113,7 @@
           "layer": "",
           "name": "ground",
           "persistentUuid": "dc4f2628-b4ce-402f-b72e-0f7a677c3703",
-          "width": 2368,
+          "width": 800,
           "x": 16096,
           "y": -96,
           "zOrder": 20,
@@ -7923,13 +8124,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 864,
+          "height": 960,
           "layer": "",
           "name": "wall",
           "persistentUuid": "6b6d33ec-71f5-4651-8734-895039cd7c1d",
           "width": 64,
           "x": 15744,
-          "y": 0,
+          "y": -96,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -7968,21 +8169,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 288,
-          "layer": "UI",
-          "name": "text_box_frame",
-          "persistentUuid": "d75eeadc-156f-484b-8cea-6768d2cc5fe1",
-          "width": 608,
-          "x": 672,
-          "y": 64,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 1600,
           "layer": "",
           "name": "ground",
@@ -7991,21 +8177,6 @@
           "x": 13440,
           "y": -1056,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Proceed",
-          "persistentUuid": "c551e106-175a-4b14-813a-95144a5411a4",
-          "width": 192,
-          "x": 16256,
-          "y": 608,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8033,9 +8204,294 @@
           "name": "ground",
           "persistentUuid": "802590d1-cf38-4676-8d7a-f1c33224c831",
           "width": 2016,
-          "x": 16704,
-          "y": 0,
+          "x": 18400,
+          "y": 32,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1568,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ddd67d22-258b-45de-8ac2-974049a73f06",
+          "width": 4512,
+          "x": 17376,
+          "y": -1664,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "30d9edeb-70c4-4e2d-8188-b79a14d1f1c0",
+          "width": 2976,
+          "x": 18400,
+          "y": -1792,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ad8bc8ad-de41-4f74-b276-0c6590ab709b",
+          "width": 2976,
+          "x": 18400,
+          "y": -1792,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "fdfcf382-facd-4d08-964c-f50ccdf86397",
+          "width": 736,
+          "x": 17376,
+          "y": -192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1568,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ecdaf0c4-ce8a-4951-a457-6f06b31bbe9c",
+          "width": 3744,
+          "x": 13728,
+          "y": -1664,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "71d569ba-9c5d-41e4-bd1a-76193e4f322b",
+          "width": 544,
+          "x": 17472,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "afe25e34-f0dd-4583-ad28-869d6c03ca09",
+          "width": 736,
+          "x": 17376,
+          "y": 736,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "dd91e9b6-cb19-4cec-b4bb-8865cac60084",
+          "width": 32,
+          "x": 17792,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "a1f7b99a-fb41-4a83-b7d8-8e3f33ee44ca",
+          "width": 544,
+          "x": 17472,
+          "y": 672,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "db4ac46d-f23b-4eef-861e-6315f93fd24b",
+          "width": 32,
+          "x": 17664,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "2f2fa9ce-e317-429e-83b8-955a8eab79e2",
+          "width": 96,
+          "x": 17824,
+          "y": 640,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7dae91f3-6c5e-4825-89ba-08cf64719f77",
+          "width": 96,
+          "x": 17824,
+          "y": 192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "fa0fa3e9-8552-40bb-a1f4-4ad2909cd24a",
+          "width": 32,
+          "x": 17664,
+          "y": 608,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "3d10c66b-0e5d-404a-b3cc-cacc9b56ded4",
+          "width": 32,
+          "x": 17792,
+          "y": 608,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "b8285164-d923-45d9-b60f-281223c52155",
+          "width": 96,
+          "x": 17568,
+          "y": 640,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "8edaa2d4-c0fa-4f0e-9218-2a9097e8fb80",
+          "width": 96,
+          "x": 17568,
+          "y": 192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 416,
+          "layer": "",
+          "name": "Proceed",
+          "persistentUuid": "f2157e3a-c9b4-47a8-a288-14e8782b6336",
+          "width": 96,
+          "x": 17696,
+          "y": 256,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "7a576dcc-aa25-4d91-9370-1f4479f4c903",
+          "width": 0,
+          "x": 15040,
+          "y": 640,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "578a0bcb-5214-47c1-a6ee-94c96f4b4520",
+          "width": 0,
+          "x": 14400,
+          "y": 736,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8202,6 +8658,18 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "bg",
+          "tags": "",
+          "texture": "NewFile-1-2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -8605,6 +9073,22 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "GlobalVariableString(show_wall)"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8647,6 +9131,17 @@
           ]
         },
         {
+          "ambientLightColorB": 11470992,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 12090952,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "bg",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "ambientLightColorB": 10122920,
           "ambientLightColorG": 6046000,
           "ambientLightColorR": 12600088,
@@ -8674,15 +9169,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 182,
       "disableInputWhenNotFocused": true,
       "mangledName": "Training_322",
       "name": "Training 2",
-      "r": 209,
+      "r": 182,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 182,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -8693,27 +9188,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.23999999999999946,
+        "zoomFactor": 0.27000000000000046,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 288,
-          "layer": "UI",
-          "name": "text_box_frame",
-          "persistentUuid": "b71fb4b5-3a52-42ac-81f7-89aed79943e7",
-          "width": 608,
-          "x": 640,
-          "y": 352,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -8740,21 +9220,6 @@
           "x": -2304,
           "y": 704,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "1a1fc95c-3a02-4763-a46c-9a67d3f187a8",
-          "width": 0,
-          "x": 458,
-          "y": 736,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9456,9 +9921,9 @@
           "layer": "",
           "name": "ground",
           "persistentUuid": "3196614f-3235-4bd0-81a4-4c5d98118814",
-          "width": 2944,
-          "x": -480,
-          "y": -2400,
+          "width": 4544,
+          "x": 1664,
+          "y": -2336,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -9497,10 +9962,25 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 96,
           "layer": "",
           "name": "ground",
           "persistentUuid": "045c355a-a1d4-4f0a-81c0-984931803261",
+          "width": 160,
+          "x": 5856,
+          "y": 640,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c1710a00-7106-4b6f-9bd6-f00744588328",
           "width": 64,
           "x": 2496,
           "y": 896,
@@ -9508,9 +9988,2101 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "3741e07b-04bd-4b91-ae70-1cdc1c91b811",
+          "width": 224,
+          "x": 3616,
+          "y": 736,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "220ba060-ddbf-497d-9443-d7d46776675e",
+          "width": 224,
+          "x": 2848,
+          "y": 864,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "b00573d7-cc9f-4a30-98ef-2993a64fbe32",
+          "width": 224,
+          "x": 5824,
+          "y": 640,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7c3deb4e-4e3d-4551-a95c-04264d08098a",
+          "width": 224,
+          "x": 3232,
+          "y": 800,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "2ab8a6f0-4440-430d-ae85-69ceb67ed50f",
+          "width": 160,
+          "x": 2880,
+          "y": 864,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c2095741-f090-41ae-8ac6-e57d47b7420b",
+          "width": 160,
+          "x": 3264,
+          "y": 800,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "9ef9a9e2-115c-496e-bd04-dc3493409cf6",
+          "width": 160,
+          "x": 3648,
+          "y": 736,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "ee1dbb2f-b0e2-4de5-9806-764e00a38548",
+          "width": 0,
+          "x": 5088,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2560,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c84ace23-26e4-4cbe-8a1b-603ba253752e",
+          "width": 2944,
+          "x": -480,
+          "y": -2400,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "9d97eb86-e100-4af7-b361-c9845ba82a2d",
+          "width": 0,
+          "x": 3072,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "61c399c4-7cda-4930-8a5f-273a49470b3d",
+          "width": 0,
+          "x": 3456,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "fb88d9b2-5600-42b3-b8f9-8a9af7f56d10",
+          "width": 0,
+          "x": 3872,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "2ebabb89-b652-4d62-b197-8351de68fcab",
+          "width": 160,
+          "x": 4000,
+          "y": 672,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "32507c59-153b-4166-bde8-2ffd96ff2a0a",
+          "width": 224,
+          "x": 3968,
+          "y": 672,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "death",
+          "persistentUuid": "74ba5c74-efe5-4279-ad4a-98a99051786d",
+          "width": 5120,
+          "x": 2304,
+          "y": 1184,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "3a5fd3d4-8529-43fa-b9e4-e6ae4bdef7fc",
+          "width": 0,
+          "x": 4256,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "d9b6653b-db07-4e29-a84e-645c16011ee6",
+          "width": 0,
+          "x": 4640,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "cceed185-3e3b-40e5-8615-dd64550f8be4",
+          "width": 160,
+          "x": 4416,
+          "y": 672,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c81f04a4-6e67-48cd-a43b-189f6da2b25e",
+          "width": 224,
+          "x": 4384,
+          "y": 672,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "edae9e18-8227-4495-8007-e1397effb94b",
+          "width": 224,
+          "x": 4800,
+          "y": 736,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "789d7eb4-c518-4c82-9790-d87882a48d7b",
+          "width": 160,
+          "x": 4832,
+          "y": 736,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "5f0250d2-3130-496b-9380-4f8b958a34f9",
+          "width": 0,
+          "x": 6144,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "1afa07c3-b2ea-48e8-89e6-6bbf83712bad",
+          "width": 0,
+          "x": 5088,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c1d2f4b1-304b-4c3f-a47c-5e291f94901d",
+          "width": 224,
+          "x": 5280,
+          "y": 704,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "f359037f-4c4f-4d93-bf8e-2d39a70e852a",
+          "width": 160,
+          "x": 5312,
+          "y": 704,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2560,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "48718216-34ec-4aab-a92c-a6fe66a5fb99",
+          "width": 4672,
+          "x": 1664,
+          "y": -2336,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Robot_Laser",
+          "persistentUuid": "410fcb9f-69e3-429c-a09b-cfe9e75cb1af",
+          "width": 0,
+          "x": 5568,
+          "y": 224,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2560,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "94631ea5-d1da-49a4-baf2-863228fa388c",
+          "width": 4672,
+          "x": 6400,
+          "y": 672,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "0b04bcb7-e1e7-4519-a683-1ec94647a17e",
+          "width": 5024,
+          "x": 9248,
+          "y": -2144,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "d3e9a9ea-04b3-48e6-ad57-7e6ba1b7c18d",
+          "width": 1632,
+          "x": 9152,
+          "y": 192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ddd2ecb8-73ab-4674-af2d-11945ab7dcd4",
+          "width": 384,
+          "x": 8384,
+          "y": 480,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "5bba73ba-9bb0-4bd6-8430-5696b590c509",
+          "width": 32,
+          "x": 8512,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "52aefe9f-578e-4325-a677-1cbc4a1fc691",
+          "width": 32,
+          "x": 8448,
+          "y": 128,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "2f8d879c-6784-4e52-83ef-46029fe17b82",
+          "width": 32,
+          "x": 8032,
+          "y": 352,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "3f5f6db3-cd25-47ac-b463-fcd88231d0be",
+          "width": 128,
+          "x": 7872,
+          "y": 288,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "789fcdc4-5236-440e-83b0-1768160d1374",
+          "width": 32,
+          "x": 8384,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "256587df-5734-47a5-b2f9-4884386d1b25",
+          "width": 32,
+          "x": 8576,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "067a7ea0-a908-4f57-b5e4-6e4ca7699d5c",
+          "width": 32,
+          "x": 8512,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ebb35587-f738-41a7-8ec4-4d32cf04b493",
+          "width": 384,
+          "x": 8512,
+          "y": 32,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "2f0bab8b-ecf4-42c6-b312-a6b40642c772",
+          "width": 384,
+          "x": 8320,
+          "y": 544,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ca817c96-ed42-4d81-8cbe-c35b677f6927",
+          "width": 256,
+          "x": 7872,
+          "y": 416,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "86824669-c5a3-458e-ba26-1c56bbe5efb4",
+          "width": 192,
+          "x": 7840,
+          "y": 352,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "939dd73b-aebd-4ba7-b652-0b23bbc20ef4",
+          "width": 32,
+          "x": 7840,
+          "y": 288,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "707d8843-1d11-4105-882d-4b41cdba62dd",
+          "width": 32,
+          "x": 7904,
+          "y": 288,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "a4b7b205-1b83-4842-875e-037fdd0434db",
+          "width": 32,
+          "x": 7968,
+          "y": 288,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "ca7baf8b-fe99-4c02-ab98-672f8a10a42c",
+          "width": 480,
+          "x": 7264,
+          "y": 64,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c01d2f3f-dfad-4b95-9eb4-cab906ae12a0",
+          "width": 416,
+          "x": 7424,
+          "y": 224,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "06234da4-80b5-4961-92b8-186b6c5b3f1d",
+          "width": 448,
+          "x": 7392,
+          "y": 192,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "0fb757d6-391f-44e2-b286-7f926d0945a6",
+          "width": 480,
+          "x": 7360,
+          "y": 160,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "978abcf5-25eb-42b4-bd93-504b90c948c1",
+          "width": 480,
+          "x": 7328,
+          "y": 128,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "74a28be0-5f99-4487-b824-07171ac495d8",
+          "width": 480,
+          "x": 7296,
+          "y": 96,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "a838177f-6d02-42d9-96a8-65b382be959f",
+          "width": 384,
+          "x": 8288,
+          "y": 608,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "acc52cec-1a24-4b8a-9f2a-d3f9d4112cf5",
+          "width": 32,
+          "x": 8256,
+          "y": 608,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "d5a2b974-3517-42cd-8a0e-6250263c14c9",
+          "width": 32,
+          "x": 8320,
+          "y": 576,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "70f50280-5c3c-4dc5-985e-421975ce9013",
+          "width": 32,
+          "x": 8384,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "5cb86bba-3caf-4744-8631-e3a07879b4a5",
+          "width": 32,
+          "x": 8448,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "568a949d-e471-4115-926c-8e801a5a55f5",
+          "width": 352,
+          "x": 8320,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "b8f1dab8-71a6-40f6-a313-308247e970a2",
+          "width": 384,
+          "x": 8384,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "b6918e62-dbe2-4a53-be80-1476805c29c5",
+          "width": 384,
+          "x": 8448,
+          "y": 96,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1696,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "6854f659-603b-49b1-af88-693fe18e502b",
+          "width": 3680,
+          "x": 4160,
+          "y": -1472,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1504,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "36cbeb8b-6417-4a82-9572-8ff618b456bc",
+          "width": 3744,
+          "x": 6496,
+          "y": -2080,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1696,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "d2d1155a-b766-4447-b30c-f6db4369055b",
+          "width": 2368,
+          "x": 7840,
+          "y": -2112,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "87a2b111-d702-4aa1-9c9b-c5529e65da19",
+          "width": 352,
+          "x": 9856,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "60121358-a1dd-4da5-8ad3-75ce1b677f62",
+          "width": 352,
+          "x": 9856,
+          "y": -448,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1440,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "3468ca2d-aba5-4a22-8d5e-c08bd4b9baaf",
+          "width": 1632,
+          "x": 8576,
+          "y": 32,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 3008,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "b73b9af3-3929-4575-b37d-fd8e12ba3624",
+          "width": 3584,
+          "x": 10208,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c15127d2-48f4-4d44-bc49-3c7ad8f4aa7b",
+          "width": 1632,
+          "x": 8768,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "6f722a63-eda7-41e4-9ac8-0fcee69509f9",
+          "width": 1632,
+          "x": 8864,
+          "y": 96,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "d50eb9bb-a392-4d73-b961-1bb4be9f1fb7",
+          "width": 1632,
+          "x": 8960,
+          "y": 128,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "04ec32fe-1749-461b-b659-26f78fc2f5b6",
+          "width": 1632,
+          "x": 9056,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "cf63c5f7-cd7a-470b-aa55-596e182f1e5e",
+          "width": 1632,
+          "x": 8672,
+          "y": 32,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "cf39f8ca-c444-4b27-aa0f-ec81d325dc90",
+          "width": 1600,
+          "x": 9088,
+          "y": -1376,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "021cf753-3207-47c9-80ff-d84355156242",
+          "width": 1632,
+          "x": 8672,
+          "y": -1248,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "22a1701c-b72e-4d42-9fc6-51357bb50f6d",
+          "width": 1632,
+          "x": 8768,
+          "y": -1280,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "b4ea8635-e34d-46f3-91fb-3847fd56a69f",
+          "width": 1632,
+          "x": 8864,
+          "y": -1312,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 832,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "04b1d640-8109-4c10-b109-5fc0a57e481a",
+          "width": 1632,
+          "x": 8960,
+          "y": -1344,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "40dafccb-42d5-4481-ba33-afd6408f05bc",
+          "width": 2528,
+          "x": 8256,
+          "y": -2112,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "07e64310-c419-4aa8-b9c4-b932d6366090",
+          "width": 1856,
+          "x": 13088,
+          "y": -1920,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 3264,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "97360217-fcdb-48c4-ab91-f034b2934fca",
+          "width": 2144,
+          "x": 13088,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "85f810ed-4d44-48da-a92a-34e75bbc05ba",
+          "width": 4288,
+          "x": 17984,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "da90fbaf-c8eb-441f-8e1d-6dc950cf19ff",
+          "width": 2528,
+          "x": 12608,
+          "y": -2080,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "cdf17d84-5389-4200-8081-9354312e5221",
+          "width": 2176,
+          "x": 12704,
+          "y": -2048,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "72da4f5c-970d-42a5-831e-0db647b23791",
+          "width": 1824,
+          "x": 12800,
+          "y": -2016,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "00a044a5-8d19-456e-a041-b1755f1c8732",
+          "width": 1984,
+          "x": 12896,
+          "y": -1984,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "82204a54-4666-451b-a6c3-72e7841b5675",
+          "width": 2080,
+          "x": 12992,
+          "y": -1952,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "21b5ad4f-a92f-4de4-aa56-5cdafe1d8455",
+          "width": 2528,
+          "x": 12512,
+          "y": -2112,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "44245707-7d5a-4a73-be49-e5ffcb1968ee",
+          "width": 2528,
+          "x": 12512,
+          "y": 192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "8b6d11bb-3f90-4db1-9e6b-44bc86fbd76e",
+          "width": 2528,
+          "x": 12608,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "595f99c4-764b-43ba-a8b2-fd7acab26618",
+          "width": 2528,
+          "x": 12704,
+          "y": 128,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "53dc2224-5965-4636-9f94-39fd0f969a1d",
+          "width": 2080,
+          "x": 12800,
+          "y": 96,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7e951c84-90e1-4c24-99a6-9f2228c6b2ce",
+          "width": 2080,
+          "x": 12800,
+          "y": 96,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "1c7d89db-fef1-44a9-9c5e-55135a8bbe95",
+          "width": 2208,
+          "x": 12896,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "80449612-e948-457d-bd10-ad5337ba5c05",
+          "width": 1408,
+          "x": 12992,
+          "y": 32,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "5c87623d-e2e7-4330-a58c-84befb22e1a8",
+          "width": 64,
+          "x": 13088,
+          "y": -384,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "0a28382f-d900-4c42-b510-2205be6b3db8",
+          "width": 0,
+          "x": 12028,
+          "y": 124,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "e35ead66-45f7-4ddd-99ad-d6efe0a41628",
+          "width": 0,
+          "x": 11520,
+          "y": 124,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "ab4a452e-43aa-458d-9ff7-f1808fdf1254",
+          "width": 0,
+          "x": 12284,
+          "y": 124,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "fe67940e-6490-4882-a7de-adcbd8ac2eed",
+          "width": 0,
+          "x": 11840,
+          "y": 124,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "e3869e90-ec91-4c6e-acf6-f45532910c99",
+          "width": 0,
+          "x": 14282,
+          "y": -128,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7573474f-bbbb-49e0-b2de-6f970c1cd327",
+          "width": 2528,
+          "x": 12608,
+          "y": -2080,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7abc997d-6671-44d9-8753-a92d7132176f",
+          "width": 2528,
+          "x": 12960,
+          "y": -2144,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7d84e9ae-e093-441d-ab24-7bc8c34c4e6e",
+          "width": 1760,
+          "x": 18240,
+          "y": -1888,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "a777fee0-1bb6-4ac3-9fc0-30187af28dec",
+          "width": 2720,
+          "x": 13152,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "dcdc154e-1bb1-41c1-ba61-adc8fb6d17c5",
+          "width": 2720,
+          "x": 13856,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "fe32ef1c-a0ba-4227-88ec-62ae737023ac",
+          "width": 2720,
+          "x": 15072,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2848,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "5d6d6cd5-b70c-4b8e-adce-b969c598e444",
+          "width": 2720,
+          "x": 17728,
+          "y": 192,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "fc9823e9-ae3b-4d1e-97c0-ae4bffd0e21e",
+          "width": 4384,
+          "x": 13824,
+          "y": -2240,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 4960,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "f8236b58-bb3c-426b-aabc-2f31b1a53fee",
+          "width": 5024,
+          "x": 21824,
+          "y": -2432,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1504,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "45cdf1bb-0385-426a-ac9d-550364e6cce1",
+          "width": 4608,
+          "x": 17728,
+          "y": -2048,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "61f317fc-fb1d-4047-8b77-40e97ec58198",
+          "width": 288,
+          "x": 20896,
+          "y": -512,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "e23eba67-1948-4c3b-98fa-dba5cdfc0c52",
+          "width": 480,
+          "x": 20800,
+          "y": -576,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "f52c15ce-60d6-449c-b349-a23da85d6f37",
+          "width": 480,
+          "x": 20800,
+          "y": 32,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "3bbd4fd1-b4dd-4617-bc94-41fddb53b0d3",
+          "width": 416,
+          "x": 20832,
+          "y": 0,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "55155ec2-3b61-42e9-9b25-7eaa104c25f6",
+          "width": 416,
+          "x": 20832,
+          "y": -544,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "4ed2a45e-445e-47d4-a807-7df484c4ba58",
+          "width": 32,
+          "x": 20928,
+          "y": -512,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "988e0e47-5b89-4aa1-b468-01be5632cf25",
+          "width": 32,
+          "x": 21120,
+          "y": -512,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "f0757f61-72e8-449b-bbb4-e6e25b6e1b68",
+          "width": 32,
+          "x": 21120,
+          "y": -64,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "adc00497-2fe7-4010-bb7f-ce52e4d0aa81",
+          "width": 32,
+          "x": 20928,
+          "y": -64,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "96138aad-0f03-43c3-a588-f0d5ff46be88",
+          "width": 288,
+          "x": 20896,
+          "y": -32,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 416,
+          "layer": "",
+          "name": "Proceed",
+          "persistentUuid": "fabcf936-3ce2-4b03-988b-66017d2c5f33",
+          "width": 160,
+          "x": 20960,
+          "y": -448,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Robot_Laser",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite5-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 206.137451171875
+                          },
+                          {
+                            "x": 0,
+                            "y": 205.41998291015625
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.23999999463558197,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\attack-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 220
+                          },
+                          {
+                            "x": 0,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\attack-2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 220
+                          },
+                          {
+                            "x": 0,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\attack-3-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 220
+                          },
+                          {
+                            "x": 0,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\attack-4-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 220
+                          },
+                          {
+                            "x": 0,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\attack-5-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\attack-7-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "death",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9585,6 +12157,44 @@
                 "=",
                 "\"Train2\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Robot_Laser",
+                "\"shoot\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Proceed",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 3 - Arena\"",
+                ""
+              ]
             }
           ]
         },
@@ -9599,11 +12209,141 @@
               "parameters": [
                 "",
                 "-500",
-                "0",
-                "1000000\n",
+                "-3000",
+                "22240",
                 "1080",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Robot_Laser",
+                "\"shoot\"",
+                ">",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Robot_Laser",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Animation"
+              },
+              "parameters": [
+                "Robot_Laser",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Robot_Laser"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Robot_Laser",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Robot_Laser",
+                "\"shoot\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Robot_Laser",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "player_health",
+                "-",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "death",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "player_health",
+                "=",
+                "0"
               ]
             }
           ]
@@ -9772,6 +12512,134 @@
               "booleanParameters": {}
             }
           ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        }
+      ]
+    },
+    {
+      "b": 40,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Den",
+      "name": "Den",
+      "r": 173,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 94,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5199999999999999,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1664,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "6ea3140e-b296-40dc-b36f-08996b582032",
+          "width": 320,
+          "x": -256,
+          "y": -160,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "0c000fc1-b522-4a9b-90dd-f834651bc7c1",
+          "width": 2560,
+          "x": 0,
+          "y": 1056,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "4a11e673-1894-49e3-9ebe-aa184561bb5b",
+          "width": 2560,
+          "x": 0,
+          "y": -256,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "db65f48c-34a5-42c1-aaf6-52eac3a311b6",
+          "width": 0,
+          "x": 224,
+          "y": 928,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -10063,7 +12931,7 @@
                           },
                           "parameters": [
                             "compy",
-                            "deinonychus_health",
+                            "compy_health",
                             "-",
                             "8"
                           ]
@@ -11066,7 +13934,6 @@
               "colorG": 244,
               "colorR": 255,
               "creationTime": 0,
-              "folded": true,
               "name": "Movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -11375,34 +14242,6 @@
                             "",
                             "",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "PosY"
-                          },
-                          "parameters": [
-                            "Player",
-                            ">",
-                            "ground.Y()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PosY"
-                          },
-                          "parameters": [
-                            "Player",
-                            ">",
-                            "Ground.Y()"
                           ]
                         }
                       ]
