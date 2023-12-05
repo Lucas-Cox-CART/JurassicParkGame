@@ -1165,6 +1165,24 @@
         "name": "NewFile-1-2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3203,6 +3221,68 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "showWall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-1-22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "debugText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsGroups": [
@@ -3272,6 +3352,12 @@
       "name": "spit_damage",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "enemies_left",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -3628,15 +3714,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 155,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_321_32_45_32Arena",
       "name": "Level 1 - Arena",
-      "r": 209,
+      "r": 155,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 155,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -3647,7 +3733,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.38167741169921543,
+        "zoomFactor": 0.6616774116992158,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4682,15 +4768,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 155,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_322_32_45_32Arena",
       "name": "Level 2 - Arena",
-      "r": 209,
+      "r": 155,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 155,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -4701,7 +4787,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6445833333333335,
+        "zoomFactor": 0.5845833333333339,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4710,14 +4796,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 800,
+          "height": 544,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "42ceee12-ae47-4846-86c5-30cd0931cf62",
-          "width": 2560,
+          "width": 3776,
           "x": 320,
           "y": 960,
-          "zOrder": 1,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4725,12 +4811,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 768,
+          "height": 544,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "3104bd6a-55ee-4adb-9994-926513ab6320",
-          "width": 576,
-          "x": -256,
+          "width": 672,
+          "x": -352,
           "y": 960,
           "zOrder": 2,
           "numberProperties": [],
@@ -4740,12 +4826,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 672,
+          "height": 1536,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "73c9db9b-435e-4315-8f8d-6f939d9a645e",
-          "width": 416,
-          "x": -256,
+          "width": 512,
+          "x": -864,
           "y": -32,
           "zOrder": 3,
           "numberProperties": [],
@@ -4760,7 +4846,7 @@
           "name": "Player",
           "persistentUuid": "666d29a7-5982-478e-97df-d16cb6b72c14",
           "width": 0,
-          "x": 602,
+          "x": -256,
           "y": 832,
           "zOrder": 4,
           "numberProperties": [],
@@ -4770,13 +4856,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 640,
+          "height": 1536,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "164e71c1-6f6d-4f86-a5ef-a799af1a2970",
           "width": 416,
-          "x": 2464,
-          "y": 0,
+          "x": 4096,
+          "y": -32,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -4784,29 +4870,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Ground",
-          "persistentUuid": "8ab703f9-1671-4d74-b344-232ff46ecb73",
-          "width": 0,
-          "x": 2151,
-          "y": 140,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
-          "height": 352,
+          "height": 320,
           "layer": "",
           "name": "wall",
           "persistentUuid": "df4a0c62-3852-474b-b096-9fee46c96079",
-          "width": 160,
-          "x": 2304,
-          "y": 608,
+          "width": 64,
+          "x": 2464,
+          "y": 640,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4815,13 +4886,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 352,
+          "height": 320,
           "layer": "",
           "name": "wall",
           "persistentUuid": "3fb46c4d-15bb-4a8c-85f3-b8807296e551",
-          "width": 160,
-          "x": 160,
-          "y": 608,
+          "width": 64,
+          "x": 96,
+          "y": 640,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4848,71 +4919,281 @@
           "height": 0,
           "layer": "",
           "name": "NewText",
-          "persistentUuid": "775ac6bc-8e95-4bdb-a4ab-9ce2c19d90cc",
-          "width": 0,
-          "x": 512,
-          "y": 692,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "1fb96cee-0bc1-4674-a611-74079a25bc13",
-          "width": 0,
-          "x": 1100.259521484375,
-          "y": 674.6982421875,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "55d87a5c-f0a5-43c3-a84b-6b495d187913",
-          "width": 0,
-          "x": 1910.9700927734375,
-          "y": 741.43359375,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "edc09aa9-6021-4d14-94aa-7ea6534b722a",
-          "width": 0,
-          "x": 1493.2564697265625,
-          "y": 706.830078125,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
           "persistentUuid": "e0d126a9-2d22-4e6c-b033-6aa3a8c6a1af",
           "width": 0,
           "x": 2222.401611328125,
           "y": 632.6796875,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "5f146e87-4e36-478d-9483-e8c759b6111f",
+          "width": 4224,
+          "x": 160,
+          "y": -32,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 672,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "e07bdd08-93e0-4430-bc68-69745d909a54",
+          "width": 512,
+          "x": -352,
+          "y": -32,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 640,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "42ad8394-dc7c-4ffc-befb-bbad8f841c92",
+          "width": 416,
+          "x": 2464,
+          "y": 0,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "6e6f69f4-9eaf-4886-b744-ae1ae6c3310c",
+          "width": 320,
+          "x": 3424,
+          "y": 512,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7d07d28f-e920-4aa1-a597-52d22fd7d9bc",
+          "width": 32,
+          "x": 3488,
+          "y": 864,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c5c98403-527c-4776-8da0-48e5a4be4f9e",
+          "width": 256,
+          "x": 3456,
+          "y": 896,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "eac853f3-6a9c-4054-92de-ad365b7035c2",
+          "width": 320,
+          "x": 3424,
+          "y": 928,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "90d084b8-3602-4c60-87b7-f0b66cf1cae6",
+          "width": 256,
+          "x": 3456,
+          "y": 544,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "40160926-a903-48fc-9353-af08a4c4a80e",
+          "width": 32,
+          "x": 3488,
+          "y": 576,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "66866411-e558-46a9-af16-44af4c7fcfa9",
+          "width": 32,
+          "x": 3648,
+          "y": 576,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "7a50e944-e463-4ca6-8165-c332509bfc5c",
+          "width": 32,
+          "x": 3648,
+          "y": 864,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "958058b0-b136-493b-bf2d-d3e642c86683",
+          "width": 1536,
+          "x": 2784,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "name": "Proceed",
+          "persistentUuid": "66227cc3-b370-49a6-a6c8-019e42787a41",
+          "width": 128,
+          "x": 3520,
+          "y": 608,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "name": "health_frame",
+          "persistentUuid": "71debfdb-dd35-484c-947d-b66ccd65823e",
+          "width": 1792,
+          "x": 64,
+          "y": 32,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "name": "rhinoHealth",
+          "persistentUuid": "328671fd-0e0b-4273-a3f0-49654d1bf66a",
+          "width": 1792,
+          "x": 64,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "name": "healthBar",
+          "persistentUuid": "5d8013ca-89cb-4580-8013-968ca08a1158",
+          "width": 160,
+          "x": 352,
+          "y": 992,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "UI_text",
+          "persistentUuid": "2d10a8f6-8d4a-4fa7-8f6a-05c3b8c5cc68",
+          "width": 0,
+          "x": 512,
+          "y": 768,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "playHealth",
+          "persistentUuid": "349e9d82-946c-46e2-9fa7-0a1235f0e60b",
+          "width": 0,
+          "x": 384,
+          "y": 992,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4986,6 +5267,47 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "rhinoHealth",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5002,6 +5324,13 @@
             "includeConfig": 0
           },
           "target": "pachirhino"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "walls"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -5153,9 +5482,9 @@
               },
               "parameters": [
                 "",
-                "-500",
+                "-860",
                 "0",
-                "3130",
+                "4500\n",
                 "1080",
                 "",
                 ""
@@ -5184,6 +5513,123 @@
                 "respawn",
                 "=",
                 "\"Arena2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "pachirhino",
+                "rhino_health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "pachirhino",
+                "rhino_health",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                "<",
+                "160"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "pachirhino",
+                "rhino_health",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "160"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "rhinoHealth",
+                "=",
+                "pachirhino.Variable(rhino_health)/1400*1792"
               ]
             }
           ]
@@ -5232,6 +5678,17 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 7938168,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 9736752,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -6900,7 +7357,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.12999999999999998,
+        "zoomFactor": 0.24999999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8695,6 +9152,13 @@
           "target": "Compy"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "walls"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -8709,285 +9173,6 @@
                 "1000000\n",
                 "1080",
                 "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "human_2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "w"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "text_box_frame",
-                "hidden",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "UI_text",
-                "=",
-                "\"Hello Holly! Now begins you're training for your participation in the Great Dino Colleseum of Jurrasic Park! Just make your way through these obstacles. And good luck- you're gonna need it\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "human_1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "w"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "text_box_frame",
-                "hidden",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "UI_text",
-                "=",
-                "\"ready 2 fight and all that yeah yeah press k to unlock wall\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "text_box_frame",
-                "hidden",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "text_box_frame"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_text"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "text_box_frame",
-                "hidden",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "text_box_frame",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "UI_text",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "text_box_frame",
-                "hidden",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "show_wall",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "wall",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "wall",
-                "Physics2",
-                "1",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "wall",
-                "Physics2",
-                "2",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "show_wall",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "wall"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "wall",
-                "Physics2",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "wall",
-                "Physics2",
-                "2",
                 ""
               ]
             }
@@ -9043,6 +9228,16 @@
                 "respawn",
                 "=",
                 "\"Train1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "enemies_left",
+                "=",
+                "1"
               ]
             }
           ]
@@ -9188,7 +9383,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.27000000000000046,
+        "zoomFactor": 0.16999999999999985,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11467,8 +11662,8 @@
           "name": "Player",
           "persistentUuid": "e3869e90-ec91-4c6e-acf6-f45532910c99",
           "width": 0,
-          "x": 14282,
-          "y": -128,
+          "x": 11626,
+          "y": 96,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -11522,13 +11717,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 2848,
+          "height": 2880,
           "layer": "",
           "name": "ground",
           "persistentUuid": "a777fee0-1bb6-4ac3-9fc0-30187af28dec",
-          "width": 2720,
+          "width": 2656,
           "x": 13152,
-          "y": 64,
+          "y": 32,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -11537,13 +11732,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 2848,
+          "height": 2816,
           "layer": "",
           "name": "ground",
           "persistentUuid": "dcdc154e-1bb1-41c1-ba61-adc8fb6d17c5",
           "width": 2720,
           "x": 13856,
-          "y": 160,
+          "y": 192,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -11567,13 +11762,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 2848,
+          "height": 2880,
           "layer": "",
           "name": "ground",
           "persistentUuid": "5d6d6cd5-b70c-4b8e-adce-b969c598e444",
           "width": 2720,
           "x": 17728,
-          "y": 192,
+          "y": 160,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -11785,6 +11980,96 @@
           "x": 20960,
           "y": -448,
           "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "734ed1da-fb41-4372-bb2b-2664e954b782",
+          "width": 64,
+          "x": 14880,
+          "y": -384,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 544,
+          "layer": "",
+          "name": "showWall",
+          "persistentUuid": "41bd3101-a179-4fa0-93c2-afdf654eb41f",
+          "width": 64,
+          "x": 15104,
+          "y": -544,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "debugText",
+          "persistentUuid": "36809f7a-776d-4dd6-ae26-be16b4e21438",
+          "width": 0,
+          "x": 11904,
+          "y": 0,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "25b13c65-1f6c-4532-8b97-dccf0d57ecdd",
+          "width": 128,
+          "x": 17888,
+          "y": 96,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 416,
+          "layer": "",
+          "name": "wall",
+          "persistentUuid": "d7ce1952-76a3-4239-8f35-3c54cf7b0adc",
+          "width": 64,
+          "x": 18304,
+          "y": -352,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Deinonychus",
+          "persistentUuid": "480bfbb7-9038-4471-b309-6fcfc70f0e4c",
+          "width": 0,
+          "x": 17216,
+          "y": 96,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12097,6 +12382,27 @@
           "target": "Player Behaviors"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Compy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "walls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Deinoguy"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12166,6 +12472,16 @@
                 "Robot_Laser",
                 "\"shoot\""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "enemies_left",
+                "=",
+                "4"
+              ]
             }
           ]
         },
@@ -12192,7 +12508,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 3 - Arena\"",
+                "\"Level 2 - Arena\"",
                 ""
               ]
             }
@@ -12344,6 +12660,88 @@
                 "player_health",
                 "=",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "showWall",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "enemies_left",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Deinonychus",
+                "deinonychus_health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "enemies_left",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debugText",
+                "=",
+                "ToString(GlobalVariable(enemies_left))"
               ]
             }
           ]
@@ -14638,8 +15036,30 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "pachirhino",
+                "rhino_health",
+                "=",
+                "1"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -14935,6 +15355,15 @@
                             "stunned",
                             "False"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "show_wall",
+                            "True"
+                          ]
                         }
                       ],
                       "actions": [
@@ -15159,6 +15588,15 @@
                             "Deinonychus",
                             "!=",
                             "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "show_wall",
+                            "True"
                           ]
                         }
                       ],
@@ -15805,6 +16243,15 @@
                         "phase",
                         "=",
                         "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "show_wall",
+                        "True"
                       ]
                     }
                   ],
@@ -16576,6 +17023,16 @@
                         "compy",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "enemies_left",
+                        "-",
+                        "1"
+                      ]
                     }
                   ]
                 },
@@ -17268,6 +17725,15 @@
                     "pachirhino",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "show_wall",
+                    "True"
                   ]
                 }
               ],
@@ -20325,6 +20791,132 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Training 1",
+      "lastChangeTimeStamp": 0,
+      "name": "walls",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "wall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "2",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "wall"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall",
+                "Physics2",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "enemies_left",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "show_wall",
+                "False"
+              ]
+            }
+          ]
         }
       ]
     }
