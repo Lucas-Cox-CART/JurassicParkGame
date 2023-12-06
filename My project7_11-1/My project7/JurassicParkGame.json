@@ -1204,12 +1204,129 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "NewSprite-1-25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "NewSprite-1-24.png",
         "kind": "image",
         "metadata": "",
         "name": "NewSprite-1-24.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-9-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fall-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fall-9.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3345,6 +3462,344 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "falling_platform",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 63,
+          "masks": 63
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-1-27.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fall-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fall-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fall-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fall-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fall-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 24.291105270385742
+                      },
+                      {
+                        "x": 160,
+                        "y": 24.70845603942871
+                      },
+                      {
+                        "x": 160,
+                        "y": 256
+                      },
+                      {
+                        "x": 0,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fall-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 42.237178802490234
+                      },
+                      {
+                        "x": 160,
+                        "y": 41.4024772644043
+                      },
+                      {
+                        "x": 160,
+                        "y": 256
+                      },
+                      {
+                        "x": 0,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fall-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 86.89368438720703
+                      },
+                      {
+                        "x": 160,
+                        "y": 88.14573669433594
+                      },
+                      {
+                        "x": 160,
+                        "y": 256
+                      },
+                      {
+                        "x": 0,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fall-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 142.8186492919922
+                      },
+                      {
+                        "x": 160,
+                        "y": 141.98394775390625
+                      },
+                      {
+                        "x": 160,
+                        "y": 256
+                      },
+                      {
+                        "x": 0,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fall-9-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fall-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 256
+                      },
+                      {
+                        "x": 160,
+                        "y": 256
+                      },
+                      {
+                        "x": 160,
+                        "y": 256
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -12867,7 +13322,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.45999999999999935,
+        "zoomFactor": 0.5399999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14066,7 +14521,7 @@
           "name": "ground",
           "persistentUuid": "6729a858-ad6c-4324-87e5-dacacd949fd9",
           "width": 352,
-          "x": 4768,
+          "x": 4832,
           "y": 960,
           "zOrder": 6,
           "numberProperties": [],
@@ -14081,7 +14536,7 @@
           "name": "ground",
           "persistentUuid": "aca46de2-b6b6-4a79-aeee-deba9b041eae",
           "width": 352,
-          "x": 5280,
+          "x": 5408,
           "y": 960,
           "zOrder": 6,
           "numberProperties": [],
@@ -14096,22 +14551,7 @@
           "name": "ground",
           "persistentUuid": "c1e2bebf-c023-4f5f-b460-52b9042c71c8",
           "width": 352,
-          "x": 5792,
-          "y": 960,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 864,
-          "layer": "",
-          "name": "ground",
-          "persistentUuid": "f1052719-dd0a-46cd-a619-7a0d68b47b9d",
-          "width": 3840,
-          "x": 6304,
+          "x": 5984,
           "y": 960,
           "zOrder": 6,
           "numberProperties": [],
@@ -14126,7 +14566,7 @@
           "name": "wall",
           "persistentUuid": "7aacf70f-7c2c-46fe-a140-1629b7604f3a",
           "width": 64,
-          "x": 7008,
+          "x": 7456,
           "y": 160,
           "zOrder": 7,
           "numberProperties": [],
@@ -14135,12 +14575,12 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 256,
           "layer": "",
           "name": "falling_platform",
           "persistentUuid": "8f45633e-c045-4845-8097-caa7968d4aab",
-          "width": 0,
+          "width": 224,
           "x": 4608,
           "y": 960,
           "zOrder": 8,
@@ -14150,13 +14590,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 256,
           "layer": "",
           "name": "falling_platform",
           "persistentUuid": "01f4e840-18dd-4a30-8711-0fcdde4e8fdf",
-          "width": 0,
-          "x": 6144,
+          "width": 224,
+          "x": 6336,
           "y": 960,
           "zOrder": 8,
           "numberProperties": [],
@@ -14165,13 +14605,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 256,
           "layer": "",
           "name": "falling_platform",
           "persistentUuid": "beb9c0e6-80e5-42d5-b962-0622758851f5",
-          "width": 0,
-          "x": 5632,
+          "width": 224,
+          "x": 5760,
           "y": 960,
           "zOrder": 8,
           "numberProperties": [],
@@ -14180,13 +14620,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 256,
           "layer": "",
           "name": "falling_platform",
           "persistentUuid": "6ebf4b9d-f38a-43f0-9732-2c4224734b58",
-          "width": 0,
-          "x": 5120,
+          "width": 224,
+          "x": 5184,
           "y": 960,
           "zOrder": 8,
           "numberProperties": [],
@@ -14200,9 +14640,9 @@
           "layer": "",
           "name": "death",
           "persistentUuid": "59cca214-e6c6-4479-a4c7-2453a5f77678",
-          "width": 1696,
+          "width": 2048,
           "x": 4608,
-          "y": 1248,
+          "y": 1024,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -14366,54 +14806,9 @@
           "name": "Deinonychus",
           "persistentUuid": "739ec431-1fd8-437f-8357-58eb140cf860",
           "width": 0,
-          "x": 6688,
-          "y": 159,
+          "x": 7264,
+          "y": 831,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Deinonychus",
-          "persistentUuid": "a6f236c6-3f62-4d66-8c49-7469de5a7a32",
-          "width": 0,
-          "x": 4448,
-          "y": 159,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "name": "ground",
-          "persistentUuid": "a80dc6a3-0dd9-48d0-9d30-40f7756624f2",
-          "width": 32,
-          "x": 6528,
-          "y": 160,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Ground",
-          "persistentUuid": "261a4e53-91b4-4f29-9fa6-49c71d2d4b52",
-          "width": 448,
-          "x": 6560,
-          "y": 288,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14426,9 +14821,69 @@
           "name": "Player",
           "persistentUuid": "d6de317d-6ca6-43df-9719-3e984ca9d567",
           "width": 0,
-          "x": 4160,
-          "y": 608,
+          "x": 4170,
+          "y": 640,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "debugText",
+          "persistentUuid": "7b31f18d-084c-41b5-82ce-87d9a5a9a833",
+          "width": 0,
+          "x": 4928,
+          "y": 648,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 864,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "a03dd3f6-3b06-4c03-9554-0e6237228a43",
+          "width": 3712,
+          "x": 6560,
+          "y": 960,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 800,
+          "layer": "",
+          "name": "wall2",
+          "persistentUuid": "f80687e2-cc89-4438-a67f-6b29d309aee2",
+          "width": 64,
+          "x": 7008,
+          "y": 160,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Deinonychus",
+          "persistentUuid": "be8c7b54-d23e-414c-9d3f-d3d45dba51e0",
+          "width": 0,
+          "x": 7072,
+          "y": 831,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14437,28 +14892,28 @@
           "angle": 0,
           "customSize": true,
           "height": 64,
-          "layer": "",
-          "name": "Ground",
-          "persistentUuid": "70b006b7-381a-45cd-8346-1f7c49df3fc0",
-          "width": 448,
-          "x": 4320,
-          "y": 288,
-          "zOrder": 15,
+          "layer": "UI",
+          "name": "healthBar",
+          "persistentUuid": "58cc2d82-706f-4db4-bd0e-22d8ad97c873",
+          "width": 160,
+          "x": 224,
+          "y": 992,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "name": "ground",
-          "persistentUuid": "70a3dff1-6275-4617-93bf-adf79d8587a6",
-          "width": 32,
-          "x": 4768,
-          "y": 160,
-          "zOrder": 13,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "playHealth",
+          "persistentUuid": "470b9c6b-7b12-422e-9015-9a22a94c1382",
+          "width": 0,
+          "x": 256,
+          "y": 992,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14467,7 +14922,7 @@
       "objects": [
         {
           "assetStoreId": "",
-          "name": "falling_platform",
+          "name": "wall2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -14494,8 +14949,8 @@
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
-              "layers": 63,
-              "masks": 63
+              "layers": 31,
+              "masks": 31
             }
           ],
           "animations": [
@@ -14509,7 +14964,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1-24.png",
+                      "image": "NewSprite-1-26.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14532,6 +14987,13 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player Behaviors"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -14570,15 +15032,18 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Deinonychus"
+                "Ground"
               ]
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "ModVarObjet"
               },
               "parameters": [
-                "Ground"
+                "Deinonychus",
+                "phase",
+                "=",
+                "1"
               ]
             }
           ]
@@ -14602,18 +15067,27 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Player Behaviors"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
           "target": "Deinoguy"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "enemies_left",
+                "<=",
+                "2"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -14628,6 +15102,102 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "wall2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "6",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "7",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "wall2",
+                "Physics2",
+                "8",
+                ""
+              ]
             }
           ]
         },
@@ -14640,7 +15210,7 @@
               },
               "parameters": [
                 "enemies_left",
-                "=",
+                ">",
                 "2"
               ]
             }
@@ -14648,98 +15218,15 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "ClampCamera"
               },
               "parameters": [
-                "Deinonychus",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "4",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "6",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "7",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::EnableMask"
-              },
-              "parameters": [
-                "Ground",
-                "Physics2",
-                "8",
+                "",
+                "-500",
+                "-3000",
+                "7008",
+                "1080",
+                "",
                 ""
               ]
             }
@@ -14802,6 +15289,289 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debugText",
+                "=",
+                "GlobalVariableString(can_roar)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "can_roar",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Animation"
+              },
+              "parameters": [
+                "falling_platform",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "falling_platform",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Animation"
+              },
+              "parameters": [
+                "falling_platform",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "falling_platform",
+                "\"4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "6",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::EnableMask"
+              },
+              "parameters": [
+                "falling_platform",
+                "Physics2",
+                "7",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Animation"
+              },
+              "parameters": [
+                "falling_platform",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "falling_platform"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "falling_platform",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "falling_platform",
+                "\"respawn\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "falling_platform",
+                "\"respawn\"",
+                ">",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "falling_platform",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "falling_platform",
+                "4608",
+                "960",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "falling_platform",
+                "5184",
+                "960",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "falling_platform",
+                "5760",
+                "960",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "falling_platform",
+                "6336",
+                "960",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -14842,6 +15612,17 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 14,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 10185408,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -14953,6 +15734,131 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Victory",
+      "name": "Victory",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.49999999999999956,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "win",
+          "persistentUuid": "0c56dbd3-5789-408c-851c-80ffd4f579f5",
+          "width": 0,
+          "x": 692,
+          "y": 314,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "win",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 13297224,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
@@ -16171,7 +17077,6 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Roar",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -17267,13 +18172,43 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::Collision"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "Deinonychus",
-                            "Physics2",
-                            "Ground",
-                            ""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "Ground",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "ground",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "falling_platform",
+                                ""
+                              ]
+                            }
                           ]
                         },
                         {
@@ -17428,13 +18363,43 @@
                             },
                             {
                               "type": {
-                                "value": "Physics2::Collision"
+                                "value": "BuiltinCommonInstructions::Or"
                               },
-                              "parameters": [
-                                "Deinonychus",
-                                "Physics2",
-                                "Ground",
-                                ""
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "Physics2::Collision"
+                                  },
+                                  "parameters": [
+                                    "Deinonychus",
+                                    "Physics2",
+                                    "Ground",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Physics2::Collision"
+                                  },
+                                  "parameters": [
+                                    "Deinonychus",
+                                    "Physics2",
+                                    "falling_platform",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Physics2::Collision"
+                                  },
+                                  "parameters": [
+                                    "Deinonychus",
+                                    "Physics2",
+                                    "ground",
+                                    ""
+                                  ]
+                                }
                               ]
                             }
                           ],
@@ -17511,13 +18476,43 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::Collision"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "Deinonychus",
-                            "Physics2",
-                            "Ground",
-                            ""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "Ground",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "falling_platform",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "ground",
+                                ""
+                              ]
+                            }
                           ]
                         },
                         {
@@ -17711,13 +18706,43 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::Collision"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "Deinonychus",
-                            "Physics2",
-                            "Ground",
-                            ""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "falling_platform",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "Ground",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Physics2::Collision"
+                              },
+                              "parameters": [
+                                "Deinonychus",
+                                "Physics2",
+                                "ground",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ],
