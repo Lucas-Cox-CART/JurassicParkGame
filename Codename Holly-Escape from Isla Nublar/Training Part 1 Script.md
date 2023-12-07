@@ -5,7 +5,7 @@
 
 *The screen fades in from black. A small dinosaur is standing in a white-colored void.*
 
-//System// "(3) Welcome, ```Codename: Holly```. This program will guide you through your virtual training protocols scheduled by a ```[REDACTED]```
+//System// "(3) Welcome, ```Codename: Holly```. This program will guide you through your virtual training protocols scheduled by ```[REDACTED]```
 (4) First skillset: Basic movement evaluation."
 
 *Arrows appear directing the player right. A visual indicator that shows the controls will also appear in the background, telling the player movement controls.*
