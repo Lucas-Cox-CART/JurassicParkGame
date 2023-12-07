@@ -18,7 +18,7 @@ M: "(10) Now, if you want my opinion, this new contender is no match for [[Diony
 
 *crowd cheers "Yeah!"
 
-M: "(11) Now, without further ado, let's get ready for a bloody battle!"
+M: "(11) So, without further ado, let's get ready for a bloody battle!"
 
 # Gameplay Starts
 
@@ -43,13 +43,13 @@ Muldoon: "(12) Well, I'll be, folks. I didn't know dinosaurs like that could mov
 
 *The player is returned to Holly's nest. Henry makes his first appearance after the player activates the nest. He opens a hatch in a wall of the den to speak to Holly.*
 
-Henry: "(1) Excellent work out there, Codename: Holly. You did well for a first test."
+Henry: "(1) Excellent work out there, Holly. You did well for a first test."
 *When Holly tilts her head, Henry assumes she has forgotten him.*
 H: "(2) Ah, I've almost forgotten how long it's been since you'd seen me, with how long you were in battle conditioning."
 
 *Holly is a little suspicious of this character, making a low snarling sound.*
 
-H: "(3) Now, now, settle down, I don't mean you any harm. In fact, I was the one who funded your training protocols. (4) It was clearly a success; nobody would have thought a young juvenile like you could prove its own, and I have the betting profits to prove it...(he laughs to himself) 
+H: "(3) Now, now, settle down, I clearly mean you no harm. In fact, I was the one who funded your training protocols. (4) It was clearly a success; nobody would have thought a young juvenile like you could prove its own, and I have the betting profits to prove it...(he laughs to himself) 
 (5) I have a feeling you won't have any problem demolishing the next competitor. If anything, they'll have to bring in stronger contestants to match your strength. 
 (6) If you can prove your superiority, I can offer you a way out of this place. You could come with me, and we'd start an army of unstoppable Dilophosaurs.
 (7) Ho-ho-ho, this plan is all coming together..."
