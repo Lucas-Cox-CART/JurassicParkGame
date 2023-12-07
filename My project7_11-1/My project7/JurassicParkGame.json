@@ -3414,6 +3414,69 @@
         "name": "NewSprite-1-33.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-35.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7613,6 +7676,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 425,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -7623,9 +7688,7 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 425,
-          "name": "Pathfinding",
-          "rotateObject": true,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "rotateObject": true
         }
       ],
       "animations": [
@@ -7831,6 +7894,173 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "NewSprite-1-33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Wu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-1-35.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-2-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AI",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-1-36.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-2-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8493,7 +8723,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5349148319267291,
+        "zoomFactor": 0.37491483192672903,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12349,6 +12579,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "gravityX": 0,
@@ -12744,6 +12978,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "gravityX": 0,
@@ -12773,7 +13011,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.07,
+        "zoomFactor": 0.28999999999999987,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14390,6 +14628,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "AI",
+          "persistentUuid": "75d87b04-4991-42c5-b180-192ca949ac19",
+          "width": 256,
+          "x": 1344,
+          "y": 288,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AI",
+          "persistentUuid": "9f7d720e-615b-416a-89c1-c46413241b32",
+          "width": 0,
+          "x": 17216,
+          "y": 320,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "name": "healthBar",
+          "persistentUuid": "399eebc0-2696-4cb9-8f69-730d5ba28056",
+          "width": 160,
+          "x": 224,
+          "y": 928,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 56,
+          "layer": "UI",
+          "name": "playHealth",
+          "persistentUuid": "9dd78c43-3b31-4ec7-b98e-c5dc4c2eca41",
+          "width": 96,
+          "x": 256,
+          "y": 928,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14887,7 +15185,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.08999999999999998,
+        "zoomFactor": 0.35000000000000003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17607,6 +17905,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "name": "Wu",
+          "persistentUuid": "f9e3d91f-1345-47eb-b36a-0976746f11ea",
+          "width": 256,
+          "x": 6912,
+          "y": 576,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AI",
+          "persistentUuid": "52bd0144-c311-427b-8088-37b018e9abf5",
+          "width": 0,
+          "x": 21376,
+          "y": -320,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AI",
+          "persistentUuid": "1aed6a35-9129-43b0-88e0-8f8e878af8ef",
+          "width": 0,
+          "x": 1120,
+          "y": 608,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "name": "healthBar",
+          "persistentUuid": "fb340360-6f22-4ea6-8873-c554dc8ecb95",
+          "width": 160,
+          "x": 352,
+          "y": 960,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "playHealth",
+          "persistentUuid": "eea3ccc2-fb75-4fab-b395-e96323075485",
+          "width": 0,
+          "x": 384,
+          "y": 960,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18470,7 +18843,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.35000000000000003,
+        "zoomFactor": 0.33,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20029,8 +20402,8 @@
           "name": "ground",
           "persistentUuid": "1d0ac981-1f65-4f6a-8fc4-9cf0282be8f9",
           "width": 1408,
-          "x": 8480,
-          "y": 32,
+          "x": 9408,
+          "y": -32,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -20044,7 +20417,7 @@
           "name": "ground",
           "persistentUuid": "59362a22-1c11-4fef-8149-d34b366531f2",
           "width": 288,
-          "x": 8000,
+          "x": 8928,
           "y": 928,
           "zOrder": 22,
           "numberProperties": [],
@@ -20059,7 +20432,7 @@
           "name": "ground",
           "persistentUuid": "0511e774-8bb2-4f3b-ba3c-b5e673a6c4b4",
           "width": 224,
-          "x": 8032,
+          "x": 8960,
           "y": 896,
           "zOrder": 22,
           "numberProperties": [],
@@ -20074,7 +20447,7 @@
           "name": "ground",
           "persistentUuid": "883c9a7d-4880-4099-a034-1c117fd6ab34",
           "width": 672,
-          "x": 7808,
+          "x": 8736,
           "y": 32,
           "zOrder": 22,
           "numberProperties": [],
@@ -20089,7 +20462,7 @@
           "name": "ground",
           "persistentUuid": "3cf360ea-5115-426f-a8cf-44f8cc02fcc1",
           "width": 288,
-          "x": 8000,
+          "x": 8928,
           "y": 64,
           "zOrder": 22,
           "numberProperties": [],
@@ -20104,7 +20477,7 @@
           "name": "ground",
           "persistentUuid": "b968b26c-21b5-4a4e-84c2-9679983b9d67",
           "width": 224,
-          "x": 8032,
+          "x": 8960,
           "y": 96,
           "zOrder": 22,
           "numberProperties": [],
@@ -20119,7 +20492,7 @@
           "name": "ground",
           "persistentUuid": "003c7beb-31ad-421b-abd2-497884f4d471",
           "width": 32,
-          "x": 8064,
+          "x": 8992,
           "y": 864,
           "zOrder": 23,
           "numberProperties": [],
@@ -20134,7 +20507,7 @@
           "name": "ground",
           "persistentUuid": "8486021b-136a-476d-9d80-0aed2ac923e3",
           "width": 32,
-          "x": 8064,
+          "x": 8992,
           "y": 544,
           "zOrder": 23,
           "numberProperties": [],
@@ -20149,7 +20522,7 @@
           "name": "ground",
           "persistentUuid": "111692c8-9849-49d7-a8b8-03d726f5f129",
           "width": 32,
-          "x": 8192,
+          "x": 9120,
           "y": 544,
           "zOrder": 23,
           "numberProperties": [],
@@ -20164,7 +20537,7 @@
           "name": "ground",
           "persistentUuid": "7b5172b7-e49e-4dc2-a80f-7b15c0102f0e",
           "width": 32,
-          "x": 8192,
+          "x": 9120,
           "y": 864,
           "zOrder": 23,
           "numberProperties": [],
@@ -20179,7 +20552,7 @@
           "name": "Proceed",
           "persistentUuid": "dff43009-fee6-435e-b15e-756c0b2e54d8",
           "width": 96,
-          "x": 8096,
+          "x": 9024,
           "y": 576,
           "zOrder": 24,
           "numberProperties": [],
@@ -20227,6 +20600,66 @@
           "x": 6176,
           "y": 640,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "c0636a3b-18b2-4a82-a7d2-11168680ee01",
+          "width": 288,
+          "x": 8608,
+          "y": 64,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Wu",
+          "persistentUuid": "1ea05ccf-88ea-4ac6-a489-f40e6ea16c45",
+          "width": 96,
+          "x": 8352,
+          "y": 800,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AI",
+          "persistentUuid": "af110976-3823-4087-819c-b431b38c1e71",
+          "width": 0,
+          "x": 8544,
+          "y": 576,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "AI",
+          "persistentUuid": "90687c11-ab04-46d5-8486-577ed63918c1",
+          "width": 0,
+          "x": 1792,
+          "y": 576,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21130,6 +21563,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "gravityX": 0,
@@ -21258,6 +21695,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "gravityX": 0,
@@ -21381,6 +21822,10 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Physics2",
