@@ -924,6 +924,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Player",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1320,6 +1321,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Health",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1331,6 +1333,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "spit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1372,6 +1375,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "collision_object",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1413,6 +1417,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "ground",
+      "tags": "",
       "texture": "NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -1448,6 +1453,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "Ground",
+      "tags": "",
       "texture": "Newimage3-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -1483,6 +1489,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "pachirhino",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1705,6 +1712,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dialogue_Box",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1768,6 +1776,7 @@
       "italic": false,
       "name": "Dialogue",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1795,6 +1804,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Continue_Dialogue_Arrow",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1856,6 +1866,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dialogue_Trigger",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1914,44 +1925,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Player"
-      },
-      {
-        "objectName": "Health"
-      },
-      {
-        "objectName": "spit"
-      },
-      {
-        "objectName": "collision_object"
-      },
-      {
-        "objectName": "ground"
-      },
-      {
-        "objectName": "Ground"
-      },
-      {
-        "objectName": "pachirhino"
-      },
-      {
-        "objectName": "Dialogue_Box"
-      },
-      {
-        "objectName": "Dialogue"
-      },
-      {
-        "objectName": "Continue_Dialogue_Arrow"
-      },
-      {
-        "objectName": "Dialogue_Trigger"
-      }
-    ]
-  },
   "objectsGroups": [],
   "variables": [
     {
@@ -2030,7 +2003,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22169247275005474,
+        "zoomFactor": 0.14890670595874472,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3927,6 +3900,7 @@
           "italic": false,
           "name": "Enemy_Placement",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -3943,14 +3917,6 @@
           }
         }
       ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Enemy_Placement"
-          }
-        ]
-      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -9878,13 +9844,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"// System: beginning simulation generation... //\""
+                    "\"// System: Beginning simulation generation... //\""
                   ]
                 }
               ]
@@ -9906,11 +9871,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"// System: Initializing HUD... //\""
                   ]
@@ -9996,13 +9960,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Scientist: Welcome, Codename: Holly. This program will guide you through your virtual training protocols scheduled by Mr W.\""
+                    "\"Scientist: Welcome, Codename: Holly. This program will guide you through your virtual training protocols scheduled by Mr. W.\""
                   ]
                 }
               ]
@@ -10024,11 +9987,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"Scientist: First up, we will evaluate your basic movement capabilities.\""
                   ]
@@ -10052,13 +10014,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Scientist: Please navigate to the room ahead. \""
+                    "\"Scientist: Please navigate to the room ahead.\""
                   ]
                 }
               ]
@@ -10142,11 +10103,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"Scientist: Excellent. Ahead of you, we've placed hurdles to test your vertical agility.\""
                   ]
@@ -10232,11 +10192,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"Scientist: Very good, you've completed the agility course. We will now begin the evaluation of your combat capabilities.\""
                   ]
@@ -10260,13 +10219,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Scientist: Please head to the next area, so we can see how well you fare against other dinosaurs.\""
+                    "\"Scientist: Please head to the area ahead, so we can see how well you fare against other dinosaurs.\""
                   ]
                 }
               ]
@@ -10350,11 +10308,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"Scientist: Very good. Continue attacking the Procompsognathi. I've added a few more to the simulation for you to fight.\""
                   ]
@@ -10440,11 +10397,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"Scientist: Remember to make contact with blood frequently, so that your body can rapidly regenerate.\""
                   ]
@@ -10530,13 +10486,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Your combat evaluation is complete. As we expected, your abilities are quite adept.\""
+                    "\"Scientist: Excellent results. As we expected, your abilities are quite adept.\""
                   ]
                 }
               ]
@@ -10620,13 +10575,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Scientist: We'd like to see you in action before sending you into the arena, so we're going to put you through another short combat course.\""
+                    "\"Scientist: We'd like to see you in action before sending you into the arena, so we're going to put you through another short combat program.\""
                   ]
                 }
               ]
@@ -10648,13 +10602,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Scientist: Continue to the mock-arena simulation.\""
+                    "\"Scientist: Please continue to the mock-arena simulation.\""
                   ]
                 }
               ]
@@ -10738,11 +10691,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"Scientist: Excellent showmanship, Codename: Holly. You are ready for the arena.\""
                   ]
@@ -10766,11 +10718,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     "\"// System: Initiating power-down sequence... //\""
                   ]
@@ -10825,7 +10776,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "36"
                   ]
                 }
               ],
@@ -10868,13 +10819,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    ""
+                    "\"Muldoon: \""
                   ]
                 }
               ]
@@ -10896,13 +10846,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    ""
+                    "\"Muldoon: \""
                   ]
                 }
               ]
@@ -10924,13 +10873,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    ""
+                    "\"Muldoon: \""
                   ]
                 }
               ]
@@ -10952,11 +10900,366 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
+                    "=",
+                    "\"Muldoon: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Muldoon: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Scientist: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Muldoon: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Muldoon: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Crowd: (Yeah!)\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Muldoon: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Muldoon: \""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
                     "=",
                     ""
                   ]
@@ -10993,7 +11296,18 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -11012,11 +11326,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
@@ -11040,363 +11353,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    "\"Muldoon: So, without further ado, let's get ready for a bloody battle!\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
-                    "=",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
@@ -11437,7 +11397,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Script Training 2",
+          "name": "Script Training 2 - Wu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -11455,16 +11415,31 @@
                   ]
                 }
               ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
-                    "\"Henry: Excellent work out there, Holly. You did well for a first test.\""
+                    ""
                   ]
                 }
               ]
@@ -11486,11 +11461,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
@@ -11514,11 +11488,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
@@ -11574,11 +11547,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
@@ -11602,11 +11574,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
@@ -11630,11 +11601,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "Dialogue",
-                    "Text",
                     "=",
                     ""
                   ]
