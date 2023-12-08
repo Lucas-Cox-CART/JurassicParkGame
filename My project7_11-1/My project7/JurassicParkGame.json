@@ -1834,7 +1834,7 @@
         "alwaysLoaded": false,
         "file": "assets/norm-1-5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/norm-1-5.png\",\"extension\":\".png\"}",
         "name": "assets\\norm-1-5.png",
         "smoothed": true,
         "userAdded": true
@@ -1843,7 +1843,7 @@
         "alwaysLoaded": false,
         "file": "assets/norm-2-2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/norm-2-2.png\",\"extension\":\".png\"}",
         "name": "assets\\norm-2-2.png",
         "smoothed": true,
         "userAdded": true
@@ -1852,7 +1852,7 @@
         "alwaysLoaded": false,
         "file": "assets/norm-3-2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/norm-3-2.png\",\"extension\":\".png\"}",
         "name": "assets\\norm-3-2.png",
         "smoothed": true,
         "userAdded": true
@@ -1879,7 +1879,7 @@
         "alwaysLoaded": false,
         "file": "assets/norm-6-2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/norm-6-2.png\",\"extension\":\".png\"}",
         "name": "assets\\norm-6-2.png",
         "smoothed": true,
         "userAdded": true
@@ -1888,7 +1888,7 @@
         "alwaysLoaded": false,
         "file": "assets/norm-7-2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/norm-7-2.png\",\"extension\":\".png\"}",
         "name": "assets\\norm-7-2.png",
         "smoothed": true,
         "userAdded": true
@@ -1897,7 +1897,7 @@
         "alwaysLoaded": false,
         "file": "assets/norm-8-2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/norm-8-2.png\",\"extension\":\".png\"}",
         "name": "assets\\norm-8-2.png",
         "smoothed": true,
         "userAdded": true
@@ -1969,7 +1969,7 @@
         "alwaysLoaded": false,
         "file": "idkle-1-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-1-0.png\",\"extension\":\".png\"}",
         "name": "idkle-1-0.png",
         "smoothed": true,
         "userAdded": true
@@ -1978,7 +1978,7 @@
         "alwaysLoaded": false,
         "file": "idkle-2-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-2-0.png\",\"extension\":\".png\"}",
         "name": "idkle-2-0.png",
         "smoothed": true,
         "userAdded": true
@@ -1987,7 +1987,7 @@
         "alwaysLoaded": false,
         "file": "idkle-3-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-3-0.png\",\"extension\":\".png\"}",
         "name": "idkle-3-0.png",
         "smoothed": true,
         "userAdded": true
@@ -1996,7 +1996,7 @@
         "alwaysLoaded": false,
         "file": "idkle-4-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-4-0.png\",\"extension\":\".png\"}",
         "name": "idkle-4-0.png",
         "smoothed": true,
         "userAdded": true
@@ -2005,7 +2005,7 @@
         "alwaysLoaded": false,
         "file": "idkle-5-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-5-0.png\",\"extension\":\".png\"}",
         "name": "idkle-5-0.png",
         "smoothed": true,
         "userAdded": true
@@ -2014,7 +2014,7 @@
         "alwaysLoaded": false,
         "file": "idkle-6-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-6-0.png\",\"extension\":\".png\"}",
         "name": "idkle-6-0.png",
         "smoothed": true,
         "userAdded": true
@@ -2023,7 +2023,7 @@
         "alwaysLoaded": false,
         "file": "idkle-7-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"idkle-7-0.png\",\"extension\":\".png\"}",
         "name": "idkle-7-0.png",
         "smoothed": true,
         "userAdded": true
@@ -4170,6 +4170,339 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dialogue_Box10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dialogue_Box10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idkle19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idkle19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/norm.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "norm",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/norm2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "norm2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/norm3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "norm3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Ear Ringing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ear Ringing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Lacquer-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b74b5a3ae4436bfe2eb1d30291ac008847e68d1d452d80f9130d5b36791bb68d_Lacquer-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/b74b5a3ae4436bfe2eb1d30291ac008847e68d1d452d80f9130d5b36791bb68d_Lacquer-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Goldman-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "72daf4dcb53d21803dfb807249302a05c8875978706bda48a6a9770a5cdaa608_MPLUS1p-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/72daf4dcb53d21803dfb807249302a05c8875978706bda48a6a9770a5cdaa608_MPLUS1p-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Caveat-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite16.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4258,11 +4591,222 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\norm-1-5.png",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 159.28317260742188,
+                      "y": 58.90241622924805
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 167,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 164.19679260253906,
+                        "y": 128
+                      },
+                      {
+                        "x": 23.493303298950195,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "norm",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 159.28317260742188,
+                      "y": 58.90241622924805
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 167,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 164.19679260253906,
+                        "y": 128
+                      },
+                      {
+                        "x": 23.493303298950195,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "norm2",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 159.28317260742188,
+                      "y": 58.90241622924805
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 167,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 164.19679260253906,
+                        "y": 128
+                      },
+                      {
+                        "x": 23.493303298950195,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\norm-7-2.png",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 159.28317260742188,
+                      "y": 58.90241622924805
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 167,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 164.19679260253906,
+                        "y": 128
+                      },
+                      {
+                        "x": 23.493303298950195,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "norm3",
+                  "points": [
+                    {
+                      "name": "shoot",
+                      "x": 159.28317260742188,
+                      "y": 58.90241622924805
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 167,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 164.19679260253906,
+                        "y": 128
+                      },
+                      {
+                        "x": 23.493303298950195,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\norm-6-2.png",
                   "points": [
                     {
                       "name": "shoot",
@@ -4347,174 +4891,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\norm-3-2.png",
-                  "points": [
-                    {
-                      "name": "shoot",
-                      "x": 159.28317260742188,
-                      "y": 58.90241622924805
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 167,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 164.19679260253906,
-                        "y": 128
-                      },
-                      {
-                        "x": 23.493303298950195,
-                        "y": 128
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\norm-4-2.png",
-                  "points": [
-                    {
-                      "name": "shoot",
-                      "x": 159.28317260742188,
-                      "y": 58.90241622924805
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 167,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 164.19679260253906,
-                        "y": 128
-                      },
-                      {
-                        "x": 23.493303298950195,
-                        "y": 128
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\norm-5-2.png",
-                  "points": [
-                    {
-                      "name": "shoot",
-                      "x": 159.28317260742188,
-                      "y": 58.90241622924805
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 167,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 164.19679260253906,
-                        "y": 128
-                      },
-                      {
-                        "x": 23.493303298950195,
-                        "y": 128
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\norm-6-2.png",
-                  "points": [
-                    {
-                      "name": "shoot",
-                      "x": 159.28317260742188,
-                      "y": 58.90241622924805
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 167,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 164.19679260253906,
-                        "y": 128
-                      },
-                      {
-                        "x": 23.493303298950195,
-                        "y": 128
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\norm-7-2.png",
                   "points": [
                     {
                       "name": "shoot",
@@ -5052,7 +5428,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.01,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -5352,8 +5728,264 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle-7-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
                 {
                   "hasCustomCollisionMask": false,
                   "image": "idkle-1-0.png",
@@ -5374,6 +6006,74 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "idkle-2-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "idkle18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5458,7 +6158,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "idkle-7-0.png",
+                  "image": "idkle19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7079,11 +7779,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite-1-6.png",
+                  "image": "NewSprite15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9240,6 +9941,67 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dialogue_Box",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dialogue_Box10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 800,
+                    "y": 160
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 8
+                      },
+                      {
+                        "x": 1588,
+                        "y": 8
+                      },
+                      {
+                        "x": 1588,
+                        "y": 312
+                      },
+                      {
+                        "x": 8,
+                        "y": 312
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -9259,7 +10021,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "[pretend you don't see this]",
+      "string": "",
       "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 70,
@@ -9287,7 +10049,105 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 20
+                      },
+                      {
+                        "x": 62,
+                        "y": 20
+                      },
+                      {
+                        "x": 62,
+                        "y": 58
+                      },
+                      {
+                        "x": 2,
+                        "y": 58
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dialogue_Trigger",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 64,
+                        "y": 8
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -9365,6 +10225,21 @@
     {
       "folded": true,
       "name": "enemies_left",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "Dialogue_Line_End",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Dialogue_Engaged",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Dialogue_Counter",
       "type": "number",
       "value": 1
     }
@@ -9953,6 +10828,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -11249,6 +12128,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -12772,6 +13655,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -12795,7 +13682,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.48059806806541794,
+        "zoomFactor": 0.5864086477228875,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12970,11 +13857,12 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 1,
           "height": 64,
           "layer": "health",
           "name": "healthBar",
           "persistentUuid": "7c0894ed-6e8f-4fac-80bd-2f193616407e",
-          "width": 160,
+          "width": 416,
           "x": 192,
           "y": 992,
           "zOrder": 15,
@@ -13809,6 +14697,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -14454,21 +15346,25 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
     {
-      "b": 209,
+      "b": 4,
       "disableInputWhenNotFocused": true,
       "mangledName": "died",
       "name": "died",
-      "r": 209,
+      "r": 39,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 4,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -14476,14 +15372,132 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 1,
+        "snap": true,
+        "zoomFactor": 0.569046846618551,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 132,
+          "layer": "",
+          "name": "Respawn",
+          "persistentUuid": "b3875086-7db1-4a96-bd91-826b14e52065",
+          "width": 701,
+          "x": 608,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1216,
+          "layer": "",
+          "name": "Flashbang",
+          "persistentUuid": "f5ea0330-bf6d-433c-8045-2b4c30fe1785",
+          "width": 2048,
+          "x": -64,
+          "y": -64,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Respawn",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You died.\nPress \"r\" to respawn.",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Flashbang",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -14811,6 +15825,72 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Flashbang",
+                    "Opacity",
+                    "-",
+                    "lerp(255, 1.2, 1)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ear Ringing.mp3",
+                "yes",
+                "20",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -14884,8 +15964,8 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -14900,7 +15980,7 @@
       "title": "",
       "v": 182,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -14908,8 +15988,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.46352410329989946,
+        "snap": false,
+        "zoomFactor": 0.5292788656634646,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16082,21 +17162,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "human_1",
-          "persistentUuid": "5e7952c1-9068-4499-b26d-c8f0f2aa907d",
-          "width": 96,
-          "x": 13824,
-          "y": 736,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 1440,
           "layer": "",
@@ -16143,13 +17208,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 960,
+          "depth": 1,
+          "height": 1024,
           "layer": "",
           "name": "wall",
           "persistentUuid": "6b6d33ec-71f5-4651-8734-895039cd7c1d",
           "width": 64,
           "x": 15744,
-          "y": -96,
+          "y": -128,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -16475,21 +17541,6 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewText",
-          "persistentUuid": "7a576dcc-aa25-4d91-9370-1f4479f4c903",
-          "width": 0,
-          "x": 15040,
-          "y": 640,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "camera_follow",
           "persistentUuid": "bbad98c5-e40c-42aa-80b6-2bc0432b9f1f",
           "width": 0,
@@ -16553,9 +17604,362 @@
           "name": "AI",
           "persistentUuid": "8c83c59d-89f9-4f4a-81df-803614c7a5ad",
           "width": 0,
-          "x": 17056,
-          "y": 320,
+          "x": 17372,
+          "y": 316,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Dialogue_Box",
+          "persistentUuid": "e040b7c7-dc35-4b48-ad1d-1b62e0a834f6",
+          "width": 0,
+          "x": 3136,
+          "y": -416,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Continue_Dialogue_Arrow",
+          "persistentUuid": "e52f5186-bb07-493a-b07f-9bb5302b2f02",
+          "width": 0,
+          "x": 3936,
+          "y": -416,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "34bac6ca-b34a-452a-865f-020e397f9ab5",
+          "width": 64,
+          "x": 3136,
+          "y": 0,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 205,
+          "layer": "",
+          "name": "Dialogue",
+          "persistentUuid": "4a0d114a-a607-4b64-8fe0-de7559f6c48e",
+          "width": 1472,
+          "x": 2400,
+          "y": -525,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Scientist1",
+          "persistentUuid": "6434b29b-4c3c-4a59-be66-d25fcbbdbaf9",
+          "width": 0,
+          "x": 3207,
+          "y": 490,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Scientist1",
+          "persistentUuid": "96dfa0ce-a210-432e-b359-dda0b8c35cab",
+          "width": 0,
+          "x": 6852,
+          "y": 715,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 219,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "3cc40906-8595-4e49-9785-ba5b49c7e1a7",
+          "width": 64,
+          "x": 6784,
+          "y": 645,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "5c6cc30a-2890-429a-9881-5426826a9153",
+          "width": 0,
+          "x": 15584,
+          "y": 768,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "900c6f76-f73a-4bf9-b48a-ea68575323fd",
+          "width": 0,
+          "x": 15456,
+          "y": 782,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "7ed4689b-6f56-44ca-81c4-80c0846f0739",
+          "width": 0,
+          "x": 15102,
+          "y": 768,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "128d3e15-b801-4702-8215-fb4ea55eedef",
+          "width": 0,
+          "x": 14947,
+          "y": 760,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "e510ff62-4a19-40d0-9b40-9f4f0d4d7a21",
+          "width": 0,
+          "x": 14784,
+          "y": 768,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "d7c9abb0-94b4-43c0-a44c-26afba23353f",
+          "width": 64,
+          "x": 9856,
+          "y": 544,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Scientist1",
+          "persistentUuid": "aafb7ca9-726b-430c-91e7-fe0b866d109b",
+          "width": 0,
+          "x": 9927,
+          "y": 716,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "7cec064d-1838-4d5e-8f39-b10c88f28834",
+          "width": 0,
+          "x": 12928,
+          "y": 768,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "2139398f-829d-4e8c-a392-7b7c0fcddeff",
+          "width": 0,
+          "x": 13408,
+          "y": 768,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "eb4984de-3658-47ba-9c98-e74ff7dd6bb2",
+          "width": 0,
+          "x": 13152,
+          "y": 768,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "53396dbc-7b72-4c11-b117-35984e3c95ae",
+          "width": 32,
+          "x": 11680,
+          "y": 768,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "ground",
+          "persistentUuid": "a75d4c89-fb1f-477c-8d27-6bf76fdad48e",
+          "width": 32,
+          "x": 11712,
+          "y": 800,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "746aa7b0-af39-4c12-8cb8-f55afcf91841",
+          "width": 0,
+          "x": 11022,
+          "y": 776,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Scientist1",
+          "persistentUuid": "ec9e403b-5ebc-41ee-9741-84413d6ea1d8",
+          "width": 0,
+          "x": 16711,
+          "y": 621,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 211,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "0b36ae26-056f-43c0-9ab5-537250c6caa0",
+          "width": 64,
+          "x": 16664,
+          "y": 557,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 557,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "af48f66c-f024-4aa5-83d4-8cdd6eb1fff5",
+          "width": 64,
+          "x": 17350,
+          "y": 177,
+          "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16968,6 +18372,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
         }
       ],
       "layers": [
@@ -17114,7 +18525,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.21316799810033973,
+        "zoomFactor": 0.22778657356207918,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19732,21 +21143,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "debugText",
-          "persistentUuid": "36809f7a-776d-4dd6-ae26-be16b4e21438",
-          "width": 0,
-          "x": 11904,
-          "y": 0,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 96,
           "layer": "",
@@ -19858,8 +21254,8 @@
           "name": "AI",
           "persistentUuid": "3420e7c6-cc37-4acd-891a-215d1bcde6bd",
           "width": 0,
-          "x": 20192,
-          "y": -320,
+          "x": 21244,
+          "y": -356,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -19875,8 +21271,116 @@
           "persistentUuid": "b4499269-e4cc-4b69-8d53-1045af8f31b0",
           "width": 96,
           "x": 7616,
-          "y": 576,
+          "y": 585,
           "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "06e0ee67-9b23-49dc-a68d-a338dbdc9ee3",
+          "width": 64,
+          "x": 7552,
+          "y": 448,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "f7a1207b-1ab6-4574-b837-2cdb681a571c",
+          "width": 0,
+          "x": 11232,
+          "y": 128,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "compy",
+          "persistentUuid": "74e0fd1e-5322-4bd3-876c-519bb2da0359",
+          "width": 0,
+          "x": 11680,
+          "y": 128,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 205,
+          "layer": "",
+          "name": "Dialogue",
+          "persistentUuid": "ba27012e-3b10-4816-970a-4977a1778436",
+          "width": 1461,
+          "x": 1963,
+          "y": -365,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Dialogue_Box",
+          "persistentUuid": "13f0b282-56cb-471c-8494-fe64c34e16f6",
+          "width": 0,
+          "x": 2688,
+          "y": -256,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Continue_Dialogue_Arrow",
+          "persistentUuid": "a74a289c-6e71-4b7f-920d-bbea28d9be64",
+          "width": 0,
+          "x": 3584,
+          "y": -224,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 736,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "320810d2-7b71-4f03-8556-f6ac21d618b7",
+          "width": 64,
+          "x": 20736,
+          "y": -640,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20170,6 +21674,13 @@
           "target": "Deinoguy"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20199,6 +21710,15 @@
               "parameters": [
                 "Robot_Laser",
                 "\"shoot\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Dialogue_Line_End",
+                ""
               ]
             }
           ]
@@ -20774,8 +22294,8 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -20799,7 +22319,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6572432559987883,
+        "zoomFactor": 0.3866136799992882,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22038,13 +23558,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 800,
+          "depth": 1,
+          "height": 864,
           "layer": "",
           "name": "wall",
           "persistentUuid": "7aacf70f-7c2c-46fe-a140-1629b7604f3a",
           "width": 64,
           "x": 7456,
-          "y": 160,
+          "y": 128,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -22247,21 +23768,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "debugText",
-          "persistentUuid": "7b31f18d-084c-41b5-82ce-87d9a5a9a833",
-          "width": 0,
-          "x": 4928,
-          "y": 648,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 864,
           "layer": "",
@@ -22278,13 +23784,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 800,
+          "depth": 1,
+          "height": 864,
           "layer": "",
           "name": "wall2",
           "persistentUuid": "f80687e2-cc89-4438-a67f-6b29d309aee2",
           "width": 64,
           "x": 7008,
-          "y": 160,
+          "y": 128,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -22307,36 +23814,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "UI",
-          "name": "healthBar",
-          "persistentUuid": "58cc2d82-706f-4db4-bd0e-22d8ad97c873",
-          "width": 160,
-          "x": 224,
-          "y": 992,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "UI",
-          "name": "playHealth",
-          "persistentUuid": "470b9c6b-7b12-422e-9015-9a22a94c1382",
-          "width": 0,
-          "x": 256,
-          "y": 992,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -22353,13 +23830,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 992,
+          "depth": 1,
+          "height": 2112,
           "layer": "",
           "name": "ground",
           "persistentUuid": "1d0ac981-1f65-4f6a-8fc4-9cf0282be8f9",
-          "width": 1408,
+          "width": 1792,
           "x": 8480,
-          "y": 32,
+          "y": -1088,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -22523,7 +24001,7 @@
           "name": "Player",
           "persistentUuid": "450307ad-5330-4f68-b98c-c0bd78133202",
           "width": 0,
-          "x": 1408,
+          "x": 992,
           "y": 832,
           "zOrder": 25,
           "numberProperties": [],
@@ -22532,13 +24010,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1,
           "layer": "",
           "name": "camera_follow",
           "persistentUuid": "331e3388-7769-4ee0-96c1-4c3af3f6c02c",
-          "width": 0,
-          "x": 2208,
+          "width": 9,
+          "x": 2455,
           "y": 704,
           "zOrder": 26,
           "numberProperties": [],
@@ -22568,8 +24047,8 @@
           "name": "AI",
           "persistentUuid": "79b86d22-43bf-4d24-b5b1-373f7e86fc9d",
           "width": 0,
-          "x": 1664,
-          "y": 544,
+          "x": 1276,
+          "y": 604,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -22583,8 +24062,8 @@
           "name": "AI",
           "persistentUuid": "958c3179-a183-46e8-bb94-f9262d046920",
           "width": 0,
-          "x": 7744,
-          "y": 672,
+          "x": 8252,
+          "y": 608,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -22599,9 +24078,87 @@
           "name": "Wu",
           "persistentUuid": "940b5940-5cb8-4600-9251-04500ad3ab59",
           "width": 100,
-          "x": 3612,
-          "y": 864,
+          "x": 3420,
+          "y": 860,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 736,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "c88692fd-709b-4371-9d0b-bb4523495510",
+          "width": 64,
+          "x": 3360,
+          "y": 224,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "layer": "",
+          "name": "Dialogue",
+          "persistentUuid": "0c8d9149-0298-4cad-bbb2-321e48b0750d",
+          "width": 1440,
+          "x": 1568,
+          "y": -160,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Dialogue_Box",
+          "persistentUuid": "c18fec55-ab4c-49fc-8344-5b43948daadf",
+          "width": 0,
+          "x": 2336,
+          "y": -224,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Continue_Dialogue_Arrow",
+          "persistentUuid": "29358af7-c1cb-4ffc-a294-4ce9bd143996",
+          "width": 0,
+          "x": 3008,
+          "y": -32,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "layer": "",
+          "name": "Dialogue_Trigger",
+          "persistentUuid": "01926b4f-888a-4486-88ad-afd7cfa7161a",
+          "width": 64,
+          "x": 7968,
+          "y": 480,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22653,7 +24210,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1-26.png",
+                      "image": "assets\\NewSprite16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22684,6 +24241,34 @@
           "target": "Player Behaviors"
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "walls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Compy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Deinoguy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Dialogue"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -22696,6 +24281,15 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Dialogue_Line_End",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ModVarGlobalTxt"
@@ -22736,27 +24330,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "walls"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Compy"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Deinoguy"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23552,8 +25125,8 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -23719,6 +25292,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
@@ -23733,7 +25310,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -23741,8 +25318,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.49999999999999956,
+        "snap": true,
+        "zoomFactor": 0.40978084986608915,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23753,12 +25330,28 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "win",
-          "persistentUuid": "0c56dbd3-5789-408c-851c-80ffd4f579f5",
+          "name": "NewSprite",
+          "persistentUuid": "55f13fea-3dfb-4aa5-bd1b-6633d721aa93",
           "width": 0,
-          "x": 692,
-          "y": 314,
+          "x": 0,
+          "y": 0,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "",
+          "name": "Victory",
+          "persistentUuid": "8e4f6b9a-a4d5-482f-9686-1ad06d034dc2",
+          "width": 841,
+          "x": 567,
+          "y": 451,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23806,9 +25399,120 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "Victory",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "To be continued...",
+          "font": "7b48cdc9b4ec3df9cc65a6f37a42875d612b5e9140a7f3137d1436df24a2fb73_Caveat-VariableFont_wght.ttf",
+          "textAlignment": "center",
+          "characterSize": 140,
+          "color": {
+            "b": 159,
+            "g": 255,
+            "r": 201
+          }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 13297224,
@@ -23880,8 +25584,8 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     }
@@ -23943,6 +25647,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Slash",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -24401,6 +26106,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Spit",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -24977,6 +26683,7 @@
                   "colorG": 253,
                   "colorR": 190,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Roar",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -25094,6 +26801,15 @@
                         "stunned",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -25158,6 +26874,15 @@
                       "parameters": [
                         "Player",
                         "stunned",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
                         ""
                       ]
                     }
@@ -25226,6 +26951,15 @@
                         "stunned",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -25283,6 +27017,15 @@
                         "stunned",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -25332,6 +27075,15 @@
                         "stunned",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -25369,6 +27121,15 @@
                       "parameters": [
                         "Player",
                         "stunned",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
                         ""
                       ]
                     }
@@ -25438,6 +27199,15 @@
                       "parameters": [
                         "Player",
                         "stunned",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Dialogue_Engaged",
                         ""
                       ]
                     },
@@ -25566,6 +27336,15 @@
                           "parameters": [
                             "Player",
                             "stunned",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Dialogue_Engaged",
                             ""
                           ]
                         },
@@ -25897,6 +27676,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -30414,6 +32194,40 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Dialogue_Line_End",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Dialogue_Counter",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
@@ -30439,6 +32253,17 @@
               "parameters": [
                 "Dialogue_Box",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Player",
+                "Physics2",
+                "=",
+                "0"
               ]
             }
           ],
@@ -30472,7 +32297,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    "CameraBorderLeft() + 300",
+                    "CameraBorderLeft() + 330",
                     "=",
                     "CameraBorderTop() + 60"
                   ]
@@ -30723,15 +32548,6 @@
             },
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "Dialogue_Engaged",
-                "True"
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -30903,6 +32719,14 @@
                     "Dialogue_Engaged",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "AI"
+                  ]
                 }
               ]
             },
@@ -31018,7 +32842,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    "\"Scientist: Please navigate to the room ahead.\""
+                    "\"Scientist: Please navigate to the area ahead.\""
                   ]
                 }
               ]
@@ -31238,6 +33062,122 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
+                    "18"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "17"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "19"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Scientist: Excellent results. As we expected, your abilities are quite adept.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "20"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Scientist: Excellent showmanship, Codename: Holly. You are ready for the arena.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
                     "17"
                   ]
                 }
@@ -31300,417 +33240,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    "19"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Scientist: Very good. Continue attacking the Procompsognathi. I've added a few more to the simulation for you to fight.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "20"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
                     "21"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "22"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Scientist: Remember to make contact with blood frequently, so that your body can rapidly regenerate.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "23"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "24"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "25"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Scientist: Excellent results. As we expected, your abilities are quite adept.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "26"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "27"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "28"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Scientist: We'd like to see you in action before sending you into the arena, so we're going to put you through another short combat program.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "29"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Scientist: Please continue to the mock-arena simulation.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "30"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "31"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_Engaged",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "32"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Scientist: Excellent showmanship, Codename: Holly. You are ready for the arena.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    "33"
                   ]
                 }
               ],
@@ -31737,7 +33267,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    "34"
+                    "22"
                   ]
                 }
               ],
@@ -31750,6 +33280,16 @@
                     "Dialogue_Engaged",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "3"
+                  ]
                 }
               ]
             }
@@ -31761,6 +33301,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
+          "folded": true,
           "name": "Script Arena 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31775,7 +33317,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    "36"
+                    ""
                   ]
                 }
               ],
@@ -32410,35 +33952,28 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
+                    "26"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "Dialogue",
-                    "=",
-                    ""
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -32453,7 +33988,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "27"
                   ]
                 }
               ],
@@ -32465,7 +34000,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    ""
+                    "\"// System: Beginning simulation generation... //\""
                   ]
                 }
               ]
@@ -32480,7 +34015,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "28"
                   ]
                 }
               ],
@@ -32492,7 +34027,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    ""
+                    "\"// System: Initializing HUD... //\""
                   ]
                 }
               ]
@@ -32507,39 +34042,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Dialogue_Counter",
-                    "=",
-                    ""
+                    "29"
                   ]
                 }
               ],
@@ -32551,7 +34054,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    ""
+                    "\"// System: Welcome, Codename: Holly. Another training program has been prepared for you. //\""
                   ]
                 }
               ]
@@ -32566,7 +34069,7 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "30"
                   ]
                 }
               ],
@@ -32578,7 +34081,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    ""
+                    "\"// System: Today you will train additional agility, as well as a new ability: Codename: Roar. //\""
                   ]
                 }
               ]
@@ -32593,19 +34096,26 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "31"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "Dialogue",
-                    "=",
+                    "Dialogue_Engaged",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "AI"
                   ]
                 }
               ]
@@ -32620,11 +34130,31 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "32"
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -32636,16 +34166,855 @@
                   "parameters": [
                     "Dialogue_Counter",
                     "=",
-                    ""
+                    "33"
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Excellent work in the arena, Codename: Holly. You did well for a first test.\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "34"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Holly: (?)\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "35"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: You don't remember? It's been quite a while since you've seen me, I suppose.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "36"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: You see, I am the person responsible for your entry into Jurassic Park's arena.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "37"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Holly: *snarls* >:V\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "38"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Now, now, settle down, I don't mean you any harm. I was the one who funded your training protocols.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "39"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"It was clearly a success; nobody could have predicted a young juvenile like you could prove its own, and I have the betting profits to prove it...heh heh.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "40"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: If you can prove your superiority, I will offer you a way out of this place. Come with me, and we'll start an army of unstoppable Dilophosaurs.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "41"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Ho-ho-ho, this plan is all coming together...\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "41"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Now that I've made myself known, you may continue your training.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "42"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Wu"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "43"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "44"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"// System: Initiating power-down sequence... //\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "45"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "5"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Training 3 Script",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "51"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "52"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"// System: Beginning simulation generation... //\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "53"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"// System: Initializing HUD... //\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "54"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"// System: Welcome, Codename: Holly. Another training program has been prepared for you. //\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "55"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "AI"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "56"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "57"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Beautifully done, once again, Codename: Holly. You are proving yourself to be quite capable.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "58"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Holly: *unamused snort* u-u\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "59"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Still not a fan of me, I see.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "60"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: Well, I hope you'll change your tune soon. You have a long road ahead of you, and I hope to gain your allegiance.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "61"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Mr. W: After all, you are the key component to my plan...\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "62"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Wu"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "63"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "64"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"// System: Initiating power-down sequence... //\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Dialogue_Counter",
+                    "=",
+                    "65"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dialogue_Engaged",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
