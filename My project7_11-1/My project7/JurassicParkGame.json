@@ -33230,12 +33230,12 @@
                     },
                     {
                       "type": {
-                        "value": "Physics2::Collision"
+                        "value": "Distance"
                       },
                       "parameters": [
                         "pachirhino",
-                        "Physics2",
                         "Player",
+                        "100",
                         ""
                       ]
                     },
