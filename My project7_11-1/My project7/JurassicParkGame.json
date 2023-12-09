@@ -13495,36 +13495,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "d3ad62e3-0c3d-4c34-9cd4-aed17207ff24",
-          "width": 0,
-          "x": 476,
-          "y": 507,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "09f3dd4c-5c10-4e9d-92c4-ef39e5977783",
-          "width": 0,
-          "x": 1419,
-          "y": 519,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -14584,7 +14554,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6264086477228875,
+        "zoomFactor": 0.5306918971872401,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14787,21 +14757,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "rwerwe",
-          "persistentUuid": "7357f793-4060-47e5-b536-7563a66a3464",
-          "width": 0,
-          "x": 832,
-          "y": 608,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 64,
           "layer": "health",
@@ -14826,21 +14781,6 @@
           "x": 64,
           "y": 32,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "njkhjkgnjj",
-          "persistentUuid": "8e3c75ad-d4de-443a-9985-ac95bf1dff18",
-          "width": 0,
-          "x": 1440,
-          "y": 480,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15323,12 +15263,12 @@
           "conditions": [
             {
               "type": {
-                "value": "VarObjet"
+                "value": "SceneInstancesCount"
               },
               "parameters": [
+                "",
                 "trex",
-                "trex_health",
-                "<=",
+                "=",
                 "0"
               ]
             }
@@ -19197,14 +19137,34 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player",
-                "Ground",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -22838,14 +22798,34 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player",
-                "Ground",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -25655,14 +25635,34 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player",
-                "Ground",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ground",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -27297,7 +27297,7 @@
                           },
                           "parameters": [
                             "trex",
-                            "deinonychus_health",
+                            "trex_health",
                             "-",
                             "8"
                           ]
@@ -29159,7 +29159,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -34370,7 +34369,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    "\"Scientist: Please navigate to the area ahead.\""
+                    "\"Scientist: Please navigate to the area ahead. Use 'A' and 'D' to move, as well as 'Q' to dash\""
                   ]
                 }
               ]
@@ -34459,7 +34458,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    "\"Scientist: Excellent. Ahead of you, we've placed hurdles to test your vertical agility.\""
+                    "\"Scientist: Excellent. Ahead of you, we've placed hurdles to test your vertical agility. Use the spacebar to jump.\""
                   ]
                 }
               ]
@@ -34575,7 +34574,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    "\"Scientist: Please head to the area ahead, so we can see how well you fare against other dinosaurs.\""
+                    "\"Scientist: Please head to the area ahead, so we can see how well you fare against other dinosaurs. Left Click to melee attack, and right click to spit attack.\""
                   ]
                 }
               ]
@@ -37873,6 +37872,27 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debugText",
+                "=",
+                "\"RexHealth: \" + ToString(trex.Variable(trex_health)) + \"\ncanStompTimer: \" + ToString(trex.ObjectTimerElapsedTime(\"can_stomp\")) + \"\nattackTimer: \" + ToString(trex.ObjectTimerElapsedTime(\"can_attack\")) + \"\nisStompingTimer: \" + ToString(trex.ObjectTimerElapsedTime(\"is_stomping\")) + \"\ndodging: \" + GlobalVariableString(is_dodging)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
